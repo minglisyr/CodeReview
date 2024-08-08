@@ -1,0 +1,1564 @@
+/home/mingli/LPP/src/lpp.py
+/home/mingli/LPP/src/lpp.py
+starting LIGGGHTS memory optimized parallel post processing
+chunksize: 8 --> 8 files are processed per chunk. If you run out of memory reduce chunksize.
+number of process: 2954
+Working with 4 processes...
+dumpInput: [{'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_100000.liggghts', 'particles_100500.liggghts', 'particles_101000.liggghts', 'particles_101500.liggghts', 'particles_102000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_102500.liggghts', 'particles_103000.liggghts', 'particles_103500.liggghts', 'particles_104000.liggghts', 'particles_104500.liggghts', 'particles_10500.liggghts', 'particles_105000.liggghts', 'particles_105500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_106000.liggghts', 'particles_106500.liggghts', 'particles_107000.liggghts', 'particles_107500.liggghts', 'particles_108000.liggghts', 'particles_108500.liggghts', 'particles_109000.liggghts', 'particles_109500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_11000.liggghts', 'particles_110000.liggghts', 'particles_110500.liggghts', 'particles_111000.liggghts', 'particles_111500.liggghts', 'particles_112000.liggghts', 'particles_112500.liggghts', 'particles_113000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_113500.liggghts', 'particles_114000.liggghts', 'particles_114500.liggghts', 'particles_11500.liggghts', 'particles_115000.liggghts', 'particles_115500.liggghts', 'particles_116000.liggghts', 'particles_116500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_117000.liggghts', 'particles_117500.liggghts', 'particles_118000.liggghts', 'particles_118500.liggghts', 'particles_119000.liggghts', 'particles_119500.liggghts', 'particles_12000.liggghts', 'particles_120000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_120500.liggghts', 'particles_121000.liggghts', 'particles_121500.liggghts', 'particles_122000.liggghts', 'particles_122500.liggghts', 'particles_123000.liggghts', 'particles_123500.liggghts', 'particles_124000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_124500.liggghts', 'particles_12500.liggghts', 'particles_125000.liggghts', 'particles_125500.liggghts', 'particles_126000.liggghts', 'particles_126500.liggghts', 'particles_127000.liggghts', 'particles_127500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_128000.liggghts', 'particles_128500.liggghts', 'particles_129000.liggghts', 'particles_129500.liggghts', 'particles_13000.liggghts', 'particles_130000.liggghts', 'particles_130500.liggghts', 'particles_131000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_131500.liggghts', 'particles_132000.liggghts', 'particles_132500.liggghts', 'particles_133000.liggghts', 'particles_133500.liggghts', 'particles_134000.liggghts', 'particles_134500.liggghts', 'particles_13500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_135000.liggghts', 'particles_135500.liggghts', 'particles_136000.liggghts', 'particles_136500.liggghts', 'particles_137000.liggghts', 'particles_137500.liggghts', 'particles_138000.liggghts', 'particles_138500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_139000.liggghts', 'particles_139500.liggghts', 'particles_14000.liggghts', 'particles_140000.liggghts', 'particles_140500.liggghts', 'particles_141000.liggghts', 'particles_141500.liggghts', 'particles_142000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_142500.liggghts', 'particles_143000.liggghts', 'particles_143500.liggghts', 'particles_144000.liggghts', 'particles_144500.liggghts', 'particles_14500.liggghts', 'particles_145000.liggghts', 'particles_145500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_146000.liggghts', 'particles_146500.liggghts', 'particles_147000.liggghts', 'particles_147500.liggghts', 'particles_148000.liggghts', 'particles_148500.liggghts', 'particles_149000.liggghts', 'particles_149500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_1500.liggghts', 'particles_15000.liggghts', 'particles_150000.liggghts', 'particles_150500.liggghts', 'particles_151000.liggghts', 'particles_151500.liggghts', 'particles_152000.liggghts', 'particles_152500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_153000.liggghts', 'particles_153500.liggghts', 'particles_154000.liggghts', 'particles_154500.liggghts', 'particles_15500.liggghts', 'particles_155000.liggghts', 'particles_155500.liggghts', 'particles_156000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_156500.liggghts', 'particles_157000.liggghts', 'particles_157500.liggghts', 'particles_158000.liggghts', 'particles_158500.liggghts', 'particles_159000.liggghts', 'particles_159500.liggghts', 'particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_160000.liggghts', 'particles_160500.liggghts', 'particles_161000.liggghts', 'particles_161500.liggghts', 'particles_162000.liggghts', 'particles_162500.liggghts', 'particles_163000.liggghts', 'particles_163500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_164000.liggghts', 'particles_164500.liggghts', 'particles_16500.liggghts', 'particles_165000.liggghts', 'particles_165500.liggghts', 'particles_166000.liggghts', 'particles_166500.liggghts', 'particles_167000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_167500.liggghts', 'particles_168000.liggghts', 'particles_168500.liggghts', 'particles_169000.liggghts', 'particles_169500.liggghts', 'particles_17000.liggghts', 'particles_170000.liggghts', 'particles_170500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_171000.liggghts', 'particles_171500.liggghts', 'particles_172000.liggghts', 'particles_172500.liggghts', 'particles_173000.liggghts', 'particles_173500.liggghts', 'particles_174000.liggghts', 'particles_174500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_17500.liggghts', 'particles_175000.liggghts', 'particles_175500.liggghts', 'particles_176000.liggghts', 'particles_176500.liggghts', 'particles_177000.liggghts', 'particles_177500.liggghts', 'particles_178000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_178500.liggghts', 'particles_179000.liggghts', 'particles_179500.liggghts', 'particles_18000.liggghts', 'particles_180000.liggghts', 'particles_180500.liggghts', 'particles_181000.liggghts', 'particles_181500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_182000.liggghts', 'particles_182500.liggghts', 'particles_183000.liggghts', 'particles_183500.liggghts', 'particles_184000.liggghts', 'particles_184500.liggghts', 'particles_18500.liggghts', 'particles_185000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_185500.liggghts', 'particles_186000.liggghts', 'particles_186500.liggghts', 'particles_187000.liggghts', 'particles_187500.liggghts', 'particles_188000.liggghts', 'particles_188500.liggghts', 'particles_189000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_189500.liggghts', 'particles_19000.liggghts', 'particles_190000.liggghts', 'particles_190500.liggghts', 'particles_191000.liggghts', 'particles_191500.liggghts', 'particles_192000.liggghts', 'particles_192500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_193000.liggghts', 'particles_193500.liggghts', 'particles_194000.liggghts', 'particles_194500.liggghts', 'particles_19500.liggghts', 'particles_195000.liggghts', 'particles_195500.liggghts', 'particles_196000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_196500.liggghts', 'particles_197000.liggghts', 'particles_197500.liggghts', 'particles_198000.liggghts', 'particles_198500.liggghts', 'particles_199000.liggghts', 'particles_199500.liggghts', 'particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_20000.liggghts', 'particles_200000.liggghts', 'particles_200500.liggghts', 'particles_201000.liggghts', 'particles_201500.liggghts', 'particles_202000.liggghts', 'particles_202500.liggghts', 'particles_203000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_203500.liggghts', 'particles_204000.liggghts', 'particles_204500.liggghts', 'particles_20500.liggghts', 'particles_205000.liggghts', 'particles_205500.liggghts', 'particles_206000.liggghts', 'particles_206500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_207000.liggghts', 'particles_207500.liggghts', 'particles_208000.liggghts', 'particles_208500.liggghts', 'particles_209000.liggghts', 'particles_209500.liggghts', 'particles_21000.liggghts', 'particles_210000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_210500.liggghts', 'particles_211000.liggghts', 'particles_211500.liggghts', 'particles_212000.liggghts', 'particles_212500.liggghts', 'particles_213000.liggghts', 'particles_213500.liggghts', 'particles_214000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_214500.liggghts', 'particles_21500.liggghts', 'particles_215000.liggghts', 'particles_215500.liggghts', 'particles_216000.liggghts', 'particles_216500.liggghts', 'particles_217000.liggghts', 'particles_217500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_218000.liggghts', 'particles_218500.liggghts', 'particles_219000.liggghts', 'particles_219500.liggghts', 'particles_22000.liggghts', 'particles_220000.liggghts', 'particles_220500.liggghts', 'particles_221000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_221500.liggghts', 'particles_222000.liggghts', 'particles_222500.liggghts', 'particles_223000.liggghts', 'particles_223500.liggghts', 'particles_224000.liggghts', 'particles_224500.liggghts', 'particles_22500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_225000.liggghts', 'particles_225500.liggghts', 'particles_226000.liggghts', 'particles_226500.liggghts', 'particles_227000.liggghts', 'particles_227500.liggghts', 'particles_228000.liggghts', 'particles_228500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_229000.liggghts', 'particles_229500.liggghts', 'particles_23000.liggghts', 'particles_230000.liggghts', 'particles_230500.liggghts', 'particles_231000.liggghts', 'particles_231500.liggghts', 'particles_232000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_232500.liggghts', 'particles_233000.liggghts', 'particles_233500.liggghts', 'particles_234000.liggghts', 'particles_234500.liggghts', 'particles_23500.liggghts', 'particles_235000.liggghts', 'particles_235500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_236000.liggghts', 'particles_236500.liggghts', 'particles_237000.liggghts', 'particles_237500.liggghts', 'particles_238000.liggghts', 'particles_238500.liggghts', 'particles_239000.liggghts', 'particles_239500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_24000.liggghts', 'particles_240000.liggghts', 'particles_240500.liggghts', 'particles_241000.liggghts', 'particles_241500.liggghts', 'particles_242000.liggghts', 'particles_242500.liggghts', 'particles_243000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_243500.liggghts', 'particles_244000.liggghts', 'particles_244500.liggghts', 'particles_24500.liggghts', 'particles_245000.liggghts', 'particles_245500.liggghts', 'particles_246000.liggghts', 'particles_246500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_247000.liggghts', 'particles_247500.liggghts', 'particles_248000.liggghts', 'particles_248500.liggghts', 'particles_249000.liggghts', 'particles_249500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_250000.liggghts', 'particles_250500.liggghts', 'particles_251000.liggghts', 'particles_251500.liggghts', 'particles_252000.liggghts', 'particles_252500.liggghts', 'particles_253000.liggghts', 'particles_253500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_254000.liggghts', 'particles_254500.liggghts', 'particles_25500.liggghts', 'particles_255000.liggghts', 'particles_255500.liggghts', 'particles_256000.liggghts', 'particles_256500.liggghts', 'particles_257000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_257500.liggghts', 'particles_258000.liggghts', 'particles_258500.liggghts', 'particles_259000.liggghts', 'particles_259500.liggghts', 'particles_26000.liggghts', 'particles_260000.liggghts', 'particles_260500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_261000.liggghts', 'particles_261500.liggghts', 'particles_262000.liggghts', 'particles_262500.liggghts', 'particles_263000.liggghts', 'particles_263500.liggghts', 'particles_264000.liggghts', 'particles_264500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_26500.liggghts', 'particles_265000.liggghts', 'particles_265500.liggghts', 'particles_266000.liggghts', 'particles_266500.liggghts', 'particles_267000.liggghts', 'particles_267500.liggghts', 'particles_268000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_268500.liggghts', 'particles_269000.liggghts', 'particles_269500.liggghts', 'particles_27000.liggghts', 'particles_270000.liggghts', 'particles_270500.liggghts', 'particles_271000.liggghts', 'particles_271500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_272000.liggghts', 'particles_272500.liggghts', 'particles_273000.liggghts', 'particles_273500.liggghts', 'particles_274000.liggghts', 'particles_274500.liggghts', 'particles_27500.liggghts', 'particles_275000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_275500.liggghts', 'particles_276000.liggghts', 'particles_276500.liggghts', 'particles_277000.liggghts', 'particles_277500.liggghts', 'particles_278000.liggghts', 'particles_278500.liggghts', 'particles_279000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_279500.liggghts', 'particles_28000.liggghts', 'particles_280000.liggghts', 'particles_280500.liggghts', 'particles_281000.liggghts', 'particles_281500.liggghts', 'particles_282000.liggghts', 'particles_282500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_283000.liggghts', 'particles_283500.liggghts', 'particles_284000.liggghts', 'particles_284500.liggghts', 'particles_28500.liggghts', 'particles_285000.liggghts', 'particles_285500.liggghts', 'particles_286000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_286500.liggghts', 'particles_287000.liggghts', 'particles_287500.liggghts', 'particles_288000.liggghts', 'particles_288500.liggghts', 'particles_289000.liggghts', 'particles_289500.liggghts', 'particles_29000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_290000.liggghts', 'particles_290500.liggghts', 'particles_291000.liggghts', 'particles_291500.liggghts', 'particles_292000.liggghts', 'particles_292500.liggghts', 'particles_293000.liggghts', 'particles_293500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_294000.liggghts', 'particles_294500.liggghts', 'particles_29500.liggghts', 'particles_295000.liggghts', 'particles_295500.liggghts', 'particles_296000.liggghts', 'particles_296500.liggghts', 'particles_297000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_297500.liggghts', 'particles_298000.liggghts', 'particles_298500.liggghts', 'particles_299000.liggghts', 'particles_299500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_300000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_300500.liggghts', 'particles_301000.liggghts', 'particles_301500.liggghts', 'particles_302000.liggghts', 'particles_302500.liggghts', 'particles_303000.liggghts', 'particles_303500.liggghts', 'particles_304000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_304500.liggghts', 'particles_30500.liggghts', 'particles_305000.liggghts', 'particles_305500.liggghts', 'particles_306000.liggghts', 'particles_306500.liggghts', 'particles_307000.liggghts', 'particles_307500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_308000.liggghts', 'particles_308500.liggghts', 'particles_309000.liggghts', 'particles_309500.liggghts', 'particles_31000.liggghts', 'particles_310000.liggghts', 'particles_310500.liggghts', 'particles_311000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_311500.liggghts', 'particles_312000.liggghts', 'particles_312500.liggghts', 'particles_313000.liggghts', 'particles_313500.liggghts', 'particles_314000.liggghts', 'particles_314500.liggghts', 'particles_31500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_315000.liggghts', 'particles_315500.liggghts', 'particles_316000.liggghts', 'particles_316500.liggghts', 'particles_317000.liggghts', 'particles_317500.liggghts', 'particles_318000.liggghts', 'particles_318500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_319000.liggghts', 'particles_319500.liggghts', 'particles_32000.liggghts', 'particles_320000.liggghts', 'particles_320500.liggghts', 'particles_321000.liggghts', 'particles_321500.liggghts', 'particles_322000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_322500.liggghts', 'particles_323000.liggghts', 'particles_323500.liggghts', 'particles_324000.liggghts', 'particles_324500.liggghts', 'particles_32500.liggghts', 'particles_325000.liggghts', 'particles_325500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_326000.liggghts', 'particles_326500.liggghts', 'particles_327000.liggghts', 'particles_327500.liggghts', 'particles_328000.liggghts', 'particles_328500.liggghts', 'particles_329000.liggghts', 'particles_329500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_33000.liggghts', 'particles_330000.liggghts', 'particles_330500.liggghts', 'particles_331000.liggghts', 'particles_331500.liggghts', 'particles_332000.liggghts', 'particles_332500.liggghts', 'particles_333000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_333500.liggghts', 'particles_334000.liggghts', 'particles_334500.liggghts', 'particles_33500.liggghts', 'particles_335000.liggghts', 'particles_335500.liggghts', 'particles_336000.liggghts', 'particles_336500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_337000.liggghts', 'particles_337500.liggghts', 'particles_338000.liggghts', 'particles_338500.liggghts', 'particles_339000.liggghts', 'particles_339500.liggghts', 'particles_34000.liggghts', 'particles_340000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_340500.liggghts', 'particles_341000.liggghts', 'particles_341500.liggghts', 'particles_342000.liggghts', 'particles_342500.liggghts', 'particles_343000.liggghts', 'particles_343500.liggghts', 'particles_344000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_344500.liggghts', 'particles_34500.liggghts', 'particles_345000.liggghts', 'particles_345500.liggghts', 'particles_346000.liggghts', 'particles_346500.liggghts', 'particles_347000.liggghts', 'particles_347500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_348000.liggghts', 'particles_348500.liggghts', 'particles_349000.liggghts', 'particles_349500.liggghts', 'particles_3500.liggghts', 'particles_35000.liggghts', 'particles_350000.liggghts', 'particles_350500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_351000.liggghts', 'particles_351500.liggghts', 'particles_352000.liggghts', 'particles_352500.liggghts', 'particles_353000.liggghts', 'particles_353500.liggghts', 'particles_354000.liggghts', 'particles_354500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_35500.liggghts', 'particles_355000.liggghts', 'particles_355500.liggghts', 'particles_356000.liggghts', 'particles_356500.liggghts', 'particles_357000.liggghts', 'particles_357500.liggghts', 'particles_358000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_358500.liggghts', 'particles_359000.liggghts', 'particles_359500.liggghts', 'particles_36000.liggghts', 'particles_360000.liggghts', 'particles_360500.liggghts', 'particles_361000.liggghts', 'particles_361500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_362000.liggghts', 'particles_362500.liggghts', 'particles_363000.liggghts', 'particles_363500.liggghts', 'particles_364000.liggghts', 'particles_364500.liggghts', 'particles_36500.liggghts', 'particles_365000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_365500.liggghts', 'particles_366000.liggghts', 'particles_366500.liggghts', 'particles_367000.liggghts', 'particles_367500.liggghts', 'particles_368000.liggghts', 'particles_368500.liggghts', 'particles_369000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_369500.liggghts', 'particles_37000.liggghts', 'particles_370000.liggghts', 'particles_370500.liggghts', 'particles_371000.liggghts', 'particles_371500.liggghts', 'particles_372000.liggghts', 'particles_372500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_373000.liggghts', 'particles_373500.liggghts', 'particles_374000.liggghts', 'particles_374500.liggghts', 'particles_37500.liggghts', 'particles_375000.liggghts', 'particles_375500.liggghts', 'particles_376000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_376500.liggghts', 'particles_377000.liggghts', 'particles_377500.liggghts', 'particles_378000.liggghts', 'particles_378500.liggghts', 'particles_379000.liggghts', 'particles_379500.liggghts', 'particles_38000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_380000.liggghts', 'particles_380500.liggghts', 'particles_381000.liggghts', 'particles_381500.liggghts', 'particles_382000.liggghts', 'particles_382500.liggghts', 'particles_383000.liggghts', 'particles_383500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_384000.liggghts', 'particles_384500.liggghts', 'particles_38500.liggghts', 'particles_385000.liggghts', 'particles_385500.liggghts', 'particles_386000.liggghts', 'particles_386500.liggghts', 'particles_387000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_387500.liggghts', 'particles_388000.liggghts', 'particles_388500.liggghts', 'particles_389000.liggghts', 'particles_389500.liggghts', 'particles_39000.liggghts', 'particles_390000.liggghts', 'particles_390500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_391000.liggghts', 'particles_391500.liggghts', 'particles_392000.liggghts', 'particles_392500.liggghts', 'particles_393000.liggghts', 'particles_393500.liggghts', 'particles_394000.liggghts', 'particles_394500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_39500.liggghts', 'particles_395000.liggghts', 'particles_395500.liggghts', 'particles_396000.liggghts', 'particles_396500.liggghts', 'particles_397000.liggghts', 'particles_397500.liggghts', 'particles_398000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_398500.liggghts', 'particles_399000.liggghts', 'particles_399500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_400000.liggghts', 'particles_400500.liggghts', 'particles_401000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_401500.liggghts', 'particles_402000.liggghts', 'particles_402500.liggghts', 'particles_403000.liggghts', 'particles_403500.liggghts', 'particles_404000.liggghts', 'particles_404500.liggghts', 'particles_40500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_405000.liggghts', 'particles_405500.liggghts', 'particles_406000.liggghts', 'particles_406500.liggghts', 'particles_407000.liggghts', 'particles_407500.liggghts', 'particles_408000.liggghts', 'particles_408500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_409000.liggghts', 'particles_409500.liggghts', 'particles_41000.liggghts', 'particles_410000.liggghts', 'particles_410500.liggghts', 'particles_411000.liggghts', 'particles_411500.liggghts', 'particles_412000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_412500.liggghts', 'particles_413000.liggghts', 'particles_413500.liggghts', 'particles_414000.liggghts', 'particles_414500.liggghts', 'particles_41500.liggghts', 'particles_415000.liggghts', 'particles_415500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_416000.liggghts', 'particles_416500.liggghts', 'particles_417000.liggghts', 'particles_417500.liggghts', 'particles_418000.liggghts', 'particles_418500.liggghts', 'particles_419000.liggghts', 'particles_419500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_42000.liggghts', 'particles_420000.liggghts', 'particles_420500.liggghts', 'particles_421000.liggghts', 'particles_421500.liggghts', 'particles_422000.liggghts', 'particles_422500.liggghts', 'particles_423000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_423500.liggghts', 'particles_424000.liggghts', 'particles_424500.liggghts', 'particles_42500.liggghts', 'particles_425000.liggghts', 'particles_425500.liggghts', 'particles_426000.liggghts', 'particles_426500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_427000.liggghts', 'particles_427500.liggghts', 'particles_428000.liggghts', 'particles_428500.liggghts', 'particles_429000.liggghts', 'particles_429500.liggghts', 'particles_43000.liggghts', 'particles_430000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_430500.liggghts', 'particles_431000.liggghts', 'particles_431500.liggghts', 'particles_432000.liggghts', 'particles_432500.liggghts', 'particles_433000.liggghts', 'particles_433500.liggghts', 'particles_434000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_434500.liggghts', 'particles_43500.liggghts', 'particles_435000.liggghts', 'particles_435500.liggghts', 'particles_436000.liggghts', 'particles_436500.liggghts', 'particles_437000.liggghts', 'particles_437500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_438000.liggghts', 'particles_438500.liggghts', 'particles_439000.liggghts', 'particles_439500.liggghts', 'particles_44000.liggghts', 'particles_440000.liggghts', 'particles_440500.liggghts', 'particles_441000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_441500.liggghts', 'particles_442000.liggghts', 'particles_442500.liggghts', 'particles_443000.liggghts', 'particles_443500.liggghts', 'particles_444000.liggghts', 'particles_444500.liggghts', 'particles_44500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_445000.liggghts', 'particles_445500.liggghts', 'particles_446000.liggghts', 'particles_446500.liggghts', 'particles_447000.liggghts', 'particles_447500.liggghts', 'particles_448000.liggghts', 'particles_448500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_449000.liggghts', 'particles_449500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts', 'particles_450000.liggghts', 'particles_450500.liggghts', 'particles_451000.liggghts', 'particles_451500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_452000.liggghts', 'particles_452500.liggghts', 'particles_453000.liggghts', 'particles_453500.liggghts', 'particles_454000.liggghts', 'particles_454500.liggghts', 'particles_45500.liggghts', 'particles_455000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_455500.liggghts', 'particles_456000.liggghts', 'particles_456500.liggghts', 'particles_457000.liggghts', 'particles_457500.liggghts', 'particles_458000.liggghts', 'particles_458500.liggghts', 'particles_459000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_459500.liggghts', 'particles_46000.liggghts', 'particles_460000.liggghts', 'particles_460500.liggghts', 'particles_461000.liggghts', 'particles_461500.liggghts', 'particles_462000.liggghts', 'particles_462500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_463000.liggghts', 'particles_463500.liggghts', 'particles_464000.liggghts', 'particles_464500.liggghts', 'particles_46500.liggghts', 'particles_465000.liggghts', 'particles_465500.liggghts', 'particles_466000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_466500.liggghts', 'particles_467000.liggghts', 'particles_467500.liggghts', 'particles_468000.liggghts', 'particles_468500.liggghts', 'particles_469000.liggghts', 'particles_469500.liggghts', 'particles_47000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_470000.liggghts', 'particles_470500.liggghts', 'particles_471000.liggghts', 'particles_471500.liggghts', 'particles_472000.liggghts', 'particles_472500.liggghts', 'particles_473000.liggghts', 'particles_473500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_474000.liggghts', 'particles_474500.liggghts', 'particles_47500.liggghts', 'particles_475000.liggghts', 'particles_475500.liggghts', 'particles_476000.liggghts', 'particles_476500.liggghts', 'particles_477000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_477500.liggghts', 'particles_478000.liggghts', 'particles_478500.liggghts', 'particles_479000.liggghts', 'particles_479500.liggghts', 'particles_48000.liggghts', 'particles_480000.liggghts', 'particles_480500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_481000.liggghts', 'particles_481500.liggghts', 'particles_482000.liggghts', 'particles_482500.liggghts', 'particles_483000.liggghts', 'particles_483500.liggghts', 'particles_484000.liggghts', 'particles_484500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_48500.liggghts', 'particles_485000.liggghts', 'particles_485500.liggghts', 'particles_486000.liggghts', 'particles_486500.liggghts', 'particles_487000.liggghts', 'particles_487500.liggghts', 'particles_488000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_488500.liggghts', 'particles_489000.liggghts', 'particles_489500.liggghts', 'particles_49000.liggghts', 'particles_490000.liggghts', 'particles_490500.liggghts', 'particles_491000.liggghts', 'particles_491500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_492000.liggghts', 'particles_492500.liggghts', 'particles_493000.liggghts', 'particles_493500.liggghts', 'particles_494000.liggghts', 'particles_494500.liggghts', 'particles_49500.liggghts', 'particles_495000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_495500.liggghts', 'particles_496000.liggghts', 'particles_496500.liggghts', 'particles_497000.liggghts', 'particles_497500.liggghts', 'particles_498000.liggghts', 'particles_498500.liggghts', 'particles_499000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_499500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_500000.liggghts', 'particles_500500.liggghts', 'particles_501000.liggghts', 'particles_501500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_502000.liggghts', 'particles_502500.liggghts', 'particles_503000.liggghts', 'particles_503500.liggghts', 'particles_504000.liggghts', 'particles_504500.liggghts', 'particles_50500.liggghts', 'particles_505000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_505500.liggghts', 'particles_506000.liggghts', 'particles_506500.liggghts', 'particles_507000.liggghts', 'particles_507500.liggghts', 'particles_508000.liggghts', 'particles_508500.liggghts', 'particles_509000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_509500.liggghts', 'particles_51000.liggghts', 'particles_510000.liggghts', 'particles_510500.liggghts', 'particles_511000.liggghts', 'particles_511500.liggghts', 'particles_512000.liggghts', 'particles_512500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_513000.liggghts', 'particles_513500.liggghts', 'particles_514000.liggghts', 'particles_514500.liggghts', 'particles_51500.liggghts', 'particles_515000.liggghts', 'particles_515500.liggghts', 'particles_516000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_516500.liggghts', 'particles_517000.liggghts', 'particles_517500.liggghts', 'particles_518000.liggghts', 'particles_518500.liggghts', 'particles_519000.liggghts', 'particles_519500.liggghts', 'particles_52000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_520000.liggghts', 'particles_520500.liggghts', 'particles_521000.liggghts', 'particles_521500.liggghts', 'particles_522000.liggghts', 'particles_522500.liggghts', 'particles_523000.liggghts', 'particles_523500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_524000.liggghts', 'particles_524500.liggghts', 'particles_52500.liggghts', 'particles_525000.liggghts', 'particles_525500.liggghts', 'particles_526000.liggghts', 'particles_526500.liggghts', 'particles_527000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_527500.liggghts', 'particles_528000.liggghts', 'particles_528500.liggghts', 'particles_529000.liggghts', 'particles_529500.liggghts', 'particles_53000.liggghts', 'particles_530000.liggghts', 'particles_530500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_531000.liggghts', 'particles_531500.liggghts', 'particles_532000.liggghts', 'particles_532500.liggghts', 'particles_533000.liggghts', 'particles_533500.liggghts', 'particles_534000.liggghts', 'particles_534500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_53500.liggghts', 'particles_535000.liggghts', 'particles_535500.liggghts', 'particles_536000.liggghts', 'particles_536500.liggghts', 'particles_537000.liggghts', 'particles_537500.liggghts', 'particles_538000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_538500.liggghts', 'particles_539000.liggghts', 'particles_539500.liggghts', 'particles_54000.liggghts', 'particles_540000.liggghts', 'particles_540500.liggghts', 'particles_541000.liggghts', 'particles_541500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_542000.liggghts', 'particles_542500.liggghts', 'particles_543000.liggghts', 'particles_543500.liggghts', 'particles_544000.liggghts', 'particles_544500.liggghts', 'particles_54500.liggghts', 'particles_545000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_545500.liggghts', 'particles_546000.liggghts', 'particles_546500.liggghts', 'particles_547000.liggghts', 'particles_547500.liggghts', 'particles_548000.liggghts', 'particles_548500.liggghts', 'particles_549000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_549500.liggghts', 'particles_5500.liggghts', 'particles_55000.liggghts', 'particles_550000.liggghts', 'particles_550500.liggghts', 'particles_551000.liggghts', 'particles_551500.liggghts', 'particles_552000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_552500.liggghts', 'particles_553000.liggghts', 'particles_553500.liggghts', 'particles_554000.liggghts', 'particles_554500.liggghts', 'particles_55500.liggghts', 'particles_555000.liggghts', 'particles_555500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_556000.liggghts', 'particles_556500.liggghts', 'particles_557000.liggghts', 'particles_557500.liggghts', 'particles_558000.liggghts', 'particles_558500.liggghts', 'particles_559000.liggghts', 'particles_559500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_56000.liggghts', 'particles_560000.liggghts', 'particles_560500.liggghts', 'particles_561000.liggghts', 'particles_561500.liggghts', 'particles_562000.liggghts', 'particles_562500.liggghts', 'particles_563000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_563500.liggghts', 'particles_564000.liggghts', 'particles_564500.liggghts', 'particles_56500.liggghts', 'particles_565000.liggghts', 'particles_565500.liggghts', 'particles_566000.liggghts', 'particles_566500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_567000.liggghts', 'particles_567500.liggghts', 'particles_568000.liggghts', 'particles_568500.liggghts', 'particles_569000.liggghts', 'particles_569500.liggghts', 'particles_57000.liggghts', 'particles_570000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_570500.liggghts', 'particles_571000.liggghts', 'particles_571500.liggghts', 'particles_572000.liggghts', 'particles_572500.liggghts', 'particles_573000.liggghts', 'particles_573500.liggghts', 'particles_574000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_574500.liggghts', 'particles_57500.liggghts', 'particles_575000.liggghts', 'particles_575500.liggghts', 'particles_576000.liggghts', 'particles_576500.liggghts', 'particles_577000.liggghts', 'particles_577500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_578000.liggghts', 'particles_578500.liggghts', 'particles_579000.liggghts', 'particles_579500.liggghts', 'particles_58000.liggghts', 'particles_580000.liggghts', 'particles_580500.liggghts', 'particles_581000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_581500.liggghts', 'particles_582000.liggghts', 'particles_582500.liggghts', 'particles_583000.liggghts', 'particles_583500.liggghts', 'particles_584000.liggghts', 'particles_584500.liggghts', 'particles_58500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_585000.liggghts', 'particles_585500.liggghts', 'particles_586000.liggghts', 'particles_586500.liggghts', 'particles_587000.liggghts', 'particles_587500.liggghts', 'particles_588000.liggghts', 'particles_588500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_589000.liggghts', 'particles_589500.liggghts', 'particles_59000.liggghts', 'particles_59500.liggghts', 'particles_6000.liggghts', 'particles_60000.liggghts', 'particles_60500.liggghts', 'particles_61000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_61500.liggghts', 'particles_62000.liggghts', 'particles_62500.liggghts', 'particles_63000.liggghts', 'particles_63500.liggghts', 'particles_64000.liggghts', 'particles_64500.liggghts', 'particles_6500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_65000.liggghts', 'particles_65500.liggghts', 'particles_66000.liggghts', 'particles_66500.liggghts', 'particles_67000.liggghts', 'particles_67500.liggghts', 'particles_68000.liggghts', 'particles_68500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_69000.liggghts', 'particles_69500.liggghts', 'particles_7000.liggghts', 'particles_70000.liggghts', 'particles_70500.liggghts', 'particles_71000.liggghts', 'particles_71500.liggghts', 'particles_72000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_72500.liggghts', 'particles_73000.liggghts', 'particles_73500.liggghts', 'particles_74000.liggghts', 'particles_74500.liggghts', 'particles_7500.liggghts', 'particles_75000.liggghts', 'particles_75500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_76000.liggghts', 'particles_76500.liggghts', 'particles_77000.liggghts', 'particles_77500.liggghts', 'particles_78000.liggghts', 'particles_78500.liggghts', 'particles_79000.liggghts', 'particles_79500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_8000.liggghts', 'particles_80000.liggghts', 'particles_80500.liggghts', 'particles_81000.liggghts', 'particles_81500.liggghts', 'particles_82000.liggghts', 'particles_82500.liggghts', 'particles_83000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_83500.liggghts', 'particles_84000.liggghts', 'particles_84500.liggghts', 'particles_8500.liggghts', 'particles_85000.liggghts', 'particles_85500.liggghts', 'particles_86000.liggghts', 'particles_86500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_87000.liggghts', 'particles_87500.liggghts', 'particles_88000.liggghts', 'particles_88500.liggghts', 'particles_89000.liggghts', 'particles_89500.liggghts', 'particles_9000.liggghts', 'particles_90000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_90500.liggghts', 'particles_91000.liggghts', 'particles_91500.liggghts', 'particles_92000.liggghts', 'particles_92500.liggghts', 'particles_93000.liggghts', 'particles_93500.liggghts', 'particles_94000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_94500.liggghts', 'particles_9500.liggghts', 'particles_95000.liggghts', 'particles_95500.liggghts', 'particles_96000.liggghts', 'particles_96500.liggghts', 'particles_97000.liggghts', 'particles_97500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_98000.liggghts', 'particles_98500.liggghts', 'particles_99000.liggghts', 'particles_99500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+calculating chunks 1 - 4 of 148
+input of this "map":  [{'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_100000.liggghts', 'particles_100500.liggghts', 'particles_101000.liggghts', 'particles_101500.liggghts', 'particles_102000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_102500.liggghts', 'particles_103000.liggghts', 'particles_103500.liggghts', 'particles_104000.liggghts', 'particles_104500.liggghts', 'particles_10500.liggghts', 'particles_105000.liggghts', 'particles_105500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_106000.liggghts', 'particles_106500.liggghts', 'particles_107000.liggghts', 'particles_107500.liggghts', 'particles_108000.liggghts', 'particles_108500.liggghts', 'particles_109000.liggghts', 'particles_109500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_11000.liggghts', 'particles_110000.liggghts', 'particles_110500.liggghts', 'particles_111000.liggghts', 'particles_111500.liggghts', 'particles_112000.liggghts', 'particles_112500.liggghts', 'particles_113000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 2963
+reading dump file...
+0 
+1 snapshots selected out of 1
+assigned columns: id type x y z vx vy vz fx fy fz radius mass 
+dump is already unscaled
+
+fileNums:  [0] 
+
+0 
+wrote 1 granular snapshots in VTK format
+number of subprocess: 2964
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2965
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2966
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 5 - 8 of 148
+input of this "map":  [{'filelist': ['particles_113500.liggghts', 'particles_114000.liggghts', 'particles_114500.liggghts', 'particles_11500.liggghts', 'particles_115000.liggghts', 'particles_115500.liggghts', 'particles_116000.liggghts', 'particles_116500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_117000.liggghts', 'particles_117500.liggghts', 'particles_118000.liggghts', 'particles_118500.liggghts', 'particles_119000.liggghts', 'particles_119500.liggghts', 'particles_12000.liggghts', 'particles_120000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_120500.liggghts', 'particles_121000.liggghts', 'particles_121500.liggghts', 'particles_122000.liggghts', 'particles_122500.liggghts', 'particles_123000.liggghts', 'particles_123500.liggghts', 'particles_124000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_124500.liggghts', 'particles_12500.liggghts', 'particles_125000.liggghts', 'particles_125500.liggghts', 'particles_126000.liggghts', 'particles_126500.liggghts', 'particles_127000.liggghts', 'particles_127500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 2970
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2973
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2972
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2971
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 9 - 12 of 148
+input of this "map":  [{'filelist': ['particles_128000.liggghts', 'particles_128500.liggghts', 'particles_129000.liggghts', 'particles_129500.liggghts', 'particles_13000.liggghts', 'particles_130000.liggghts', 'particles_130500.liggghts', 'particles_131000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_131500.liggghts', 'particles_132000.liggghts', 'particles_132500.liggghts', 'particles_133000.liggghts', 'particles_133500.liggghts', 'particles_134000.liggghts', 'particles_134500.liggghts', 'particles_13500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_135000.liggghts', 'particles_135500.liggghts', 'particles_136000.liggghts', 'particles_136500.liggghts', 'particles_137000.liggghts', 'particles_137500.liggghts', 'particles_138000.liggghts', 'particles_138500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_139000.liggghts', 'particles_139500.liggghts', 'particles_14000.liggghts', 'particles_140000.liggghts', 'particles_140500.liggghts', 'particles_141000.liggghts', 'particles_141500.liggghts', 'particles_142000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 2977
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2980
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2979
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2978
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 13 - 16 of 148
+input of this "map":  [{'filelist': ['particles_142500.liggghts', 'particles_143000.liggghts', 'particles_143500.liggghts', 'particles_144000.liggghts', 'particles_144500.liggghts', 'particles_14500.liggghts', 'particles_145000.liggghts', 'particles_145500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_146000.liggghts', 'particles_146500.liggghts', 'particles_147000.liggghts', 'particles_147500.liggghts', 'particles_148000.liggghts', 'particles_148500.liggghts', 'particles_149000.liggghts', 'particles_149500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_1500.liggghts', 'particles_15000.liggghts', 'particles_150000.liggghts', 'particles_150500.liggghts', 'particles_151000.liggghts', 'particles_151500.liggghts', 'particles_152000.liggghts', 'particles_152500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_153000.liggghts', 'particles_153500.liggghts', 'particles_154000.liggghts', 'particles_154500.liggghts', 'particles_15500.liggghts', 'particles_155000.liggghts', 'particles_155500.liggghts', 'particles_156000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 2986
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2984
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2985
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2987
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 17 - 20 of 148
+input of this "map":  [{'filelist': ['particles_156500.liggghts', 'particles_157000.liggghts', 'particles_157500.liggghts', 'particles_158000.liggghts', 'particles_158500.liggghts', 'particles_159000.liggghts', 'particles_159500.liggghts', 'particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_160000.liggghts', 'particles_160500.liggghts', 'particles_161000.liggghts', 'particles_161500.liggghts', 'particles_162000.liggghts', 'particles_162500.liggghts', 'particles_163000.liggghts', 'particles_163500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_164000.liggghts', 'particles_164500.liggghts', 'particles_16500.liggghts', 'particles_165000.liggghts', 'particles_165500.liggghts', 'particles_166000.liggghts', 'particles_166500.liggghts', 'particles_167000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_167500.liggghts', 'particles_168000.liggghts', 'particles_168500.liggghts', 'particles_169000.liggghts', 'particles_169500.liggghts', 'particles_17000.liggghts', 'particles_170000.liggghts', 'particles_170500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 2993
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2991
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2994
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2992
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 21 - 24 of 148
+input of this "map":  [{'filelist': ['particles_171000.liggghts', 'particles_171500.liggghts', 'particles_172000.liggghts', 'particles_172500.liggghts', 'particles_173000.liggghts', 'particles_173500.liggghts', 'particles_174000.liggghts', 'particles_174500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_17500.liggghts', 'particles_175000.liggghts', 'particles_175500.liggghts', 'particles_176000.liggghts', 'particles_176500.liggghts', 'particles_177000.liggghts', 'particles_177500.liggghts', 'particles_178000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_178500.liggghts', 'particles_179000.liggghts', 'particles_179500.liggghts', 'particles_18000.liggghts', 'particles_180000.liggghts', 'particles_180500.liggghts', 'particles_181000.liggghts', 'particles_181500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_182000.liggghts', 'particles_182500.liggghts', 'particles_183000.liggghts', 'particles_183500.liggghts', 'particles_184000.liggghts', 'particles_184500.liggghts', 'particles_18500.liggghts', 'particles_185000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3000
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3001
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2998
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 2999
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 25 - 28 of 148
+input of this "map":  [{'filelist': ['particles_185500.liggghts', 'particles_186000.liggghts', 'particles_186500.liggghts', 'particles_187000.liggghts', 'particles_187500.liggghts', 'particles_188000.liggghts', 'particles_188500.liggghts', 'particles_189000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_189500.liggghts', 'particles_19000.liggghts', 'particles_190000.liggghts', 'particles_190500.liggghts', 'particles_191000.liggghts', 'particles_191500.liggghts', 'particles_192000.liggghts', 'particles_192500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_193000.liggghts', 'particles_193500.liggghts', 'particles_194000.liggghts', 'particles_194500.liggghts', 'particles_19500.liggghts', 'particles_195000.liggghts', 'particles_195500.liggghts', 'particles_196000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_196500.liggghts', 'particles_197000.liggghts', 'particles_197500.liggghts', 'particles_198000.liggghts', 'particles_198500.liggghts', 'particles_199000.liggghts', 'particles_199500.liggghts', 'particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3008
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3006
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3007
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3005
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 29 - 32 of 148
+input of this "map":  [{'filelist': ['particles_20000.liggghts', 'particles_200000.liggghts', 'particles_200500.liggghts', 'particles_201000.liggghts', 'particles_201500.liggghts', 'particles_202000.liggghts', 'particles_202500.liggghts', 'particles_203000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_203500.liggghts', 'particles_204000.liggghts', 'particles_204500.liggghts', 'particles_20500.liggghts', 'particles_205000.liggghts', 'particles_205500.liggghts', 'particles_206000.liggghts', 'particles_206500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_207000.liggghts', 'particles_207500.liggghts', 'particles_208000.liggghts', 'particles_208500.liggghts', 'particles_209000.liggghts', 'particles_209500.liggghts', 'particles_21000.liggghts', 'particles_210000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_210500.liggghts', 'particles_211000.liggghts', 'particles_211500.liggghts', 'particles_212000.liggghts', 'particles_212500.liggghts', 'particles_213000.liggghts', 'particles_213500.liggghts', 'particles_214000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3012
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3014
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3013
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3015
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 33 - 36 of 148
+input of this "map":  [{'filelist': ['particles_214500.liggghts', 'particles_21500.liggghts', 'particles_215000.liggghts', 'particles_215500.liggghts', 'particles_216000.liggghts', 'particles_216500.liggghts', 'particles_217000.liggghts', 'particles_217500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_218000.liggghts', 'particles_218500.liggghts', 'particles_219000.liggghts', 'particles_219500.liggghts', 'particles_22000.liggghts', 'particles_220000.liggghts', 'particles_220500.liggghts', 'particles_221000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_221500.liggghts', 'particles_222000.liggghts', 'particles_222500.liggghts', 'particles_223000.liggghts', 'particles_223500.liggghts', 'particles_224000.liggghts', 'particles_224500.liggghts', 'particles_22500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_225000.liggghts', 'particles_225500.liggghts', 'particles_226000.liggghts', 'particles_226500.liggghts', 'particles_227000.liggghts', 'particles_227500.liggghts', 'particles_228000.liggghts', 'particles_228500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3019
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3021
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3020
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3022
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 37 - 40 of 148
+input of this "map":  [{'filelist': ['particles_229000.liggghts', 'particles_229500.liggghts', 'particles_23000.liggghts', 'particles_230000.liggghts', 'particles_230500.liggghts', 'particles_231000.liggghts', 'particles_231500.liggghts', 'particles_232000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_232500.liggghts', 'particles_233000.liggghts', 'particles_233500.liggghts', 'particles_234000.liggghts', 'particles_234500.liggghts', 'particles_23500.liggghts', 'particles_235000.liggghts', 'particles_235500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_236000.liggghts', 'particles_236500.liggghts', 'particles_237000.liggghts', 'particles_237500.liggghts', 'particles_238000.liggghts', 'particles_238500.liggghts', 'particles_239000.liggghts', 'particles_239500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_24000.liggghts', 'particles_240000.liggghts', 'particles_240500.liggghts', 'particles_241000.liggghts', 'particles_241500.liggghts', 'particles_242000.liggghts', 'particles_242500.liggghts', 'particles_243000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3029
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3027
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3026
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3028
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 41 - 44 of 148
+input of this "map":  [{'filelist': ['particles_243500.liggghts', 'particles_244000.liggghts', 'particles_244500.liggghts', 'particles_24500.liggghts', 'particles_245000.liggghts', 'particles_245500.liggghts', 'particles_246000.liggghts', 'particles_246500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_247000.liggghts', 'particles_247500.liggghts', 'particles_248000.liggghts', 'particles_248500.liggghts', 'particles_249000.liggghts', 'particles_249500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_250000.liggghts', 'particles_250500.liggghts', 'particles_251000.liggghts', 'particles_251500.liggghts', 'particles_252000.liggghts', 'particles_252500.liggghts', 'particles_253000.liggghts', 'particles_253500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_254000.liggghts', 'particles_254500.liggghts', 'particles_25500.liggghts', 'particles_255000.liggghts', 'particles_255500.liggghts', 'particles_256000.liggghts', 'particles_256500.liggghts', 'particles_257000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3034
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3036
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3033
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3035
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 45 - 48 of 148
+input of this "map":  [{'filelist': ['particles_257500.liggghts', 'particles_258000.liggghts', 'particles_258500.liggghts', 'particles_259000.liggghts', 'particles_259500.liggghts', 'particles_26000.liggghts', 'particles_260000.liggghts', 'particles_260500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_261000.liggghts', 'particles_261500.liggghts', 'particles_262000.liggghts', 'particles_262500.liggghts', 'particles_263000.liggghts', 'particles_263500.liggghts', 'particles_264000.liggghts', 'particles_264500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_26500.liggghts', 'particles_265000.liggghts', 'particles_265500.liggghts', 'particles_266000.liggghts', 'particles_266500.liggghts', 'particles_267000.liggghts', 'particles_267500.liggghts', 'particles_268000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_268500.liggghts', 'particles_269000.liggghts', 'particles_269500.liggghts', 'particles_27000.liggghts', 'particles_270000.liggghts', 'particles_270500.liggghts', 'particles_271000.liggghts', 'particles_271500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3040
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3042
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3043
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3041
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 49 - 52 of 148
+input of this "map":  [{'filelist': ['particles_272000.liggghts', 'particles_272500.liggghts', 'particles_273000.liggghts', 'particles_273500.liggghts', 'particles_274000.liggghts', 'particles_274500.liggghts', 'particles_27500.liggghts', 'particles_275000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_275500.liggghts', 'particles_276000.liggghts', 'particles_276500.liggghts', 'particles_277000.liggghts', 'particles_277500.liggghts', 'particles_278000.liggghts', 'particles_278500.liggghts', 'particles_279000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_279500.liggghts', 'particles_28000.liggghts', 'particles_280000.liggghts', 'particles_280500.liggghts', 'particles_281000.liggghts', 'particles_281500.liggghts', 'particles_282000.liggghts', 'particles_282500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_283000.liggghts', 'particles_283500.liggghts', 'particles_284000.liggghts', 'particles_284500.liggghts', 'particles_28500.liggghts', 'particles_285000.liggghts', 'particles_285500.liggghts', 'particles_286000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3049
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3047
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3050
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3048
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 53 - 56 of 148
+input of this "map":  [{'filelist': ['particles_286500.liggghts', 'particles_287000.liggghts', 'particles_287500.liggghts', 'particles_288000.liggghts', 'particles_288500.liggghts', 'particles_289000.liggghts', 'particles_289500.liggghts', 'particles_29000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_290000.liggghts', 'particles_290500.liggghts', 'particles_291000.liggghts', 'particles_291500.liggghts', 'particles_292000.liggghts', 'particles_292500.liggghts', 'particles_293000.liggghts', 'particles_293500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_294000.liggghts', 'particles_294500.liggghts', 'particles_29500.liggghts', 'particles_295000.liggghts', 'particles_295500.liggghts', 'particles_296000.liggghts', 'particles_296500.liggghts', 'particles_297000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_297500.liggghts', 'particles_298000.liggghts', 'particles_298500.liggghts', 'particles_299000.liggghts', 'particles_299500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_300000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3057
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3054
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3056
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3055
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 57 - 60 of 148
+input of this "map":  [{'filelist': ['particles_300500.liggghts', 'particles_301000.liggghts', 'particles_301500.liggghts', 'particles_302000.liggghts', 'particles_302500.liggghts', 'particles_303000.liggghts', 'particles_303500.liggghts', 'particles_304000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_304500.liggghts', 'particles_30500.liggghts', 'particles_305000.liggghts', 'particles_305500.liggghts', 'particles_306000.liggghts', 'particles_306500.liggghts', 'particles_307000.liggghts', 'particles_307500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_308000.liggghts', 'particles_308500.liggghts', 'particles_309000.liggghts', 'particles_309500.liggghts', 'particles_31000.liggghts', 'particles_310000.liggghts', 'particles_310500.liggghts', 'particles_311000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_311500.liggghts', 'particles_312000.liggghts', 'particles_312500.liggghts', 'particles_313000.liggghts', 'particles_313500.liggghts', 'particles_314000.liggghts', 'particles_314500.liggghts', 'particles_31500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3062
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3063
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3064
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3061
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 61 - 64 of 148
+input of this "map":  [{'filelist': ['particles_315000.liggghts', 'particles_315500.liggghts', 'particles_316000.liggghts', 'particles_316500.liggghts', 'particles_317000.liggghts', 'particles_317500.liggghts', 'particles_318000.liggghts', 'particles_318500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_319000.liggghts', 'particles_319500.liggghts', 'particles_32000.liggghts', 'particles_320000.liggghts', 'particles_320500.liggghts', 'particles_321000.liggghts', 'particles_321500.liggghts', 'particles_322000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_322500.liggghts', 'particles_323000.liggghts', 'particles_323500.liggghts', 'particles_324000.liggghts', 'particles_324500.liggghts', 'particles_32500.liggghts', 'particles_325000.liggghts', 'particles_325500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_326000.liggghts', 'particles_326500.liggghts', 'particles_327000.liggghts', 'particles_327500.liggghts', 'particles_328000.liggghts', 'particles_328500.liggghts', 'particles_329000.liggghts', 'particles_329500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3069
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3070
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3068
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3071
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 65 - 68 of 148
+input of this "map":  [{'filelist': ['particles_33000.liggghts', 'particles_330000.liggghts', 'particles_330500.liggghts', 'particles_331000.liggghts', 'particles_331500.liggghts', 'particles_332000.liggghts', 'particles_332500.liggghts', 'particles_333000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_333500.liggghts', 'particles_334000.liggghts', 'particles_334500.liggghts', 'particles_33500.liggghts', 'particles_335000.liggghts', 'particles_335500.liggghts', 'particles_336000.liggghts', 'particles_336500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_337000.liggghts', 'particles_337500.liggghts', 'particles_338000.liggghts', 'particles_338500.liggghts', 'particles_339000.liggghts', 'particles_339500.liggghts', 'particles_34000.liggghts', 'particles_340000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_340500.liggghts', 'particles_341000.liggghts', 'particles_341500.liggghts', 'particles_342000.liggghts', 'particles_342500.liggghts', 'particles_343000.liggghts', 'particles_343500.liggghts', 'particles_344000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3076
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3075
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3077
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3078
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 69 - 72 of 148
+input of this "map":  [{'filelist': ['particles_344500.liggghts', 'particles_34500.liggghts', 'particles_345000.liggghts', 'particles_345500.liggghts', 'particles_346000.liggghts', 'particles_346500.liggghts', 'particles_347000.liggghts', 'particles_347500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_348000.liggghts', 'particles_348500.liggghts', 'particles_349000.liggghts', 'particles_349500.liggghts', 'particles_3500.liggghts', 'particles_35000.liggghts', 'particles_350000.liggghts', 'particles_350500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_351000.liggghts', 'particles_351500.liggghts', 'particles_352000.liggghts', 'particles_352500.liggghts', 'particles_353000.liggghts', 'particles_353500.liggghts', 'particles_354000.liggghts', 'particles_354500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_35500.liggghts', 'particles_355000.liggghts', 'particles_355500.liggghts', 'particles_356000.liggghts', 'particles_356500.liggghts', 'particles_357000.liggghts', 'particles_357500.liggghts', 'particles_358000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3083
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3082
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3084
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3085
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 73 - 76 of 148
+input of this "map":  [{'filelist': ['particles_358500.liggghts', 'particles_359000.liggghts', 'particles_359500.liggghts', 'particles_36000.liggghts', 'particles_360000.liggghts', 'particles_360500.liggghts', 'particles_361000.liggghts', 'particles_361500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_362000.liggghts', 'particles_362500.liggghts', 'particles_363000.liggghts', 'particles_363500.liggghts', 'particles_364000.liggghts', 'particles_364500.liggghts', 'particles_36500.liggghts', 'particles_365000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_365500.liggghts', 'particles_366000.liggghts', 'particles_366500.liggghts', 'particles_367000.liggghts', 'particles_367500.liggghts', 'particles_368000.liggghts', 'particles_368500.liggghts', 'particles_369000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_369500.liggghts', 'particles_37000.liggghts', 'particles_370000.liggghts', 'particles_370500.liggghts', 'particles_371000.liggghts', 'particles_371500.liggghts', 'particles_372000.liggghts', 'particles_372500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3092
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3089
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3090
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3091
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 77 - 80 of 148
+input of this "map":  [{'filelist': ['particles_373000.liggghts', 'particles_373500.liggghts', 'particles_374000.liggghts', 'particles_374500.liggghts', 'particles_37500.liggghts', 'particles_375000.liggghts', 'particles_375500.liggghts', 'particles_376000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_376500.liggghts', 'particles_377000.liggghts', 'particles_377500.liggghts', 'particles_378000.liggghts', 'particles_378500.liggghts', 'particles_379000.liggghts', 'particles_379500.liggghts', 'particles_38000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_380000.liggghts', 'particles_380500.liggghts', 'particles_381000.liggghts', 'particles_381500.liggghts', 'particles_382000.liggghts', 'particles_382500.liggghts', 'particles_383000.liggghts', 'particles_383500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_384000.liggghts', 'particles_384500.liggghts', 'particles_38500.liggghts', 'particles_385000.liggghts', 'particles_385500.liggghts', 'particles_386000.liggghts', 'particles_386500.liggghts', 'particles_387000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3099
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3097
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3096
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3098
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 81 - 84 of 148
+input of this "map":  [{'filelist': ['particles_387500.liggghts', 'particles_388000.liggghts', 'particles_388500.liggghts', 'particles_389000.liggghts', 'particles_389500.liggghts', 'particles_39000.liggghts', 'particles_390000.liggghts', 'particles_390500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_391000.liggghts', 'particles_391500.liggghts', 'particles_392000.liggghts', 'particles_392500.liggghts', 'particles_393000.liggghts', 'particles_393500.liggghts', 'particles_394000.liggghts', 'particles_394500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_39500.liggghts', 'particles_395000.liggghts', 'particles_395500.liggghts', 'particles_396000.liggghts', 'particles_396500.liggghts', 'particles_397000.liggghts', 'particles_397500.liggghts', 'particles_398000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_398500.liggghts', 'particles_399000.liggghts', 'particles_399500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_400000.liggghts', 'particles_400500.liggghts', 'particles_401000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3106
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3105
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3103
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3104
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 85 - 88 of 148
+input of this "map":  [{'filelist': ['particles_401500.liggghts', 'particles_402000.liggghts', 'particles_402500.liggghts', 'particles_403000.liggghts', 'particles_403500.liggghts', 'particles_404000.liggghts', 'particles_404500.liggghts', 'particles_40500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_405000.liggghts', 'particles_405500.liggghts', 'particles_406000.liggghts', 'particles_406500.liggghts', 'particles_407000.liggghts', 'particles_407500.liggghts', 'particles_408000.liggghts', 'particles_408500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_409000.liggghts', 'particles_409500.liggghts', 'particles_41000.liggghts', 'particles_410000.liggghts', 'particles_410500.liggghts', 'particles_411000.liggghts', 'particles_411500.liggghts', 'particles_412000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_412500.liggghts', 'particles_413000.liggghts', 'particles_413500.liggghts', 'particles_414000.liggghts', 'particles_414500.liggghts', 'particles_41500.liggghts', 'particles_415000.liggghts', 'particles_415500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3113
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3110
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3112
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3111
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 89 - 92 of 148
+input of this "map":  [{'filelist': ['particles_416000.liggghts', 'particles_416500.liggghts', 'particles_417000.liggghts', 'particles_417500.liggghts', 'particles_418000.liggghts', 'particles_418500.liggghts', 'particles_419000.liggghts', 'particles_419500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_42000.liggghts', 'particles_420000.liggghts', 'particles_420500.liggghts', 'particles_421000.liggghts', 'particles_421500.liggghts', 'particles_422000.liggghts', 'particles_422500.liggghts', 'particles_423000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_423500.liggghts', 'particles_424000.liggghts', 'particles_424500.liggghts', 'particles_42500.liggghts', 'particles_425000.liggghts', 'particles_425500.liggghts', 'particles_426000.liggghts', 'particles_426500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_427000.liggghts', 'particles_427500.liggghts', 'particles_428000.liggghts', 'particles_428500.liggghts', 'particles_429000.liggghts', 'particles_429500.liggghts', 'particles_43000.liggghts', 'particles_430000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3118
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3119
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3120
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3117
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 93 - 96 of 148
+input of this "map":  [{'filelist': ['particles_430500.liggghts', 'particles_431000.liggghts', 'particles_431500.liggghts', 'particles_432000.liggghts', 'particles_432500.liggghts', 'particles_433000.liggghts', 'particles_433500.liggghts', 'particles_434000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_434500.liggghts', 'particles_43500.liggghts', 'particles_435000.liggghts', 'particles_435500.liggghts', 'particles_436000.liggghts', 'particles_436500.liggghts', 'particles_437000.liggghts', 'particles_437500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_438000.liggghts', 'particles_438500.liggghts', 'particles_439000.liggghts', 'particles_439500.liggghts', 'particles_44000.liggghts', 'particles_440000.liggghts', 'particles_440500.liggghts', 'particles_441000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_441500.liggghts', 'particles_442000.liggghts', 'particles_442500.liggghts', 'particles_443000.liggghts', 'particles_443500.liggghts', 'particles_444000.liggghts', 'particles_444500.liggghts', 'particles_44500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3127
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3126
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3125
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3124
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 97 - 100 of 148
+input of this "map":  [{'filelist': ['particles_445000.liggghts', 'particles_445500.liggghts', 'particles_446000.liggghts', 'particles_446500.liggghts', 'particles_447000.liggghts', 'particles_447500.liggghts', 'particles_448000.liggghts', 'particles_448500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_449000.liggghts', 'particles_449500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts', 'particles_450000.liggghts', 'particles_450500.liggghts', 'particles_451000.liggghts', 'particles_451500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_452000.liggghts', 'particles_452500.liggghts', 'particles_453000.liggghts', 'particles_453500.liggghts', 'particles_454000.liggghts', 'particles_454500.liggghts', 'particles_45500.liggghts', 'particles_455000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_455500.liggghts', 'particles_456000.liggghts', 'particles_456500.liggghts', 'particles_457000.liggghts', 'particles_457500.liggghts', 'particles_458000.liggghts', 'particles_458500.liggghts', 'particles_459000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3132
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3131
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3134
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3133
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 101 - 104 of 148
+input of this "map":  [{'filelist': ['particles_459500.liggghts', 'particles_46000.liggghts', 'particles_460000.liggghts', 'particles_460500.liggghts', 'particles_461000.liggghts', 'particles_461500.liggghts', 'particles_462000.liggghts', 'particles_462500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_463000.liggghts', 'particles_463500.liggghts', 'particles_464000.liggghts', 'particles_464500.liggghts', 'particles_46500.liggghts', 'particles_465000.liggghts', 'particles_465500.liggghts', 'particles_466000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_466500.liggghts', 'particles_467000.liggghts', 'particles_467500.liggghts', 'particles_468000.liggghts', 'particles_468500.liggghts', 'particles_469000.liggghts', 'particles_469500.liggghts', 'particles_47000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_470000.liggghts', 'particles_470500.liggghts', 'particles_471000.liggghts', 'particles_471500.liggghts', 'particles_472000.liggghts', 'particles_472500.liggghts', 'particles_473000.liggghts', 'particles_473500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3139
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3140
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3138
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3141
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 105 - 108 of 148
+input of this "map":  [{'filelist': ['particles_474000.liggghts', 'particles_474500.liggghts', 'particles_47500.liggghts', 'particles_475000.liggghts', 'particles_475500.liggghts', 'particles_476000.liggghts', 'particles_476500.liggghts', 'particles_477000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_477500.liggghts', 'particles_478000.liggghts', 'particles_478500.liggghts', 'particles_479000.liggghts', 'particles_479500.liggghts', 'particles_48000.liggghts', 'particles_480000.liggghts', 'particles_480500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_481000.liggghts', 'particles_481500.liggghts', 'particles_482000.liggghts', 'particles_482500.liggghts', 'particles_483000.liggghts', 'particles_483500.liggghts', 'particles_484000.liggghts', 'particles_484500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_48500.liggghts', 'particles_485000.liggghts', 'particles_485500.liggghts', 'particles_486000.liggghts', 'particles_486500.liggghts', 'particles_487000.liggghts', 'particles_487500.liggghts', 'particles_488000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3146
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3148
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3147
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3145
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 109 - 112 of 148
+input of this "map":  [{'filelist': ['particles_488500.liggghts', 'particles_489000.liggghts', 'particles_489500.liggghts', 'particles_49000.liggghts', 'particles_490000.liggghts', 'particles_490500.liggghts', 'particles_491000.liggghts', 'particles_491500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_492000.liggghts', 'particles_492500.liggghts', 'particles_493000.liggghts', 'particles_493500.liggghts', 'particles_494000.liggghts', 'particles_494500.liggghts', 'particles_49500.liggghts', 'particles_495000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_495500.liggghts', 'particles_496000.liggghts', 'particles_496500.liggghts', 'particles_497000.liggghts', 'particles_497500.liggghts', 'particles_498000.liggghts', 'particles_498500.liggghts', 'particles_499000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_499500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_500000.liggghts', 'particles_500500.liggghts', 'particles_501000.liggghts', 'particles_501500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3155
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3153
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3152
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3154
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 113 - 116 of 148
+input of this "map":  [{'filelist': ['particles_502000.liggghts', 'particles_502500.liggghts', 'particles_503000.liggghts', 'particles_503500.liggghts', 'particles_504000.liggghts', 'particles_504500.liggghts', 'particles_50500.liggghts', 'particles_505000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_505500.liggghts', 'particles_506000.liggghts', 'particles_506500.liggghts', 'particles_507000.liggghts', 'particles_507500.liggghts', 'particles_508000.liggghts', 'particles_508500.liggghts', 'particles_509000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_509500.liggghts', 'particles_51000.liggghts', 'particles_510000.liggghts', 'particles_510500.liggghts', 'particles_511000.liggghts', 'particles_511500.liggghts', 'particles_512000.liggghts', 'particles_512500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_513000.liggghts', 'particles_513500.liggghts', 'particles_514000.liggghts', 'particles_514500.liggghts', 'particles_51500.liggghts', 'particles_515000.liggghts', 'particles_515500.liggghts', 'particles_516000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3159
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3162
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3160
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3161
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 117 - 120 of 148
+input of this "map":  [{'filelist': ['particles_516500.liggghts', 'particles_517000.liggghts', 'particles_517500.liggghts', 'particles_518000.liggghts', 'particles_518500.liggghts', 'particles_519000.liggghts', 'particles_519500.liggghts', 'particles_52000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_520000.liggghts', 'particles_520500.liggghts', 'particles_521000.liggghts', 'particles_521500.liggghts', 'particles_522000.liggghts', 'particles_522500.liggghts', 'particles_523000.liggghts', 'particles_523500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_524000.liggghts', 'particles_524500.liggghts', 'particles_52500.liggghts', 'particles_525000.liggghts', 'particles_525500.liggghts', 'particles_526000.liggghts', 'particles_526500.liggghts', 'particles_527000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_527500.liggghts', 'particles_528000.liggghts', 'particles_528500.liggghts', 'particles_529000.liggghts', 'particles_529500.liggghts', 'particles_53000.liggghts', 'particles_530000.liggghts', 'particles_530500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3169
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3166
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3167
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3168
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 121 - 124 of 148
+input of this "map":  [{'filelist': ['particles_531000.liggghts', 'particles_531500.liggghts', 'particles_532000.liggghts', 'particles_532500.liggghts', 'particles_533000.liggghts', 'particles_533500.liggghts', 'particles_534000.liggghts', 'particles_534500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_53500.liggghts', 'particles_535000.liggghts', 'particles_535500.liggghts', 'particles_536000.liggghts', 'particles_536500.liggghts', 'particles_537000.liggghts', 'particles_537500.liggghts', 'particles_538000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_538500.liggghts', 'particles_539000.liggghts', 'particles_539500.liggghts', 'particles_54000.liggghts', 'particles_540000.liggghts', 'particles_540500.liggghts', 'particles_541000.liggghts', 'particles_541500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_542000.liggghts', 'particles_542500.liggghts', 'particles_543000.liggghts', 'particles_543500.liggghts', 'particles_544000.liggghts', 'particles_544500.liggghts', 'particles_54500.liggghts', 'particles_545000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3174
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3175
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3176
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3173
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 125 - 128 of 148
+input of this "map":  [{'filelist': ['particles_545500.liggghts', 'particles_546000.liggghts', 'particles_546500.liggghts', 'particles_547000.liggghts', 'particles_547500.liggghts', 'particles_548000.liggghts', 'particles_548500.liggghts', 'particles_549000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_549500.liggghts', 'particles_5500.liggghts', 'particles_55000.liggghts', 'particles_550000.liggghts', 'particles_550500.liggghts', 'particles_551000.liggghts', 'particles_551500.liggghts', 'particles_552000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_552500.liggghts', 'particles_553000.liggghts', 'particles_553500.liggghts', 'particles_554000.liggghts', 'particles_554500.liggghts', 'particles_55500.liggghts', 'particles_555000.liggghts', 'particles_555500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_556000.liggghts', 'particles_556500.liggghts', 'particles_557000.liggghts', 'particles_557500.liggghts', 'particles_558000.liggghts', 'particles_558500.liggghts', 'particles_559000.liggghts', 'particles_559500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3181
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3182
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3183
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3180
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 129 - 132 of 148
+input of this "map":  [{'filelist': ['particles_56000.liggghts', 'particles_560000.liggghts', 'particles_560500.liggghts', 'particles_561000.liggghts', 'particles_561500.liggghts', 'particles_562000.liggghts', 'particles_562500.liggghts', 'particles_563000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_563500.liggghts', 'particles_564000.liggghts', 'particles_564500.liggghts', 'particles_56500.liggghts', 'particles_565000.liggghts', 'particles_565500.liggghts', 'particles_566000.liggghts', 'particles_566500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_567000.liggghts', 'particles_567500.liggghts', 'particles_568000.liggghts', 'particles_568500.liggghts', 'particles_569000.liggghts', 'particles_569500.liggghts', 'particles_57000.liggghts', 'particles_570000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_570500.liggghts', 'particles_571000.liggghts', 'particles_571500.liggghts', 'particles_572000.liggghts', 'particles_572500.liggghts', 'particles_573000.liggghts', 'particles_573500.liggghts', 'particles_574000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3187
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3188
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3189
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3190
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 133 - 136 of 148
+input of this "map":  [{'filelist': ['particles_574500.liggghts', 'particles_57500.liggghts', 'particles_575000.liggghts', 'particles_575500.liggghts', 'particles_576000.liggghts', 'particles_576500.liggghts', 'particles_577000.liggghts', 'particles_577500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_578000.liggghts', 'particles_578500.liggghts', 'particles_579000.liggghts', 'particles_579500.liggghts', 'particles_58000.liggghts', 'particles_580000.liggghts', 'particles_580500.liggghts', 'particles_581000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_581500.liggghts', 'particles_582000.liggghts', 'particles_582500.liggghts', 'particles_583000.liggghts', 'particles_583500.liggghts', 'particles_584000.liggghts', 'particles_584500.liggghts', 'particles_58500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_585000.liggghts', 'particles_585500.liggghts', 'particles_586000.liggghts', 'particles_586500.liggghts', 'particles_587000.liggghts', 'particles_587500.liggghts', 'particles_588000.liggghts', 'particles_588500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3194
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3196
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3195
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3197
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 137 - 140 of 148
+input of this "map":  [{'filelist': ['particles_589000.liggghts', 'particles_589500.liggghts', 'particles_59000.liggghts', 'particles_59500.liggghts', 'particles_6000.liggghts', 'particles_60000.liggghts', 'particles_60500.liggghts', 'particles_61000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_61500.liggghts', 'particles_62000.liggghts', 'particles_62500.liggghts', 'particles_63000.liggghts', 'particles_63500.liggghts', 'particles_64000.liggghts', 'particles_64500.liggghts', 'particles_6500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_65000.liggghts', 'particles_65500.liggghts', 'particles_66000.liggghts', 'particles_66500.liggghts', 'particles_67000.liggghts', 'particles_67500.liggghts', 'particles_68000.liggghts', 'particles_68500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_69000.liggghts', 'particles_69500.liggghts', 'particles_7000.liggghts', 'particles_70000.liggghts', 'particles_70500.liggghts', 'particles_71000.liggghts', 'particles_71500.liggghts', 'particles_72000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3202
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3204
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3201
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3203
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 141 - 144 of 148
+input of this "map":  [{'filelist': ['particles_72500.liggghts', 'particles_73000.liggghts', 'particles_73500.liggghts', 'particles_74000.liggghts', 'particles_74500.liggghts', 'particles_7500.liggghts', 'particles_75000.liggghts', 'particles_75500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_76000.liggghts', 'particles_76500.liggghts', 'particles_77000.liggghts', 'particles_77500.liggghts', 'particles_78000.liggghts', 'particles_78500.liggghts', 'particles_79000.liggghts', 'particles_79500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_8000.liggghts', 'particles_80000.liggghts', 'particles_80500.liggghts', 'particles_81000.liggghts', 'particles_81500.liggghts', 'particles_82000.liggghts', 'particles_82500.liggghts', 'particles_83000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_83500.liggghts', 'particles_84000.liggghts', 'particles_84500.liggghts', 'particles_8500.liggghts', 'particles_85000.liggghts', 'particles_85500.liggghts', 'particles_86000.liggghts', 'particles_86500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3208
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3211
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3209
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3210
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+calculating chunks 145 - 148 of 148
+input of this "map":  [{'filelist': ['particles_87000.liggghts', 'particles_87500.liggghts', 'particles_88000.liggghts', 'particles_88500.liggghts', 'particles_89000.liggghts', 'particles_89500.liggghts', 'particles_9000.liggghts', 'particles_90000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_90500.liggghts', 'particles_91000.liggghts', 'particles_91500.liggghts', 'particles_92000.liggghts', 'particles_92500.liggghts', 'particles_93000.liggghts', 'particles_93500.liggghts', 'particles_94000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_94500.liggghts', 'particles_9500.liggghts', 'particles_95000.liggghts', 'particles_95500.liggghts', 'particles_96000.liggghts', 'particles_96500.liggghts', 'particles_97000.liggghts', 'particles_97500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}, {'filelist': ['particles_98000.liggghts', 'particles_98500.liggghts', 'particles_99000.liggghts', 'particles_99500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True}]
+number of subprocess: 3218
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3215
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3217
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+number of subprocess: 3216
+reading dump file...
+
+0 snapshots selected out of 0
+no column assignments made
+
+fileNums:  [] 
+
+
+wrote 0 granular snapshots in VTK format
+wrote 1180 granular snapshots in VTK format
+time needed: 118.55904960632324 sec
