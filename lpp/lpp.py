@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from __future__ import print_function, absolute_import
 import getopt
 import os
 import time
@@ -45,20 +46,20 @@ class lpp:
           self.chunksize = int(kwargs["--chunksize"])
         else: raise ValueError
       except ValueError:
-        raise ValueError, "Invalid or no argument given for chunksize"
+        raise ValueError("Invalid or no argument given for chunksize")
     if "--Nth" in kwargs:
       try:
         if int(kwargs["--Nth"]) > 0 and int(kwargs["--Nth"]) >= self.Nth:
           self.Nth = int(kwargs["--Nth"])
         else: raise ValueError
       except ValueError:
-        raise ValueError, "Invalid or no argument given for Nth"
+        raise ValueError("Invalid or no argument given for Nth")
 
     if "--timesteps" in kwargs:
       try:
         self.timesteps = kwargs["--timesteps"]
       except ValueError:
-        raise ValueError, "Invalid or no argument given for timesteps"
+        raise ValueError("Invalid or no argument given for timesteps")
 
     if "--cpunum" in kwargs:
       try:
@@ -66,7 +67,7 @@ class lpp:
           self.cpunum = int(kwargs["--cpunum"])
         else: raise ValueError
       except ValueError:
-        raise ValueError, "Invalid or no argument given for cpunum"
+        raise ValueError("Invalid or no argument given for cpunum")
 
     # do not overwrite existing files
     if "--no-overwrite" in kwargs:
@@ -82,12 +83,12 @@ class lpp:
     else: self.output = True
 
     if self.output:
-      print "starting LIGGGHTS memory optimized parallel post processing"
-      print "chunksize:", self.chunksize, "-->",self.chunksize,\
-        "files are processed per chunk. If you run out of memory reduce chunksize."
-    starttime = time.time()    
+      print("starting LIGGGHTS memory optimized parallel post processing")
+      print("chunksize:", self.chunksize, "-->",self.chunksize,\
+        "files are processed per chunk. If you run out of memory reduce chunksize.")
+    starttime = time.time()
 
-    if self.debugMode: print "number of process:", os.getpid()
+    if self.debugMode: print("number of process:", os.getpid())
 
     # check whether file-list is nonempty
     self.flist = []
