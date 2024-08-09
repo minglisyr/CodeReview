@@ -8,6 +8,13 @@
 
 # dump tool
 
+# Imports and external programs
+
+import sys, commands, re, glob, types
+from os import popen
+from math import *             # any function could be used by set()
+import os
+
 oneline = "Read, write, manipulate dump files and particle attributes"
 
 docstr = """
@@ -180,19 +187,12 @@ d.extra(obj)				   extract bond/tri/line info from obj
 #     xlo,xhi,ylo,yhi,zlo,zhi = box bounds (float)
 #     atoms[i][j] = 2d array of floats, i = 0 to natoms-1, j = 0 to ncols-1
 
-# Imports and external programs
-
-import sys, commands, re, glob, types
-from os import popen
-from math import *             # any function could be used by set()
-import os
-
 try:
-    import numpy as np
-    oldnumeric = False
+  import numpy as np
+  oldnumeric = False
 except:
-    import Numeric as np
-    oldnumeric = True
+  import Numeric as np
+  oldnumeric = True
 
 try: from DEFAULTS import PIZZA_GUNZIP
 except: PIZZA_GUNZIP = "gunzip"
@@ -204,7 +204,7 @@ class dump:
   # --------------------------------------------------------------------
 
   def __init__(self,*input,**kwargs):
-     
+
     self.snaps = []
     self.nsnaps = self.nselect = 0
     self.names = {}
@@ -220,16 +220,16 @@ class dump:
     self.multiprocflag = 0
     self.fileNums = []
     self.objextra = None
-    
+
     outputfl = True
     if isinstance(input[0],dict): # multiprocessing code (the [0] comes from the asteriks in the argumentlist)
       dictionary = input[0]
-      
+
       # check whether to output or not
       if "debugMode" in dictionary: outputfl = dictionary["debugMode"]
-      
+
       if outputfl: print "number of subprocess:", os.getpid()
-      
+
       self.flist = dictionary["filelist"]
       self.multiprocflag = 1
       self.increment = 0
@@ -241,7 +241,7 @@ class dump:
       for word in words: self.flist += glob.glob(word)
       if len(self.flist) == 0 and len(input) == 1:
         raise StandardError,"no dump file specified"
-      
+
       if len(input) == 1:
         self.increment = 0
         self.read_all(output=outputfl)
@@ -256,11 +256,11 @@ class dump:
 
     # read all snapshots from each file
     # test for gzipped files
-    
+
     # check whether to output or not
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
-    
+
     if outputfl: print "reading dump file..."
 
     for i,file in enumerate(self.flist):
@@ -293,7 +293,7 @@ class dump:
     self.tselect.all(output=outputfl)
 
     # set default names for atom columns if file wasn't self-describing
-    
+
     if len(self.snaps) == 0:
       if outputfl: print "no column assignments made"
     elif len(self.names):
@@ -301,7 +301,7 @@ class dump:
     else:
       if outputfl: print "no column assignments made"
       pass
-    
+
     # if snapshots are scaled, unscale them
 
     if (not self.names.has_key("x")) or \
@@ -332,20 +332,21 @@ class dump:
       snap = self.read_snapshot(f)
       if not snap:
         self.nextfile += 1
-	if self.nextfile == len(self.flist): return -1
+        if self.nextfile == len(self.flist): return -1
         f.close()
-	self.eof = 0
-	continue
+        self.eof = 0
+        continue
       self.eof = f.tell()
       f.close()
       try:
         self.findtime(snap.time)
-	continue
+        continue
       except: break
 
     # select the new snapshot with all its atoms
 
     self.snaps.append(snap)
+    self.fileNums.append(snap.time)
     snap = self.snaps[self.nsnaps]
     snap.tselect = 1
     snap.nselect = snap.natoms
@@ -361,7 +362,7 @@ class dump:
   # assign column names if not already done and file is self-describing
   # set scale_original to 0/1/-1 for unscaled/scaled/unknown
   # convert xs,xu to x
-  
+
   def read_snapshot(self,f):
     try:
       snap = Snap()
@@ -408,7 +409,7 @@ class dump:
             else: self.names[words[i]] = i
           if xflag == 0 and yflag == 0 and zflag == 0: self.scale_original = 0
           if xflag == 1 and yflag == 1 and zflag == 1: self.scale_original = 1
-          
+
       if snap.natoms:
         words = f.readline().split()
         ncol = len(words)
@@ -431,7 +432,7 @@ class dump:
 
   # --------------------------------------------------------------------
   # map atom column names
-  
+
   def map(self,*pairs):
     if len(pairs) % 2 != 0:
       raise StandardError, "dump map() requires pairs of mappings"
@@ -456,15 +457,15 @@ class dump:
   # --------------------------------------------------------------------
   # scale coords to 0-1 for all snapshots or just one
 
-  def scale(self,*list):
-    if len(list) == 0:
+  def scale(self,*dumplist):
+    if len(dumplist) == 0:
       print "Scaling dump ..."
       x = self.names["x"]
       y = self.names["y"]
       z = self.names["z"]
       for snap in self.snaps: self.scale_one(snap,x,y,z)
     else:
-      i = self.findtime(list[0])
+      i = self.findtime(dumplist[0])
       x = self.names["x"]
       y = self.names["y"]
       z = self.names["z"]
@@ -484,15 +485,15 @@ class dump:
   # --------------------------------------------------------------------
   # unscale coords from 0-1 to box size for all snapshots or just one
 
-  def unscale(self,*list):
-    if len(list) == 0:
+  def unscale(self,*dumplist):
+    if len(dumplist) == 0:
       print "Unscaling dump ..."
       x = self.names["x"]
       y = self.names["y"]
       z = self.names["z"]
       for snap in self.snaps: self.unscale_one(snap,x,y,z)
     else:
-      i = self.findtime(list[0])
+      i = self.findtime(dumplist[0])
       x = self.names["x"]
       y = self.names["y"]
       z = self.names["z"]
@@ -508,7 +509,7 @@ class dump:
     atoms[:,x] = snap.xlo + atoms[:,x]*xprd
     atoms[:,y] = snap.ylo + atoms[:,y]*yprd
     atoms[:,z] = snap.zlo + atoms[:,z]*zprd
-  
+
   # --------------------------------------------------------------------
   # wrap coords from outside box to inside
 
@@ -521,7 +522,7 @@ class dump:
     ix = self.names["ix"]
     iy = self.names["iy"]
     iz = self.names["iz"]
-    
+
     for snap in self.snaps:
       xprd = snap.xhi - snap.xlo
       yprd = snap.yhi - snap.ylo
@@ -543,7 +544,7 @@ class dump:
     ix = self.names["ix"]
     iy = self.names["iy"]
     iz = self.names["iz"]
-    
+
     for snap in self.snaps:
       xprd = snap.xhi - snap.xlo
       yprd = snap.yhi - snap.ylo
@@ -556,10 +557,10 @@ class dump:
   # --------------------------------------------------------------------
   # wrap coords to same image as atom ID stored in "other" column
   # if dynamic extra lines or triangles defined, owrap them as well
-      
+
   def owrap(self,other):
     print "Wrapping to other ..."
-    
+
     id = self.names["id"]
     x = self.names["x"]
     y = self.names["y"]
@@ -585,14 +586,14 @@ class dump:
       # should bonds also be owrapped ?
       if self.lineflag == 2 or self.triflag == 2:
         self.objextra.owrap(snap.time,xprd,yprd,zprd,ids,atoms,iother,ix,iy,iz)
-          
+
   # --------------------------------------------------------------------
   # convert column names assignment to a string, in column order
-  
+
   def names2str(self):
-    ncol = max(self.names.values()) #len(self.snaps[0].atoms[0])
     pairs = self.names.items()
     values = self.names.values()
+    ncol = max(self.names.values()) #len(self.snaps[0].atoms[0])
     str = ""
     for i in xrange(ncol):
       if i in values: str += pairs[values.index(i)][0] + ' '
@@ -603,24 +604,24 @@ class dump:
   # if arg = string, sort all steps by that column
   # if arg = numeric, sort atoms in single step
 
-  def sort(self,*list, **kwargs):
-    
+  def sort(self,*tslist, **kwargs):
+
     # check whether to output or not
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
-    
-    if len(list) == 0:
+
+    if len(tslist) == 0:
       if outputfl: print "Sorting selected snapshots ..."
       id = self.names["id"]
       for snap in self.snaps:
         if snap.tselect: self.sort_one(snap,id)
-    elif type(list[0]) is types.StringType:
-      if outputfl: print "Sorting selected snapshots by %s ..." % list[0]
-      id = self.names[list[0]]
+    elif type(tslist[0]) is types.StringType:
+      if outputfl: print "Sorting selected snapshots by %s ..." % tslist[0]
+      id = self.names[tslist[0]]
       for snap in self.snaps:
         if snap.tselect: self.sort_one(snap,id)
     else:
-      i = self.findtime(list[0])
+      i = self.findtime(tslist[0])
       id = self.names["id"]
       self.sort_one(self.snaps[i],id)
 
@@ -656,7 +657,7 @@ class dump:
         print >>f,snap.ylo,snap.yhi
         print >>f,snap.zlo,snap.zhi
         print >>f,"ITEM: ATOMS",namestr
-      
+
       atoms = snap.atoms
       nvalues = len(atoms[0])
       for i in xrange(snap.natoms):
@@ -680,7 +681,7 @@ class dump:
       if not snap.tselect: continue
       print snap.time,
       sys.stdout.flush()
-      
+
       file = root + "." + str(snap.time)
       f = open(file,"w")
       print >>f,"ITEM: TIMESTEP"
@@ -692,7 +693,7 @@ class dump:
       print >>f,snap.ylo,snap.yhi
       print >>f,snap.zlo,snap.zhi
       print >>f,"ITEM: ATOMS",namestr
-      
+
       atoms = snap.atoms
       nvalues = len(atoms[0])
       for i in xrange(snap.natoms):
@@ -734,7 +735,7 @@ class dump:
     lhs = list[0][1:]
     if not self.names.has_key(lhs):
       self.newcolumn(lhs)
-      
+
     for item in list:
       name = item[1:]
       column = self.names[name]
@@ -746,7 +747,7 @@ class dump:
       if not snap.tselect: continue
       for i in xrange(snap.natoms):
         if snap.aselect[i]: exec ceq
-          
+
   # --------------------------------------------------------------------
   # set a column value via an input vec for all selected snapshots/atoms
 
@@ -766,7 +767,7 @@ class dump:
         if snap.aselect[i]:
           atoms[i][icol] = vec[m]
           m += 1
-          
+
   # --------------------------------------------------------------------
   # clone value in col across selected timesteps for atoms with same ID
 
@@ -823,16 +824,16 @@ class dump:
   # --------------------------------------------------------------------
   # extract vector(s) of values for atom ID n at each selected timestep
 
-  def atom(self,n,*list):
-    if len(list) == 0:
+  def atom(self,n,*tslist):
+    if len(tslist) == 0:
       raise StandardError, "no columns specified"
     columns = []
     values = []
-    for name in list:
+    for name in tslist:
       columns.append(self.names[name])
       values.append(self.nselect * [0])
     ncol = len(columns)
-    
+
     id = self.names["id"]
     m = 0
     for snap in self.snaps:
@@ -846,20 +847,20 @@ class dump:
         values[j][m] = atoms[i][columns[j]]
       m += 1
 
-    if len(list) == 1: return values[0]
+    if len(tslist) == 1: return values[0]
     else: return values
   
   # --------------------------------------------------------------------
   # extract vector(s) of values for selected atoms at chosen timestep
 
-  def vecs(self,n,*list):
+  def vecs(self,n,*tslist):
     snap = self.snaps[self.findtime(n)]
-    
-    if len(list) == 0:
+
+    if len(tslist) == 0:
       raise StandardError, "no columns specified"
     columns = []
     values = []
-    for name in list:
+    for name in tslist:
       columns.append(self.names[name])
       values.append(snap.nselect * [0])
     ncol = len(columns)
@@ -871,7 +872,7 @@ class dump:
         values[j][m] = snap.atoms[i][columns[j]]
       m += 1
 
-    if len(list) == 1: return values[0]
+    if len(tslist) == 1: return values[0]
     else: return values
 
   # --------------------------------------------------------------------
@@ -909,7 +910,7 @@ class dump:
         del self.snaps[i]
       else:
         i += 1
-  
+
   # --------------------------------------------------------------------
   # iterate over selected snapshots
 
@@ -921,12 +922,12 @@ class dump:
         self.iterate = i
         return i,self.snaps[i].time,1
     return 0,0,-1
-  
+
   # --------------------------------------------------------------------
   # return list of atoms to viz for snapshot isnap
   # if called with flag, then index is timestep, so convert to snapshot index
   # augment with bonds, tris, lines if extra() was invoked
-  
+
   def viz(self,index,flag=0):
     if not flag: isnap = index
     else:
@@ -950,7 +951,7 @@ class dump:
 
     # create atom list needed by viz from id,type,x,y,z
     # need Numeric/Numpy mode here
-    
+
     atoms = []
     for i in xrange(snap.natoms):
       if not snap.aselect[i]: continue
@@ -990,7 +991,7 @@ class dump:
       if self.triflag == 1: tris = self.trilist
       elif self.triflag == 2:
         tmp1,tmp2,tmp3,tmp4,tris,tmp5 = self.objextra.viz(time,1)
-      
+
     # create list of lines from static or dynamic tri list
     # if dynamic, could eliminate lines for unselected atoms
 
@@ -1001,7 +1002,7 @@ class dump:
         tmp1,tmp2,tmp3,tmp4,tmp5,lines = self.objextra.viz(time,1)
 
     return time,box,atoms,bonds,tris,lines
-  
+
   # --------------------------------------------------------------------
 
   def findtime(self,n):
@@ -1046,7 +1047,7 @@ class dump:
   def extra(self,arg):
 
     # data object, grab bonds statically
-    
+
     if type(arg) is types.InstanceType and ".data" in str(arg.__class__):
       self.bondflag = 0
       try:
@@ -1063,7 +1064,7 @@ class dump:
         raise StandardError,"could not extract bonds from data object"
 
     # cdata object, grab tris and lines statically
-    
+
     elif type(arg) is types.InstanceType and ".cdata" in str(arg.__class__):
       self.triflag = self.lineflag = 0
       try:
@@ -1078,32 +1079,32 @@ class dump:
         raise StandardError,"could not extract tris/lines from cdata object"
 
     # mdump object, grab tris dynamically
-    
+
     elif type(arg) is types.InstanceType and ".mdump" in str(arg.__class__):
       self.triflag = 2
       self.objextra = arg
 
     # bdump object, grab bonds dynamically
-    
+
     elif type(arg) is types.InstanceType and ".bdump" in str(arg.__class__):
       self.bondflag = 2
       self.objextra = arg
 
     # ldump object, grab tris dynamically
-    
+
     elif type(arg) is types.InstanceType and ".ldump" in str(arg.__class__):
       self.lineflag = 2
       self.objextra = arg
 
     # tdump object, grab tris dynamically
-    
+
     elif type(arg) is types.InstanceType and ".tdump" in str(arg.__class__):
       self.triflag = 2
       self.objextra = arg
 
     else:
       raise StandardError,"unrecognized argument to dump.extra()"
-      
+
   # --------------------------------------------------------------------
 
   def compare_atom(self,a,b):
@@ -1112,7 +1113,7 @@ class dump:
     elif a[0] > b[0]:
       return 1
     else:
-      return 0  
+      return 0
 
 # --------------------------------------------------------------------
 # one snapshot
@@ -1127,15 +1128,15 @@ class tselect:
 
   def __init__(self,data):
     self.data = data
-    
+
   # --------------------------------------------------------------------
 
   def all(self,**kwargs):
-    
+
     # check whether to output or not
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
-    
+
     data = self.data
     for snap in data.snaps:
       snap.tselect = 1
@@ -1179,7 +1180,7 @@ class tselect:
       data.nselect -= 1
     data.aselect.all()
     print "%d snapshots selected out of %d" % (data.nselect,data.nsnaps)
-  
+
   # --------------------------------------------------------------------
 
   def test(self,teststr):
@@ -1225,10 +1226,10 @@ class aselect:
     data = self.data
 
     # replace all $var with snap.atoms references and compile test string
-    
+
     pattern = "\$\w*"
-    list = re.findall(pattern,teststr)
-    for item in list:
+    testlist = re.findall(pattern,teststr)
+    for item in testlist:
       name = item[1:]
       column = data.names[name]
       insert = "snap.atoms[i][%d]" % column
