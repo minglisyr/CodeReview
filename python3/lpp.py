@@ -139,11 +139,10 @@ class lpp:
       "Nth":self.Nth} \
       for i in range(len(self.slices))]
 
-    if self.debugMode:
-      print("dumpInput:",dumpInput)
+    if self.debugMode: print("dumpInput:",dumpInput)
 
     numberOfRuns = len(dumpInput)
-    print(numberOfRuns)
+    
     i = 0
     while i < len(dumpInput):
 
