@@ -115,6 +115,7 @@ class lpp:
     if self.debugMode: print "dumpInput:",dumpInput
     
     numberOfRuns = len(dumpInput)
+    print(numberOfRuns)
     i = 0
     while i < len(dumpInput):
 
