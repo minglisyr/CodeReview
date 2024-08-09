@@ -7,9 +7,10 @@ import time
 import sys
 import multiprocessing
 import glob
+import vtk
 from math import ceil
 from math import floor
-import exceptions
+from dump import dump
 oneline = "writing pp-data in vtk format automatically, saving memory"
 
 docstr = """this is the docstr of LIGGGHTSPostProcessing"""
@@ -45,6 +46,7 @@ class lpp:
         else: raise ValueError
       except ValueError:
         raise ValueError("Invalid or no argument given for chunksize")
+
     if "--Nth" in kwargs:
       try:
         if int(kwargs["--Nth"]) > 0 and int(kwargs["--Nth"]) >= self.Nth:
