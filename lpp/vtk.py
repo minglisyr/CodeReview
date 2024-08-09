@@ -331,7 +331,7 @@ def particleGran(file,atoms,names,n_values):
   for i in xrange(len(atoms)):
     print >>f,1,i
   print >>f,"POINT_DATA",len(atoms)
-  
+
   if len(atoms) == 0:
     print >> f
     f.close()
