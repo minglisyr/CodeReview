@@ -277,6 +277,7 @@ class dump:
         snap = self.read_snapshot(f)
 
       f.close()
+      print(self.snaps)
     if outputfl: print
 
     # sort entries by timestep, cull duplicates
