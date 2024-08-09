@@ -101,9 +101,9 @@ class lpp:
       self.flist = list[0]
     listlen = len(self.flist)
     if listlen == 0 and len(list) == 1:
-      raise StandardError, "no dump file specified"
+      raise Exception("no dump file specified")
     if listlen == 1 and self.overwrite == False:
-      raise StandardError, "Cannot process single dump files with --no-overwrite."
+      raise Exception("Cannot process single dump files with --no-overwrite.")
 
     if self.output:
       print("Working with", self.cpunum, "processes...")
