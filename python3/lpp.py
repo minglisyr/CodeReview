@@ -43,8 +43,7 @@ class lpp:
       try:
         if int(kwargs["--chunksize"]) > 0:
           self.chunksize = int(kwargs["--chunksize"])
-        else:
-          raise ValueError
+        else: raise ValueError
       except ValueError:
         raise ValueError("Invalid or no argument given for chunksize")
 
@@ -52,8 +51,7 @@ class lpp:
       try:
         if int(kwargs["--Nth"]) > 0 and int(kwargs["--Nth"]) >= self.Nth:
           self.Nth = int(kwargs["--Nth"])
-        else:
-          raise ValueError
+        else: raise ValueError
       except ValueError:
         raise ValueError("Invalid or no argument given for Nth")
 
@@ -67,8 +65,7 @@ class lpp:
       try:
         if int(kwargs["--cpunum"]) > 0 and int(kwargs["--cpunum"]) <= self.cpunum:
           self.cpunum = int(kwargs["--cpunum"])
-        else:
-          raise ValueError
+        else: raise ValueError
       except ValueError:
         raise ValueError("Invalid or no argument given for cpunum")
 
@@ -77,16 +74,13 @@ class lpp:
       self.overwrite = False
 
     # suppress output with 'False'
-    if "--debug" in kwargs:
-      self.debugMode = True
-    else:
-      self.debugMode = False
+    if "--debug" in kwargs: self.debugMode = True
+    else: self.debugMode = False
 
     if "--quiet" in kwargs:
       self.output = False
       self.debugMode = False
-    else:
-      self.output = True
+    else: self.output = True
 
     if self.output:
       print("starting LIGGGHTS memory optimized parallel post processing")
@@ -94,8 +88,7 @@ class lpp:
         "files are processed per chunk. If you run out of memory reduce chunksize.")
     starttime = time.time()
 
-    if self.debugMode:
-      print("number of process:", os.getpid())
+    if self.debugMode: print("number of process:", os.getpid())
 
     # check whether file-list is nonempty
     self.flist = []
@@ -128,8 +121,8 @@ class lpp:
     self.flist = []
 
     output = ""
-    if "-o" in kwargs:
-      output = kwargs["-o"]
+    if "-o" in kwargs: output = kwargs["-o"]
+
     # generate input for lppWorker
     dumpInput = [{"filelist":self.slices[i],\
       "debugMode":self.debugMode,\
@@ -146,11 +139,9 @@ class lpp:
     i = 0
     while i < len(dumpInput):
 
-      if self.output:
-        print("calculating chunks",i+1,"-",min(i+self.cpunum,numberOfRuns),"of",numberOfRuns)
+      if self.output: print("calculating chunks",i+1,"-",min(i+self.cpunum,numberOfRuns),"of",numberOfRuns)
 
-      if self.debugMode:
-        print("input of this \"map\": ",dumpInput[i:i+self.cpunum])
+      if self.debugMode: print("input of this \"map\": ",dumpInput[i:i+self.cpunum])
 
       # create job_server
       job_server = multiprocessing.Pool(processes = self.cpunum)
@@ -232,8 +223,7 @@ def lppWorker(input):
     d.delete()
 
     v = vtk.vtk(d)
-    if debugMode:
-      print("\nfileNums: ",d.fileNums,"\n")
+    if debugMode: print("\nfileNums: ",d.fileNums,"\n")
     v.manyGran(granName,fileNos=d.fileNums,output=debugMode)
   except KeyboardInterrupt:
     raise
@@ -257,8 +247,7 @@ def printHelp():
 if __name__ == "__main__":
   if len(sys.argv) > 1:
     # parse options
-    optlist, args = getopt.gnu_getopt(sys.argv[1:],'o:',[
-                                          'chunksize=','cpunum=','Nth=','timesteps=','debug','help','quiet','no-overwrite'])
+    optlist, args = getopt.gnu_getopt(sys.argv[1:],'o:',['chunksize=','cpunum=','Nth=','timesteps=','debug','help','quiet','no-overwrite'])
     optdict = dict(optlist)
     if "--help" in optdict:
       printHelp()
