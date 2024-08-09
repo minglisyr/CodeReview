@@ -254,7 +254,7 @@ if __name__ == "__main__":
         lpp(args,**optdict)
       except KeyboardInterrupt:
         print("aborted by user")
-      except BaseException, e:
+      except BaseException as e:
         print("aborting due to errors:", e)
 
     # ===========================================================================
