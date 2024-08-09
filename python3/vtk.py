@@ -447,5 +447,3 @@ def findScalarsAndVectors(names):
 
   return scalars, vectors
 
-
-
