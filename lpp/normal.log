@@ -1,83 +1,147 @@
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 8 --> 8 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 4177
+number of process: 4239
 Working with 8 processes...
 dumpInput: [{'debugMode': True, 'overwrite': True, 'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts'], 'output': ''}]
 calculating chunks 1 - 8 of 13
 input of this "map":  [{'debugMode': True, 'overwrite': True, 'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'output': ''}]
-number of subprocess: 4185
+number of subprocess: 4248
 reading dump file...
-0 1000number of subprocess: 4192
+0 [<dump.Snap instance at 0x7fcbbaa36780>]
+1000number of subprocess: 4252
 reading dump file...
-3500number of subprocess: 4186
+3500number of subprocess: 4247
 reading dump file...
-13000 10000number of subprocess: 4187
+13000number of subprocess: 4249
 reading dump file...
-16500number of subprocess: 4188
+16500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa368c0>]
+10000number of subprocess: 4251
 reading dump file...
-20000number of subprocess: 4189
+20000 [<dump.Snap instance at 0x7fcbbaa36780>]
+13500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa368c0>, <dump.Snap instance at 0x7fcbbaa369b0>]
+10500number of subprocess: 4250
 reading dump file...
-24000 13500 10500number of subprocess: 4190
+24000number of subprocess: 4253
 reading dump file...
-27500number of subprocess: 4191
+27500 [<dump.Snap instance at 0x7fcbbaa36780>]
+17000number of subprocess: 4254
 reading dump file...
-31000 17000 11000 35000 14000 20500 24500 11500 2500 17500 14500 28000 1500 12000 31500 21000 18000 35500 15000 12500 25000
+31000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa368c0>, <dump.Snap instance at 0x7fcbbaa369b0>, <dump.Snap instance at 0x7fcbbaa36aa0>]
+11000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>]
+14000 [<dump.Snap instance at 0x7fcbbaa36780>]
+35000 [<dump.Snap instance at 0x7fcbbaa36780>]
+20500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>]
+17500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa368c0>, <dump.Snap instance at 0x7fcbbaa369b0>, <dump.Snap instance at 0x7fcbbaa36aa0>, <dump.Snap instance at 0x7fcbbaa36b90>]
+11500 [<dump.Snap instance at 0x7fcbbaa36780>]
+24500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>]
+14500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>]
+2500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>]
+1500 [<dump.Snap instance at 0x7fcbbaa36780>]
+28000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa368c0>, <dump.Snap instance at 0x7fcbbaa369b0>, <dump.Snap instance at 0x7fcbbaa36aa0>, <dump.Snap instance at 0x7fcbbaa36b90>, <dump.Snap instance at 0x7fcbbaa36c80>]
+12000 [<dump.Snap instance at 0x7fcbbaa367d0>]
+31500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>]
+18000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>]
+21000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa368c0>, <dump.Snap instance at 0x7fcbbaa369b0>, <dump.Snap instance at 0x7fcbbaa36aa0>, <dump.Snap instance at 0x7fcbbaa36b90>, <dump.Snap instance at 0x7fcbbaa36c80>, <dump.Snap instance at 0x7fcbbaa36d70>]
+12500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>]
+15000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa368c0>, <dump.Snap instance at 0x7fcbbaa369b0>, <dump.Snap instance at 0x7fcbbaa36aa0>, <dump.Snap instance at 0x7fcbbaa36b90>, <dump.Snap instance at 0x7fcbbaa36c80>, <dump.Snap instance at 0x7fcbbaa36d70>, <dump.Snap instance at 0x7fcbbaa36e60>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [0, 1000, 10000, 10500, 11000, 11500, 12000, 12500] 
 
-0 1000 28500 21500 15500 18500 32000 25500 16000 36000 19000 22000
+0 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>]
+35500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>]
+25000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>]
+18500 1000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>]
+28500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>]
+15500 [<dump.Snap instance at 0x7fcbbaa367d0>, <dump.Snap instance at 0x7fcbbaa36910>]
+32000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>]
+21500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>]
+19000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>]
+16000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>]
+25500 10000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>]
+29000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>]
+36000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>, <dump.Snap instance at 0x7fcbbaa36eb0>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [1500, 13000, 13500, 14000, 14500, 15000, 15500, 16000] 
 
-1500 29000 10000 26000 19500 2000 32500 22500 36500
+1500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>]
+22000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>]
+19500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>]
+2000 [<dump.Snap instance at 0x7fcbbaa367d0>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>]
+32500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>]
+26000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>, <dump.Snap instance at 0x7fcbbaa36eb0>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [2000, 16500, 17000, 17500, 18000, 18500, 19000, 19500] 
 
-2000 10500 13000 29500 3000 26500 23000 33000 11000 13500 16500 27000 23500 30000 37000
+2000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>]
+22500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>]
+29500 10500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>]
+3000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>]
+36500 13000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>]
+26500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>]
+23000 [<dump.Snap instance at 0x7fcbbaa367d0>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>]
+33000 16500 11000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>]
+30000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>]
+27000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>]
+23500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>]
+37000 13500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>, <dump.Snap instance at 0x7fcbbaa36eb0>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [2500, 24000, 24500, 25000, 25500, 26000, 26500, 27000] 
 
-2500 11500 33500 30500 14000 12000 37500 17000
+2500 [<dump.Snap instance at 0x7fcbbaa367d0>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>]
+33500 11500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>]
+30500 17000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>]
+37500 14000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>, <dump.Snap instance at 0x7fcbbaa36eb0>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [3000, 27500, 28000, 28500, 29000, 29500, 30000, 30500] 
 
-3000
+3000 12000 [<dump.Snap instance at 0x7fcbbaa367d0>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>]
+34000 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>, <dump.Snap instance at 0x7fcbbaa36eb0>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [20000, 20500, 21000, 21500, 22000, 22500, 23000, 23500] 
 
-20000 34000 24000 14500 12500 17500 38000 20500 34500 27500
+20000 24000 17500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>]
+38000 12500 14500 [<dump.Snap instance at 0x7fcbbaa367d0>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>]
+34500 20500 [<dump.Snap instance at 0x7fcbbaa36780>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>, <dump.Snap instance at 0x7fcbbaa36eb0>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [3500, 35000, 35500, 36000, 36500, 37000, 37500, 38000] 
 
-3500 15000 18000 24500 21000 15500 28000 18500
+3500 27500 18000 15000 24500 15500 21000 18500 [<dump.Snap instance at 0x7fcbbaa367d0>, <dump.Snap instance at 0x7fcbbaa36910>, <dump.Snap instance at 0x7fcbbaa36a00>, <dump.Snap instance at 0x7fcbbaa36af0>, <dump.Snap instance at 0x7fcbbaa36be0>, <dump.Snap instance at 0x7fcbbaa36cd0>, <dump.Snap instance at 0x7fcbbaa36dc0>, <dump.Snap instance at 0x7fcbbaa36eb0>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [31000, 31500, 32000, 32500, 33000, 33500, 34000, 34500] 
 
-31000 16000 35000 21500 25000 19000 28500 22000 31500 19500 35500 25500 22500 29000 26000 32000 23000 36000 26500 29500 32500 23500 27000 36500 30000 33000 37000 30500 33500 37500 34000 38000 34500 
+31000 28000 25000 16000 35000 21500 19000 31500 22000 25500 28500 19500 35500 22500 26000 29000 23000 32000 36000 26500 23500 29500 32500 36500 27000 33000 30000 37000 30500 33500 37500 34000 34500 38000 
 wrote 8 granular snapshots in VTK format
  
 wrote 8 granular snapshots in VTK format
@@ -95,52 +159,89 @@ wrote 8 granular snapshots in VTK format
 wrote 8 granular snapshots in VTK format
 calculating chunks 9 - 13 of 13
 input of this "map":  [{'debugMode': True, 'overwrite': True, 'filelist': ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts'], 'output': ''}, {'debugMode': True, 'overwrite': True, 'filelist': ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts'], 'output': ''}]
-number of subprocess: 4200
+number of subprocess: 4262
 reading dump file...
-7500 8000 8500number of subprocess: 4197
+7500 [<dump.Snap instance at 0x7fcbbaa3ecd0>]
+8000number of subprocess: 4260
 reading dump file...
-42000number of subprocess: 4196
+45500number of subprocess: 4259
 reading dump file...
-38500number of subprocess: 4198
+42000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>]
+8500number of subprocess: 4258
 reading dump file...
-45500 9000 9500number of subprocess: 4199
+38500number of subprocess: 4261
 reading dump file...
-49500 500 5000
+49500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>]
+9000 [<dump.Snap instance at 0x7fcbbaa3ecd0>]
+500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>]
+5000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc7210a0>]
+9500 [<dump.Snap instance at 0x7fcbbaa3ecd0>]
+42500 [<dump.Snap instance at 0x7fcbbaa3ecd0>]
+46000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc7210a0>, <dump.Snap instance at 0x7fcbcc721190>]
+
 5 snapshots selected out of 5
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [7500, 8000, 8500, 9000, 9500] 
 
-7500 39000 8000 42500 46000 8500 50000 39500 5500 4000 6000 9000 6500 43000 7000 46500 9500
+7500 [<dump.Snap instance at 0x7fcbbaa3ecd0>]
+39000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>]
+43000 8000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>]
+50000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>]
+46500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc7bf0a0>]
+5500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc7bf0a0>, <dump.Snap instance at 0x7fcbcc7bf190>]
+6000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>]
+39500 8500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc7bf0a0>, <dump.Snap instance at 0x7fcbcc7bf190>, <dump.Snap instance at 0x7fcbcc7bf280>]
+6500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>]
+4000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc7bf0a0>, <dump.Snap instance at 0x7fcbcc7bf190>, <dump.Snap instance at 0x7fcbcc7bf280>, <dump.Snap instance at 0x7fcbcc7bf370>]
+7000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>]
+47000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>]
+43500 9000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc7bf0a0>, <dump.Snap instance at 0x7fcbcc7bf190>, <dump.Snap instance at 0x7fcbcc7bf280>, <dump.Snap instance at 0x7fcbcc7bf370>, <dump.Snap instance at 0x7fcbcc7bf460>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [500, 5000, 5500, 6000, 6500, 7000, 49500, 50000] 
 
-500 40000 5000 47000 43500 40500 5500 47500 6000 41000 6500 44000 48000 41500 7000
+500 5000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3860a0>]
+40000 5500 9500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc2ca0a0>]
+47500 6000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3690a0>]
+44000 6500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3860a0>, <dump.Snap instance at 0x7fcbcc386190>]
+40500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc2ca0a0>, <dump.Snap instance at 0x7fcbcc2ca190>]
+48000 7000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3860a0>, <dump.Snap instance at 0x7fcbcc386190>, <dump.Snap instance at 0x7fcbcc386280>]
+41000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3690a0>, <dump.Snap instance at 0x7fcbcc369190>]
+44500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3690a0>, <dump.Snap instance at 0x7fcbcc369190>, <dump.Snap instance at 0x7fcbcc369280>]
+4500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc2ca0a0>, <dump.Snap instance at 0x7fcbcc2ca190>, <dump.Snap instance at 0x7fcbcc2ca280>]
+48500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3860a0>, <dump.Snap instance at 0x7fcbcc386190>, <dump.Snap instance at 0x7fcbcc386280>, <dump.Snap instance at 0x7fcbcc386370>]
+41500 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3860a0>, <dump.Snap instance at 0x7fcbcc386190>, <dump.Snap instance at 0x7fcbcc386280>, <dump.Snap instance at 0x7fcbcc386370>, <dump.Snap instance at 0x7fcbcc386460>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [4000, 38500, 39000, 39500, 40000, 40500, 41000, 41500] 
 
-4000 44500 48500 4500 45000 49000 38500
+4000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc2ca0a0>, <dump.Snap instance at 0x7fcbcc2ca190>, <dump.Snap instance at 0x7fcbcc2ca280>, <dump.Snap instance at 0x7fcbcc2ca370>]
+49000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3690a0>, <dump.Snap instance at 0x7fcbcc369190>, <dump.Snap instance at 0x7fcbcc369280>, <dump.Snap instance at 0x7fcbcc369370>]
+45000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc3690a0>, <dump.Snap instance at 0x7fcbcc369190>, <dump.Snap instance at 0x7fcbcc369280>, <dump.Snap instance at 0x7fcbcc369370>, <dump.Snap instance at 0x7fcbcc369460>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [4500, 42000, 42500, 43000, 43500, 44000, 44500, 45000] 
 
-4500 49500 39000
+4500 49500 38500 42000 [<dump.Snap instance at 0x7fcbbaa3ecd0>, <dump.Snap instance at 0x7fcbbaa3ee60>, <dump.Snap instance at 0x7fcbbaa3ef50>, <dump.Snap instance at 0x7fcbcc2ca0a0>, <dump.Snap instance at 0x7fcbcc2ca190>, <dump.Snap instance at 0x7fcbcc2ca280>, <dump.Snap instance at 0x7fcbcc2ca370>, <dump.Snap instance at 0x7fcbcc2ca460>]
+
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius 
 dump is already unscaled
 
 fileNums:  [45500, 46000, 46500, 47000, 47500, 48000, 48500, 49000] 
 
-45500 42000 50000 39500 46000 42500 40000 46500 43000 40500 47000 43500 41000 47500 44000 41500 44500 48000 45000 48500 49000 
+45500 39000 50000 42500 46000 39500 43000 46500 40000 43500 40500 47000 44000 41000 47500 44500 41500 48000 45000 48500 49000 
 wrote 5 granular snapshots in VTK format
  
 wrote 8 granular snapshots in VTK format
@@ -151,4 +252,4 @@ wrote 8 granular snapshots in VTK format
  
 wrote 8 granular snapshots in VTK format
 wrote 101 granular snapshots in VTK format
-time needed: 2.55957603455 sec
+time needed: 2.56162905693 sec
