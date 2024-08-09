@@ -263,7 +263,7 @@ class dump:
     
     if outputfl: print "reading dump file..."
 
-    for i, file in enumerate(self.flist):
+    for file in enumerate(self.flist):
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
       else: f = open(file)
