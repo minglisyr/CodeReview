@@ -260,13 +260,14 @@ class dump:
 
     # read all snapshots from each file
     # test for gzipped files
-    print("yyy11=",len(self.snaps))
+    
     # check whether to output or not
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
 
     if outputfl: print("reading dump file...")
-
+    print("yyy11=",len(self.snaps))
+    print("yyy22=",len(self.flist))
     for i,file in enumerate(self.flist):
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
@@ -278,7 +279,6 @@ class dump:
         self.fileNums.append(snap.time)
         sys.stdout.flush()
         snap = self.read_snapshot(f)
-        print("snap=",snap)
 
       f.close()
       
