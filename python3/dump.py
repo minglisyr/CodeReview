@@ -268,7 +268,7 @@ class dump:
     for i,file in enumerate(self.flist):
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
-      else: f = open(file,'r', encoding='utf-8')
+      else: f = open(file,'r', encoding='ascii')
 
       snap = self.read_snapshot(f)
       while snap:
@@ -329,7 +329,7 @@ class dump:
     # if new snapshot time stamp already exists, read next snapshot
 
     while 1:
-      f = open(self.flist[self.nextfile],'rb', encoding='utf-8')
+      f = open(self.flist[self.nextfile],'rb', encoding='ascii')
       f.seek(self.eof)
       snap = self.read_snapshot(f)
       if not snap:
@@ -643,8 +643,8 @@ class dump:
 
   def write(self,file,header=1,append=0):
     if len(self.snaps): namestr = self.names2str()
-    if not append: f = open(file,"w", encoding='utf-8')
-    else: f = open(file,"a", encoding='utf-8')
+    if not append: f = open(file,"w", encoding='ascii')
+    else: f = open(file,"a", encoding='ascii')
     for snap in self.snaps:
       if not snap.tselect: continue
       print(snap.time, end=' ')
@@ -686,7 +686,7 @@ class dump:
       sys.stdout.flush()
 
       file = root + "." + str(snap.time)
-      f = open(file,"w", encoding='utf-8')
+      f = open(file,"w", encoding='ascii')
       print("ITEM: TIMESTEP", file=f)
       print(snap.time, file=f)
       print("ITEM: NUMBER OF ATOMS", file=f)
