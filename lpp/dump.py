@@ -595,7 +595,6 @@ class dump:
     pairs = self.names.items()
     values = self.names.values()
     ncol = len(pairs)
-    print(ncol)
     str = ""
     for i in xrange(ncol):
       if i in values: str += pairs[values.index(i)][0] + ' '

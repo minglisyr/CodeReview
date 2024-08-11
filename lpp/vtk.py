@@ -210,7 +210,7 @@ def generateFilename(root,fileNos,n):
 
 def surface(tris):
   ntypes = tris[-1][1]
-  print(xrange(ntypes))
+  print(xrange(ntypes)+'ssd')
 
   for i in xrange(ntypes):
     itype = i+1
