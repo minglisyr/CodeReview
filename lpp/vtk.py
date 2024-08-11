@@ -3,7 +3,7 @@
 #
 # Copyright (2005) Sandia Corporation.  Under the terms of Contract
 # DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains
-# certain rights in this software.  This software is distributed under 
+# certain rights in this software.  This software is distributed under
 # the GNU General Public License.
 
 # vtk tool
@@ -14,13 +14,13 @@ import sys, re
 oneline = "Convert LAMMPS snapshots to VTK format"
 
 docstr = """
-v = vtk(d)	        d = object containing atom coords (dump, data)
+v = vtk(d)              d = object containing atom coords (dump, data)
 
 v.one()                 write all snapshots to tmp.vtk
 v.one("new")            write all snapshots to new.vtk
 v.many()                write snapshots to tmp0000.vtk, tmp0001.vtk, etc
 v.many("new")           write snapshots to new0000.vtk, new0001.vtk, etc
-v.single(N)             write snapshot for timestep N to tmp.vtk 
+v.single(N)             write snapshot for timestep N to tmp.vtk
 v.single(N,"file")      write snapshot for timestep N to file.vtk
 
   surfaces in snapshot will be written to SURF1.vtk, SURF2.vtk, etc
@@ -210,6 +210,7 @@ def generateFilename(root,fileNos,n):
 
 def surface(tris):
   ntypes = tris[-1][1]
+  print(xrange(ntypes))
 
   for i in xrange(ntypes):
     itype = i+1
@@ -244,7 +245,7 @@ def surface(tris):
     print("ASCII", file=f)
     print("DATASET POLYDATA", file=f)
     print("POINTS %d float" % nvert, file=f)
-    for i in xrange(nvert):
+    for i in range(nvert):
       tuple = vinverse[i]
       print(tuple[0],tuple[1],tuple[2], file=f)
     print("POLYGONS",ntri,4*ntri, file=f)
