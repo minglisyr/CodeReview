@@ -220,10 +220,13 @@ def lppWorker(input):
       d.tselect.test(filterstring)
     elif Nth != 1:
       d.tselect.skip(Nth)
+
     d.delete()
 
     v = vtk.vtk(d)
+
     if debugMode: print("\nfileNums: ",d.fileNums,"\n")
+
     v.manyGran(granName,fileNos=d.fileNums,output=debugMode)
   except KeyboardInterrupt:
     raise
