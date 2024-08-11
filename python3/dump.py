@@ -268,9 +268,10 @@ class dump:
     if outputfl: print("reading dump file...")
     print("yyy123=",len(self.snaps))
     for i,file in enumerate(self.flist):
-      if file[-3:] == ".gz":
-        f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
-      else: f = open(file,'r')
+      # if file[-3:] == ".gz":
+      #   f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
+      # else: f = open(file,'r')
+      f = open(file,'r')
       print("yyy00=",len(self.snaps))
       snap = self.read_snapshot(f)
       while snap:
