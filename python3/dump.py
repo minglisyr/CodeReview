@@ -280,6 +280,9 @@ class dump:
         sys.stdout.flush()
         snap = self.read_snapshot(f)
 
+      print("yyy33=",len(self.snaps))
+      print("yyy44=",len(self.flist))
+
       f.close()
       
     if outputfl: print()
