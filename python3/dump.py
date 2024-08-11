@@ -273,8 +273,11 @@ class dump:
       else: f = open(file,'r')
 
       snap = self.read_snapshot(f)
+      print("yyy1=",len(self.snaps))
       while snap:
+        print("yyy2=",len(self.snaps))
         self.snaps.append(snap)
+        print("yyy3=",len(self.snaps))
         if outputfl: print(snap.time,end=' ')
         self.fileNums.append(snap.time)
         sys.stdout.flush()
@@ -286,9 +289,7 @@ class dump:
     if outputfl: print()
 
     # sort entries by timestep, cull duplicates
-    print("yyy=",len(self.snaps))
     self.snaps.sort(key = functools.cmp_to_key(self.compare_time))
-    print("xxx=",len(self.snaps))
     self.fileNums.sort()
     self.cull()
     self.nsnaps = len(self.snaps)
