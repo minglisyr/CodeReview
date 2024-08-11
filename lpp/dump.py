@@ -413,6 +413,7 @@ class dump:
 
       if snap.natoms:
         words = f.readline().split()
+        print("words====", words)
         ncol = len(words)
         for i in xrange(1,snap.natoms):
           words += f.readline().split()
