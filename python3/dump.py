@@ -409,7 +409,7 @@ class dump:
         for i in range(1,snap.natoms):
           words += f.readline().split()
         floats = list(map(float,words))
-        atoms = np.zeros((snap.natoms,ncol),np.float)
+        atoms = np.zeros((snap.natoms,ncol),float)
         start = 0
         stop = ncol
         for i in range(snap.natoms):
