@@ -212,11 +212,8 @@ class dump:
     self.names = {}
     self.tselect = tselect(self)
     self.aselect = aselect(self)
-    for tss in self.tselect:
-      print("tselect=", tss)
-    for ass in self.aselect:
-      print("aselect=", ass)
-
+    for snap in self.snaps:
+      print("xxsnap=", snap)
     self.atype = "type"
     self.bondflag = 0
     self.bondlist = []
