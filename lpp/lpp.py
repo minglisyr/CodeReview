@@ -166,7 +166,7 @@ def lppWorker(input):
   overwrite = input["overwrite"]
   Nth = input["Nth"]
   timesteps = input["timesteps"]
-
+  print(flist)
   flistlen = len(flist)
   # generate name of manyGran
   splitfname = flist[0].rsplit(".")
@@ -202,7 +202,7 @@ def lppWorker(input):
       filename,file_bb,file_walls = vtk.generateFilename(granName,[time],0)
       if not os.path.isfile(filename):
         shortFlist.append(f)
-  print(shortFlist)
+
   # call dump, vtk, manyGran on shortFlist
   try:
     d = dump({"filelist":shortFlist, "debugMode":debugMode})
