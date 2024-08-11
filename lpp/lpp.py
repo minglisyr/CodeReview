@@ -115,7 +115,7 @@ class lpp:
 
     residualPresent = int(bool(listlen-floor(listlen/self.chunksize)*self.chunksize))
 
-    for i in xrange(int(floor(listlen/self.chunksize))+residualPresent):
+    for i in range(int(floor(listlen/self.chunksize))+residualPresent):
       slice = self.flist[i*self.chunksize:(i+1)*self.chunksize]
       self.slices.append(slice)
     self.flist = []
@@ -130,7 +130,7 @@ class lpp:
       "overwrite":self.overwrite,\
       "timesteps":self.timesteps,\
       "Nth":self.Nth} \
-      for i in xrange(len(self.slices))]
+      for i in range(len(self.slices))]
 
     if self.debugMode: print("dumpInput:",dumpInput)
 
@@ -169,7 +169,7 @@ def lppWorker(input):
 
   # generate name of manyGran
   splitfname = flist[0].rsplit(".")
-  print(splitfname)
+
   if outfileName == "":
     granName = splitfname[len(splitfname)-1]
   elif outfileName.endswith("/"):

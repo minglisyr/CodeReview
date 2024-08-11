@@ -169,7 +169,7 @@ def lppWorker(input):
 
   # generate name of manyGran
   splitfname = flist[0].rsplit(".")
-  print(splitfname)
+
   if outfileName == "":
     granName = splitfname[len(splitfname)-1]
   elif outfileName.endswith("/"):
