@@ -268,7 +268,7 @@ class dump:
     for i,file in enumerate(self.flist):
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
-      else: f = open(file,'r', encoding='ascii')
+      else: f = open(file,'r')
       print("xyz====",f)
 
       snap = self.read_snapshot(f)
