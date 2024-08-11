@@ -329,7 +329,7 @@ class dump:
     # if new snapshot time stamp already exists, read next snapshot
 
     while 1:
-      f = open(self.flist[self.nextfile],'rb',, encoding='utf-8')
+      f = open(self.flist[self.nextfile],'rb', encoding='utf-8')
       f.seek(self.eof)
       snap = self.read_snapshot(f)
       if not snap:
