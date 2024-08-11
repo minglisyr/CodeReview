@@ -290,6 +290,7 @@ class dump:
     self.fileNums.sort()
     self.cull()
     self.nsnaps = len(self.snaps)
+    print('xxx=', self.nsnaps)
     #print("read %d snapshots" % self.nsnaps)
 
     # select all timesteps and atoms
@@ -448,7 +449,6 @@ class dump:
 
   def delete(self):
     ndel = i = 0
-    print("self.nsnaps=", self.nsnaps)
     while i < self.nsnaps:
       if not self.snaps[i].tselect:
         del self.fileNums[i]
