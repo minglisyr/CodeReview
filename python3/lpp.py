@@ -209,6 +209,7 @@ def lppWorker(input):
 
     if timesteps != "all":
       tsteps = timesteps.split(",")
+      print("tsteps", tsteps)
       filterstring = ""
       j = 1
       for i in tsteps:
@@ -224,8 +225,6 @@ def lppWorker(input):
 
     v = vtk.vtk(d)
     if debugMode: print("\nfileNums: ",d.fileNums,"\n")
-    print("granName=", granName)
-    print("debugMode=", debugMode)
     v.manyGran(granName,fileNos=d.fileNums,output=debugMode)
   except KeyboardInterrupt:
     raise
