@@ -273,7 +273,6 @@ class dump:
       else: f = open(file,'r')
       print("yyy00=",len(self.snaps))
       snap = self.read_snapshot(f)
-      print("yyy11=",len(self.snaps))
       while snap:
         self.snaps.append(snap)
         if outputfl: print(snap.time,end=' ')
