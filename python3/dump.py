@@ -264,13 +264,15 @@ class dump:
     if "output" in kwargs: outputfl = kwargs["output"]
 
     if outputfl: print("reading dump file...")
-    print("xxy======", self.flist)
+
     for i,file in enumerate(self.flist):
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
       else: f = open(file,'r', encoding='ascii')
+      print("xyz====",f)
 
       snap = self.read_snapshot(f)
+      print("xxxcas=======",snap)
       while snap:
         self.snaps.append(snap)
         if outputfl: print(snap.time,end=' ')
