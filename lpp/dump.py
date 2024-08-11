@@ -1008,6 +1008,7 @@ class dump:
 
   def findtime(self,n):
     for i in xrange(self.nsnaps):
+      print(i)
       if self.snaps[i].time == n: return i
     raise Exception("no step %d exists" % n)
 
