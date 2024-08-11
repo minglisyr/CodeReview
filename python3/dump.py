@@ -286,6 +286,7 @@ class dump:
     if outputfl: print()
 
     # sort entries by timestep, cull duplicates
+    print("yyy=",len(self.snaps))
     self.snaps.sort(key = functools.cmp_to_key(self.compare_time))
     print("xxx=",len(self.snaps))
     self.fileNums.sort()
