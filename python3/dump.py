@@ -227,7 +227,7 @@ class dump:
       # check whether to output or not
       if "debugMode" in dictionary: outputfl = dictionary["debugMode"]
 
-      if outputfl: print("number of subprocess:(mark)", os.getpid())
+      if outputfl: print("number of subprocess:", os.getpid())
 
       self.flist = dictionary["filelist"]
       self.multiprocflag = 1
@@ -262,7 +262,7 @@ class dump:
       else: f = open(file,'r')
 
       snap = self.read_snapshot(f)
-      
+
       while snap:
         self.snaps.append(snap)
         if outputfl: print(snap.time,end=' ')
@@ -1133,7 +1133,7 @@ class tselect:
       snap.tselect = 1
     data.nselect = len(data.snaps)
     data.aselect.all()
-    if outputfl: print("%d snapshots selected out of(all) %d" % (data.nselect,data.nsnaps))
+    if outputfl: print("%d snapshots selected out of %d" % (data.nselect,data.nsnaps))
 
   # --------------------------------------------------------------------
 
