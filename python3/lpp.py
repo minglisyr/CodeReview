@@ -224,6 +224,8 @@ def lppWorker(input):
 
     v = vtk.vtk(d)
     if debugMode: print("\nfileNums: ",d.fileNums,"\n")
+    print("granName=", granName)
+    print("debugMode=", debugMode)
     v.manyGran(granName,fileNos=d.fileNums,output=debugMode)
   except KeyboardInterrupt:
     raise
