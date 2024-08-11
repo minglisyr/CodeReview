@@ -448,6 +448,7 @@ class dump:
 
   def delete(self):
     ndel = i = 0
+    print("self.nsnaps=", self.nsnaps)
     while i < self.nsnaps:
       if not self.snaps[i].tselect:
         del self.fileNums[i]

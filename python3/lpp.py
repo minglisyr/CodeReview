@@ -202,9 +202,6 @@ def lppWorker(input):
       filename,file_bb,file_walls = vtk.generateFilename(granName,[time],0)
       if not os.path.isfile(filename):
         shortFlist.append(f)
-        
-  for file in shortFlist:
-    print("shortFlist==", file)
 
   # call dump, vtk, manyGran on shortFlist
   try:
