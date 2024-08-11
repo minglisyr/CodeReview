@@ -1010,7 +1010,6 @@ class dump:
 
   def findtime(self,n):
     for i in range(self.nsnaps):
-      print(i)
       if self.snaps[i].time == n: return i
     raise Exception("no step %d exists" % n)
 
@@ -1146,7 +1145,7 @@ class tselect:
       snap.tselect = 1
     data.nselect = len(data.snaps)
     data.aselect.all()
-    if outputfl: print("%d snapshots selected out of %d" % (data.nselect,data.nsnaps))
+    if outputfl: print("%d snapshots selected out of(all) %d" % (data.nselect,data.nsnaps))
 
   # --------------------------------------------------------------------
 
