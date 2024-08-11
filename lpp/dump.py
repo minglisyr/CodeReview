@@ -235,16 +235,13 @@ class dump:
       self.multiprocflag = 1
       self.increment = 0
       self.read_all(output=outputfl)
-      print("self.flist=", self.flist)
     else: # serial code
       # flist = list of all dump file names
       words = input[0].split()
-      print("words=", words)
       self.flist = []
       for word in words: self.flist += glob.glob(word)
       if len(self.flist) == 0 and len(input) == 1:
         raise Exception("no dump file specified")
-
       if len(input) == 1:
         self.increment = 0
         self.read_all(output=outputfl)
@@ -252,14 +249,10 @@ class dump:
         self.increment = 1
         self.nextfile = 0
         self.eof = 0
-
   # --------------------------------------------------------------------
-
   def read_all(self, **kwargs):
-
     # read all snapshots from each file
     # test for gzipped files
-
     # check whether to output or not
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
@@ -277,7 +270,6 @@ class dump:
         self.fileNums.append(snap.time)
         sys.stdout.flush()
         snap = self.read_snapshot(f)
-        print("snap=",snap)
 
       f.close()
       

@@ -234,8 +234,7 @@ class dump:
       # flist = list of all dump file names
       words = input[0].split()
       self.flist = []
-      for word in words:
-        self.flist += glob.glob(word)
+      for word in words: self.flist += glob.glob(word)
       if len(self.flist) == 0 and len(input) == 1:
         raise Exception("no dump file specified")
       if len(input) == 1:
@@ -248,9 +247,8 @@ class dump:
   # --------------------------------------------------------------------
   def read_all(self, **kwargs):
     # read all snapshots from each file
-    # test for gzipped files    
+    # test for gzipped files
     # check whether to output or not
-
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
 
@@ -265,7 +263,7 @@ class dump:
       snap = self.read_snapshot(f)
       while snap:
         self.snaps.append(snap)
-        if outputfl: print(snap.time, end=' ')
+        if outputfl: print(snap.time,end=' ')
         self.fileNums.append(snap.time)
         sys.stdout.flush()
         snap = self.read_snapshot(f)
@@ -882,6 +880,7 @@ class dump:
     ncol = len(self.snaps[0].atoms[0])
     self.map(ncol+1,str)
     for snap in self.snaps:
+      atoms = snap.atoms
       newatoms = np.zeros((snap.natoms,ncol+1),np.float)
       newatoms[:,0:ncol] = snap.atoms
       snap.atoms = newatoms
