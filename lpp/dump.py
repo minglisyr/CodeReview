@@ -263,7 +263,7 @@ class dump:
     if "output" in kwargs: outputfl = kwargs["output"]
 
     if outputfl: print("reading dump file...")
-
+    print("xxy======", self.flist)
     for i,file in enumerate(self.flist):
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
@@ -284,7 +284,6 @@ class dump:
     # sort entries by timestep, cull duplicates
     print("diagnose1", self.snaps)
     self.snaps.sort(self.compare_time)
-    print("diagnose2", self.snaps)
     self.fileNums.sort()
     self.cull()
     self.nsnaps = len(self.snaps)
