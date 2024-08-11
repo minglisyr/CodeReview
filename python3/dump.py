@@ -212,8 +212,6 @@ class dump:
     self.names = {}
     self.tselect = tselect(self)
     self.aselect = aselect(self)
-    for snap in self.snaps:
-      print("xxsnap=", snap)
     self.atype = "type"
     self.bondflag = 0
     self.bondlist = []
@@ -257,7 +255,9 @@ class dump:
         self.eof = 0
 
   # --------------------------------------------------------------------
-
+  for snap in self.snaps:
+    print("xxsnap=", snap)
+    
   def read_all(self, **kwargs):
     
     # read all snapshots from each file
