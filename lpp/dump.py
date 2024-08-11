@@ -265,18 +265,19 @@ class dump:
     if outputfl: print("reading dump file...")
 
     for i,file in enumerate(self.flist):
+      print('fileIndex',i,'fileName',file)
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
       else: f = open(file,'r')
 
       snap = self.read_snapshot(f)
-      print("xxxcas=======",snap)
       while snap:
         self.snaps.append(snap)
         if outputfl: print(snap.time,end=' ')
         self.fileNums.append(snap.time)
         sys.stdout.flush()
         snap = self.read_snapshot(f)
+        print("snap=",snap)
 
       f.close()
       
@@ -447,6 +448,7 @@ class dump:
     ndel = i = 0
     while i < self.nsnaps:
       if not self.snaps[i].tselect:
+        del self.fileNums[i]
         del self.snaps[i]
         self.nsnaps -= 1
         ndel += 1
