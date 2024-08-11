@@ -190,14 +190,11 @@ d.extra(obj)                               extract bond/tri/line info from obj
 #     xlo,xhi,ylo,yhi,zlo,zhi = box bounds (float)
 #     atoms[i][j] = 2d array of floats, i = 0 to natoms-1, j = 0 to ncols-1
 
-try:
-  import numpy as np
-  oldnumeric = False
-except:
-  import Numeric as np
-  oldnumeric = True
 
-print("oldnumeric=", oldnumeric)
+import numpy as np
+
+
+
 
 try: from DEFAULTS import PIZZA_GUNZIP
 except: PIZZA_GUNZIP = "gunzip"
