@@ -19,7 +19,7 @@ import os
 import functools
 import numpy as np
 
-print("numpy version=",numpy.__version__)
+print("numpy version=",np.__version__)
 
 oneline = "Read, write, manipulate dump files and particle attributes"
 
