@@ -255,10 +255,9 @@ class dump:
         self.eof = 0
 
   # --------------------------------------------------------------------
-  for snap in self.snaps:
-    print("xxsnap=", snap)
-    
   def read_all(self, **kwargs):
+    for snap in self.snaps:
+      print("xxsnap=", snap)
     
     # read all snapshots from each file
     # test for gzipped files
