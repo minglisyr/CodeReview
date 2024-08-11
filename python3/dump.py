@@ -284,7 +284,6 @@ class dump:
     if outputfl: print()
 
     # sort entries by timestep, cull duplicates
-    print("diagnose1", self.snaps)
     self.snaps.sort(key = functools.cmp_to_key(self.compare_time))
     self.fileNums.sort()
     self.cull()
@@ -415,7 +414,6 @@ class dump:
       if snap.natoms:
         words = f.readline().split()
         ncol = len(words)
-        print(snap.natoms,ncol)
         for i in range(1,snap.natoms):
           words += f.readline().split()
         floats = list(map(float,words))
