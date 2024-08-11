@@ -287,10 +287,10 @@ class dump:
 
     # sort entries by timestep, cull duplicates
     self.snaps.sort(key = functools.cmp_to_key(self.compare_time))
+    print("xxx=",len(self.snaps))
     self.fileNums.sort()
     self.cull()
     self.nsnaps = len(self.snaps)
-    print('xxx=', self.nsnaps)
     #print("read %d snapshots" % self.nsnaps)
 
     # select all timesteps and atoms
