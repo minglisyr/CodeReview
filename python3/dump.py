@@ -212,6 +212,9 @@ class dump:
     self.names = {}
     self.tselect = tselect(self)
     self.aselect = aselect(self)
+    print("tselect=", self.tselect)
+    print("aselect=", self.aselect)
+
     self.atype = "type"
     self.bondflag = 0
     self.bondlist = []
@@ -272,8 +275,6 @@ class dump:
       #   f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
       # else: f = open(file,'r')
       f = open(file,'r')
-      print("i==", i)
-      print("file==", file)
       print("yyy00=",len(self.snaps))
       snap = self.read_snapshot(f)
       while snap:
