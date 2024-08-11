@@ -15,7 +15,7 @@ import sys, re, glob, types
 from os import popen
 from math import *             # any function could be used by set()
 import os
-import numpy as np
+
 import functools
 
 oneline = "Read, write, manipulate dump files and particle attributes"
@@ -189,6 +189,13 @@ d.extra(obj)                               extract bond/tri/line info from obj
 #     aselect[i] = 0/1 for each atom
 #     xlo,xhi,ylo,yhi,zlo,zhi = box bounds (float)
 #     atoms[i][j] = 2d array of floats, i = 0 to natoms-1, j = 0 to ncols-1
+
+try:
+  import numpy as np
+  oldnumeric = False
+except:
+  import Numeric as np
+  oldnumeric = True
 
 try: from DEFAULTS import PIZZA_GUNZIP
 except: PIZZA_GUNZIP = "gunzip"
@@ -413,7 +420,8 @@ class dump:
         for i in range(1,snap.natoms):
           words += f.readline().split()
         floats = list(map(float,words))
-        atoms = np.zeros((snap.natoms,ncol),np.float)
+        if oldnumeric: atoms = np.zeros((snap.natoms,ncol),np.Float)
+        else: atoms = np.zeros((snap.natoms,ncol),np.float)
         start = 0
         stop = ncol
         for i in range(snap.natoms):
@@ -881,7 +889,8 @@ class dump:
     self.map(ncol+1,str)
     for snap in self.snaps:
       atoms = snap.atoms
-      newatoms = np.zeros((snap.natoms,ncol+1),np.float)
+      if oldnumeric: newatoms = np.zeros((snap.natoms,ncol+1),np.Float)
+      else: newatoms = np.zeros((snap.natoms,ncol+1),np.float)
       newatoms[:,0:ncol] = snap.atoms
       snap.atoms = newatoms
 
