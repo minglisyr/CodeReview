@@ -284,7 +284,7 @@ class dump:
 
     # sort entries by timestep, cull duplicates
     print("diagnose1", self.snaps)
-    self.snaps.sort(key = functools.cmp_to_key(self.compare_time)
+    self.snaps.sort(key = functools.cmp_to_key(self.compare_time))
     self.fileNums.sort()
     self.cull()
     self.nsnaps = len(self.snaps)
