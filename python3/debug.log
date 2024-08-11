@@ -1,13 +1,14 @@
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 8 --> 8 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 6046
+number of process: 6128
 Working with 8 processes...
 dumpInput: [{'filelist': ['particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
 calculating chunks 1 - 1 of 1
 input of this "map":  [{'filelist': ['particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
-number of subprocess: 6054
+number of subprocess: 6136
 reading dump file...
 
+[]
 0 snapshots selected out of 0
 no column assignments made
 0 snapshots deleted
@@ -18,4 +19,4 @@ fileNums:  []
 
 wrote 0 granular snapshots in VTK format
 wrote 1 granular snapshots in VTK format
-time needed: 0.09499073028564453 sec
+time needed: 0.1449129581451416 sec
