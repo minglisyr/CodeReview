@@ -236,7 +236,6 @@ class dump:
       self.flist = []
       for word in words:
         self.flist += glob.glob(word)
-        print("word=", word)
       if len(self.flist) == 0 and len(input) == 1:
         raise Exception("no dump file specified")
       if len(input) == 1:
@@ -257,16 +256,16 @@ class dump:
 
     if outputfl: print("reading dump file...")
     print("xx0=", len(self.snaps))
-    for i,file in enumerate(self.flist):
+    for i, file in enumerate(self.flist):
       # if file[-3:] == ".gz":
       #   f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
       # else: f = open(file,'r')
-      f = open(file,'r')
-      print("yyy00=",len(self.snaps))
+      f = open(file, 'r')
+      print("yyy00=", len(self.snaps))
       snap = self.read_snapshot(f)
       while snap:
         self.snaps.append(snap)
-        if outputfl: print(snap.time,end=' ')
+        if outputfl: print(snap.time, end=' ')
         self.fileNums.append(snap.time)
         sys.stdout.flush()
         snap = self.read_snapshot(f)
