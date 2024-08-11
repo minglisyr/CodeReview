@@ -1141,7 +1141,6 @@ class tselect:
     if "output" in kwargs: outputfl = kwargs["output"]
 
     data = self.data
-    print(data.snaps)
     for snap in data.snaps:
       snap.tselect = 1
     data.nselect = len(data.snaps)
