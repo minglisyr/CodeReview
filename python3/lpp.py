@@ -224,6 +224,7 @@ def lppWorker(input):
 
     v = vtk.vtk(d)
     print("v===", v)
+    print("d==", d)
     if debugMode: print("\nfileNums: ",d.fileNums,"\n")
     v.manyGran(granName,fileNos=d.fileNums,output=debugMode)
   except KeyboardInterrupt:
