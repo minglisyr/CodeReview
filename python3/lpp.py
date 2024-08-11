@@ -166,10 +166,10 @@ def lppWorker(input):
   overwrite = input["overwrite"]
   Nth = input["Nth"]
   timesteps = input["timesteps"]
-  print(flist)
-  flistlen = len(flist)
+
   # generate name of manyGran
   splitfname = flist[0].rsplit(".")
+  print(splitfname)
   if outfileName == "":
     granName = splitfname[len(splitfname)-1]
   elif outfileName.endswith("/"):
