@@ -229,7 +229,7 @@ class dump:
       # check whether to output or not
       if "debugMode" in dictionary: outputfl = dictionary["debugMode"]
 
-      if outputfl: print("number of subprocess:", os.getpid())
+      if outputfl: print("number of subprocess:(mark)", os.getpid())
 
       self.flist = dictionary["filelist"]
       self.multiprocflag = 1
