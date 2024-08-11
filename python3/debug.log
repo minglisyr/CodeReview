@@ -1,15 +1,30 @@
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 8 --> 8 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 7664
+number of process: 7751
 Working with 8 processes...
 dumpInput: [{'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
 calculating chunks 1 - 8 of 13
 input of this "map":  [{'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
-number of subprocess: 7672
+number of subprocess: 7759
 reading dump file...
-xxy====== ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts']
-0 
-diagnose1 [<dump.Snap object at 0x7f625f8d9570>]
+xyz==== <_io.TextIOWrapper name='particles_0.liggghts' mode='r' encoding='ascii'>
+xxxcas======= <dump.Snap object at 0x7f6c722d5570>
+0 xyz==== <_io.TextIOWrapper name='particles_1000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_10000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_10500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_11000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_11500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_12000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_12500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+
+diagnose1 [<dump.Snap object at 0x7f6c722d5570>]
 1 snapshots selected out of(all) 1
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -20,9 +35,24 @@ fileNums:  [0]
 
 0 
 wrote 1 granular snapshots in VTK format
-number of subprocess: 7673
+number of subprocess: 7760
 reading dump file...
-xxy====== ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_13000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_13500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_14000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_14500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_1500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_15000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_15500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_16000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -34,9 +64,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7674
+number of subprocess: 7761
 reading dump file...
-xxy====== ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_16500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_17000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_17500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_18000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_18500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_19000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_19500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_2000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -48,9 +93,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7675
+number of subprocess: 7763
 reading dump file...
-xxy====== ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_24000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_24500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_2500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_25000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_25500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_26000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_26500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_27000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -62,9 +122,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7676
+number of subprocess: 7762
 reading dump file...
-xxy====== ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_20000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_20500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_21000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_21500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_22000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_22500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_23000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_23500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -76,9 +151,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7677
+number of subprocess: 7764
 reading dump file...
-xxy====== ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_27500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_28000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_28500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_29000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_29500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_3000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_30000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_30500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -90,9 +180,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7678
+number of subprocess: 7766
 reading dump file...
-xxy====== ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_3500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_35000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_35500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_36000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_36500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_37000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_37500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_38000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -104,9 +209,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7679
+number of subprocess: 7765
 reading dump file...
-xxy====== ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_31000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_31500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_32000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_32500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_33000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_33500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_34000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_34500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -120,9 +240,18 @@ fileNums:  []
 wrote 0 granular snapshots in VTK format
 calculating chunks 9 - 13 of 13
 input of this "map":  [{'filelist': ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
-number of subprocess: 7687
+number of subprocess: 7774
 reading dump file...
-xxy====== ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_7500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_8000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_8500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_9000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_9500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -134,9 +263,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7686
+number of subprocess: 7773
 reading dump file...
-xxy====== ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_49500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_5000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_50000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_5500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_6000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_6500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_7000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -148,9 +292,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7683
+number of subprocess: 7771
 reading dump file...
-xxy====== ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_42000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_42500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_43000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_43500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_44000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_44500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_4500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_45000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -162,9 +321,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7684
+number of subprocess: 7770
 reading dump file...
-xxy====== ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_38500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_39000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_39500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_4000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_40000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_40500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_41000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_41500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -176,9 +350,24 @@ fileNums:  []
 
 
 wrote 0 granular snapshots in VTK format
-number of subprocess: 7685
+number of subprocess: 7772
 reading dump file...
-xxy====== ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts']
+xyz==== <_io.TextIOWrapper name='particles_45500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_46000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_46500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_47000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_47500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_48000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_48500.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
+xyz==== <_io.TextIOWrapper name='particles_49000.liggghts' mode='r' encoding='ascii'>
+xxxcas======= 0
 
 diagnose1 []
 0 snapshots selected out of(all) 0
@@ -191,4 +380,4 @@ fileNums:  []
 
 wrote 0 granular snapshots in VTK format
 wrote 101 granular snapshots in VTK format
-time needed: 0.6741559505462646 sec
+time needed: 0.4161102771759033 sec
