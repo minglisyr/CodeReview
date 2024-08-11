@@ -271,6 +271,7 @@ class dump:
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
       else: f = open(file,'r')
+      print("yyy00=",len(self.snaps))
       snap = self.read_snapshot(f)
       print("yyy11=",len(self.snaps))
       while snap:
@@ -279,8 +280,6 @@ class dump:
         self.fileNums.append(snap.time)
         sys.stdout.flush()
         snap = self.read_snapshot(f)
-
-      print("yyy33=",len(self.snaps))
 
       f.close()
       
