@@ -257,7 +257,7 @@ class dump:
   # --------------------------------------------------------------------
 
   def read_all(self, **kwargs):
-
+    print("yyy123=",len(self.snaps))
     # read all snapshots from each file
     # test for gzipped files
     
