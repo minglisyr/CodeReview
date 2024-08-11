@@ -270,7 +270,6 @@ class dump:
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
       else: f = open(file,'r')
-
       snap = self.read_snapshot(f)
       while snap:
         self.snaps.append(snap)
