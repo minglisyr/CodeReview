@@ -260,7 +260,7 @@ class dump:
 
     # read all snapshots from each file
     # test for gzipped files
-    print("yyy=1",len(self.snaps))
+    print("yyy11=",len(self.snaps))
     # check whether to output or not
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
