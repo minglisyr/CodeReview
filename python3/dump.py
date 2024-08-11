@@ -285,6 +285,7 @@ class dump:
     # sort entries by timestep, cull duplicates
 
     self.snaps.sort(key = functools.cmp_to_key(self.compare_time))
+    print("diagnose", self.snaps)
     self.fileNums.sort()
     self.cull()
     self.nsnaps = len(self.snaps)
@@ -293,7 +294,7 @@ class dump:
     # select all timesteps and atoms
 
     self.tselect.all(output=outputfl)
-
+    print('xxyyz=', self.tselect)
     # set default names for atom columns if file wasn't self-describing
 
     if len(self.snaps) == 0:
