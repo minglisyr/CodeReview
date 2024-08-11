@@ -414,8 +414,8 @@ class dump:
 
       if snap.natoms:
         words = f.readline().split()
-        print("words====", words)
         ncol = len(words)
+        print(snap.natoms,ncol)
         for i in range(1,snap.natoms):
           words += f.readline().split()
         floats = list(map(float,words))
