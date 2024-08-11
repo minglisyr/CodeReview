@@ -1,91 +1,80 @@
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 8 --> 8 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 8069
+number of process: 8159
 Working with 8 processes...
 dumpInput: [{'output': '', 'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
 calculating chunks 1 - 8 of 13
 input of this "map":  [{'output': '', 'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 8077
+number of subprocess: 8167
 reading dump file...
-xxxcas======= <dump.Snap instance at 0x7f23d346f8c0>
-0 644 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fa00>
-1000 number of subprocess: 8084
+fileIndex 0 fileName particles_0.liggghts
+0 snap= 0
+fileIndex 1 fileName particles_1000.liggghts
+1000 number of subprocess: 8174
 reading dump file...
-1289 13
-xxxcas======= <dump.Snap instance at 0x7f23d346f910>
-3500 number of subprocess: 8078
+fileIndex 0 fileName particles_3500.liggghts
+3500 number of subprocess: 8168
 reading dump file...
-2578 13
-xxxcas======= <dump.Snap instance at 0x7f23d346f8c0>
-13000 2578 13
-xxxcas======= <dump.Snap instance at 0x7f23d346faf0>
-10000 number of subprocess: 8079
+fileIndex 0 fileName particles_13000.liggghts
+13000 snap= 0
+fileIndex 2 fileName particles_10000.liggghts
+10000 number of subprocess: 8169
 reading dump file...
-3223 13
-xxxcas======= <dump.Snap instance at 0x7f23d346f8c0>
-16500 number of subprocess: 8080
+fileIndex 0 fileName particles_16500.liggghts
+16500 number of subprocess: 8170
 reading dump file...
-4513 13
-xxxcas======= <dump.Snap instance at 0x7f23d346f8c0>
-20000 number of subprocess: 8081
+fileIndex 0 fileName particles_20000.liggghts
+20000 number of subprocess: 8171
 reading dump file...
-5158 13
-xxxcas======= <dump.Snap instance at 0x7f23d346f8c0>
-24000 number of subprocess: 8082
+fileIndex 0 fileName particles_24000.liggghts
+24000 snap= 0
+fileIndex 3 fileName particles_10500.liggghts
+10500 snap= 0
+fileIndex 1 fileName particles_13500.liggghts
+13500 number of subprocess: 8172
 reading dump file...
-5802 13
-xxxcas======= <dump.Snap instance at 0x7f23d346f8c0>
-27500 3223 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fa50>
-13500 2578 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fbe0>
-10500 number of subprocess: 8083
+fileIndex 0 fileName particles_27500.liggghts
+27500 number of subprocess: 8173
 reading dump file...
-6446 13
-xxxcas======= <dump.Snap instance at 0x7f23d346f8c0>
-31000 3868 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fa50>
-17000 2578 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fcd0>
-11000 7090 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fa50>
-35000 3223 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fb40>
-14000 4513 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fa50>
-20500 5158 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fa50>
-24500 3868 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fb40>
-17500 2578 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fdc0>
-11500 644 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fb40>
-2500 5802 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fa50>
-28000 3223 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fc30>
-14500 644 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fd20>
-1500 6446 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fa50>
-31500 4513 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fb40>
-21000 2578 13
-xxxcas======= <dump.Snap instance at 0x7f23d346feb0>
-12000 3868 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fc30>
-18000 3223 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fe10>
-15000 7090 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fb40>
-35500 2578 13
-xxxcas======= <dump.Snap instance at 0x7f23d346ffa0>
-12500 5158 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fc30>
-25000 
-diagnose1 [<dump.Snap instance at 0x7f23d346f8c0>, <dump.Snap instance at 0x7f23d346fa00>, <dump.Snap instance at 0x7f23d346faf0>, <dump.Snap instance at 0x7f23d346fbe0>, <dump.Snap instance at 0x7f23d346fcd0>, <dump.Snap instance at 0x7f23d346fdc0>, <dump.Snap instance at 0x7f23d346feb0>, <dump.Snap instance at 0x7f23d346ffa0>]
+fileIndex 0 fileName particles_31000.liggghts
+31000 snap= 0
+fileIndex 1 fileName particles_17000.liggghts
+17000 snap= 0
+fileIndex 4 fileName particles_11000.liggghts
+11000 snap= 0
+fileIndex 2 fileName particles_14000.liggghts
+14000 snap= 0
+fileIndex 1 fileName particles_35000.liggghts
+35000 snap= 0
+fileIndex 1 fileName particles_20500.liggghts
+20500 snap= 0
+fileIndex 5 fileName particles_11500.liggghts
+11500 snap= 0
+fileIndex 1 fileName particles_24500.liggghts
+24500 snap= 0
+fileIndex 2 fileName particles_2500.liggghts
+2500 snap= 0
+fileIndex 2 fileName particles_17500.liggghts
+17500 snap= 0
+fileIndex 1 fileName particles_28000.liggghts
+28000 snap= 0
+fileIndex 3 fileName particles_14500.liggghts
+14500 snap= 0
+fileIndex 4 fileName particles_1500.liggghts
+1500 snap= 0
+fileIndex 6 fileName particles_12000.liggghts
+12000 snap= 0
+fileIndex 1 fileName particles_31500.liggghts
+31500 snap= 0
+fileIndex 2 fileName particles_21000.liggghts
+21000 snap= 0
+fileIndex 3 fileName particles_18000.liggghts
+18000 snap= 0
+fileIndex 7 fileName particles_12500.liggghts
+12500 snap= 0
+fileIndex 5 fileName particles_15000.liggghts
+15000 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -94,30 +83,34 @@ dump is already unscaled
 
 fileNums:  [0, 1000, 10000, 10500, 11000, 11500, 12000, 12500] 
 
-0 5802 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fb40>
-28500 4513 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fc30>
-21500 3868 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fd20>
-18500 1000 3223 13
-xxxcas======= <dump.Snap instance at 0x7f23d346ff00>
-15500 6446 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fb40>
-32000 5158 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fd20>
-25500 4513 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fd20>
-22000 3223 13
-xxxcas======= <dump.Snap instance at 0x7f23d3474050>
-16000 3868 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fe10>
-19000 7090 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fc30>
-36000 5802 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fc30>
-29000 
-diagnose1 [<dump.Snap instance at 0x7f23d346f8c0>, <dump.Snap instance at 0x7f23d346fa50>, <dump.Snap instance at 0x7f23d346fb40>, <dump.Snap instance at 0x7f23d346fc30>, <dump.Snap instance at 0x7f23d346fd20>, <dump.Snap instance at 0x7f23d346fe10>, <dump.Snap instance at 0x7f23d346ff00>, <dump.Snap instance at 0x7f23d3474050>]
+0 snap= 0
+fileIndex 2 fileName particles_35500.liggghts
+35500 snap= 0
+fileIndex 3 fileName particles_25000.liggghts
+25000 snap= 0
+fileIndex 2 fileName particles_28500.liggghts
+28500 snap= 0
+fileIndex 6 fileName particles_15500.liggghts
+15500 1000 snap= 0
+fileIndex 3 fileName particles_21500.liggghts
+21500 snap= 0
+fileIndex 4 fileName particles_18500.liggghts
+18500 snap= 0
+fileIndex 2 fileName particles_32000.liggghts
+32000 snap= 0
+fileIndex 4 fileName particles_25500.liggghts
+25500 snap= 0
+fileIndex 7 fileName particles_16000.liggghts
+16000 snap= 0
+fileIndex 3 fileName particles_36000.liggghts
+36000 snap= 0
+fileIndex 4 fileName particles_22000.liggghts
+22000 snap= 0
+fileIndex 3 fileName particles_29000.liggghts
+29000 snap= 0
+fileIndex 5 fileName particles_19000.liggghts
+19000 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -126,30 +119,30 @@ dump is already unscaled
 
 fileNums:  [1500, 13000, 13500, 14000, 14500, 15000, 15500, 16000] 
 
-1500 6446 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fc30>
-32500 5158 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fe10>
-26000 4513 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fe10>
-22500 10000 5802 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fd20>
-29500 644 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fe10>
-3000 3868 13
-xxxcas======= <dump.Snap instance at 0x7f23d346ff00>
-19500 7090 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fd20>
-36500 644 13
-xxxcas======= <dump.Snap instance at 0x7f23d3474050>
-2000 4513 13
-xxxcas======= <dump.Snap instance at 0x7f23d346ff00>
-23000 5158 13
-xxxcas======= <dump.Snap instance at 0x7f23d346ff00>
-26500 6446 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fd20>
-33000 13000 
-diagnose1 [<dump.Snap instance at 0x7f23d346f8c0>, <dump.Snap instance at 0x7f23d346fa50>, <dump.Snap instance at 0x7f23d346fb40>, <dump.Snap instance at 0x7f23d346fc30>, <dump.Snap instance at 0x7f23d346fd20>, <dump.Snap instance at 0x7f23d346fe10>, <dump.Snap instance at 0x7f23d346ff00>, <dump.Snap instance at 0x7f23d3474050>]
+1500 10000 snap= 0
+fileIndex 3 fileName particles_32500.liggghts
+32500 snap= 0
+fileIndex 5 fileName particles_26000.liggghts
+26000 snap= 0
+fileIndex 5 fileName particles_22500.liggghts
+22500 snap= 0
+fileIndex 4 fileName particles_29500.liggghts
+29500 snap= 0
+fileIndex 5 fileName particles_3000.liggghts
+3000 snap= 0
+fileIndex 4 fileName particles_36500.liggghts
+36500 snap= 0
+fileIndex 6 fileName particles_19500.liggghts
+19500 snap= 0
+fileIndex 7 fileName particles_2000.liggghts
+2000 snap= 0
+fileIndex 6 fileName particles_23000.liggghts
+23000 snap= 0
+fileIndex 6 fileName particles_26500.liggghts
+26500 13000 snap= 0
+fileIndex 4 fileName particles_33000.liggghts
+33000 10500 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -158,18 +151,16 @@ dump is already unscaled
 
 fileNums:  [2000, 16500, 17000, 17500, 18000, 18500, 19000, 19500] 
 
-2000 10500 5158 13
-xxxcas======= <dump.Snap instance at 0x7f23d3474050>
-23500 6446 13
-xxxcas======= <dump.Snap instance at 0x7f23d346ff00>
-30000 5802 13
-xxxcas======= <dump.Snap instance at 0x7f23d3475050>
-27000 7734 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fe10>
-37000 7090 13
-xxxcas======= <dump.Snap instance at 0x7f23d346fe10>
-33500 
-diagnose1 [<dump.Snap instance at 0x7f23d346f8c0>, <dump.Snap instance at 0x7f23d346fa50>, <dump.Snap instance at 0x7f23d346fb40>, <dump.Snap instance at 0x7f23d346fc30>, <dump.Snap instance at 0x7f23d346fd20>, <dump.Snap instance at 0x7f23d346fe10>, <dump.Snap instance at 0x7f23d346ff00>, <dump.Snap instance at 0x7f23d3475050>]
+2000 snap= 0
+fileIndex 6 fileName particles_30000.liggghts
+30000 snap= 0
+fileIndex 7 fileName particles_23500.liggghts
+23500 snap= 0
+fileIndex 7 fileName particles_27000.liggghts
+27000 snap= 0
+fileIndex 5 fileName particles_37000.liggghts
+37000 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -178,14 +169,12 @@ dump is already unscaled
 
 fileNums:  [2500, 24000, 24500, 25000, 25500, 26000, 26500, 27000] 
 
-2500 11000 6446 13
-xxxcas======= <dump.Snap instance at 0x7f23d3475050>
-30500 13500 16500 7734 13
-xxxcas======= <dump.Snap instance at 0x7f23d346ff00>
-37500 7090 13
-xxxcas======= <dump.Snap instance at 0x7f23d346ff00>
-34000 
-diagnose1 [<dump.Snap instance at 0x7f23d346f8c0>, <dump.Snap instance at 0x7f23d346fa50>, <dump.Snap instance at 0x7f23d346fb40>, <dump.Snap instance at 0x7f23d346fc30>, <dump.Snap instance at 0x7f23d346fd20>, <dump.Snap instance at 0x7f23d346fe10>, <dump.Snap instance at 0x7f23d346ff00>, <dump.Snap instance at 0x7f23d3475050>]
+2500 11000 snap= 0
+fileIndex 5 fileName particles_33500.liggghts
+33500 snap= 0
+fileIndex 7 fileName particles_30500.liggghts
+30500 13500 16500 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -194,8 +183,12 @@ dump is already unscaled
 
 fileNums:  [3000, 27500, 28000, 28500, 29000, 29500, 30000, 30500] 
 
-3000 11500 
-diagnose1 [<dump.Snap instance at 0x7f23d346f8c0>, <dump.Snap instance at 0x7f23d346fa50>, <dump.Snap instance at 0x7f23d346fb40>, <dump.Snap instance at 0x7f23d346fc30>, <dump.Snap instance at 0x7f23d346fd20>, <dump.Snap instance at 0x7f23d346fe10>, <dump.Snap instance at 0x7f23d346ff00>, <dump.Snap instance at 0x7f23d3474050>]
+3000 snap= 0
+fileIndex 6 fileName particles_37500.liggghts
+37500 snap= 0
+fileIndex 6 fileName particles_34000.liggghts
+34000 11500 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -204,12 +197,12 @@ dump is already unscaled
 
 fileNums:  [20000, 20500, 21000, 21500, 22000, 22500, 23000, 23500] 
 
-20000 7734 13
-xxxcas======= <dump.Snap instance at 0x7f23d3476050>
-38000 7090 13
-xxxcas======= <dump.Snap instance at 0x7f23d3475050>
-34500 14000 17000 12000 24000 
-diagnose1 [<dump.Snap instance at 0x7f23d346f910>, <dump.Snap instance at 0x7f23d346fa50>, <dump.Snap instance at 0x7f23d346fb40>, <dump.Snap instance at 0x7f23d346fc30>, <dump.Snap instance at 0x7f23d346fd20>, <dump.Snap instance at 0x7f23d346fe10>, <dump.Snap instance at 0x7f23d346ff00>, <dump.Snap instance at 0x7f23d3476050>]
+20000 17000 14000 snap= 0
+fileIndex 7 fileName particles_38000.liggghts
+38000 24000 12000 snap= 0
+fileIndex 7 fileName particles_34500.liggghts
+34500 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -218,8 +211,8 @@ dump is already unscaled
 
 fileNums:  [3500, 35000, 35500, 36000, 36500, 37000, 37500, 38000] 
 
-3500 14500 20500 12500 27500 17500 15000 24500 
-diagnose1 [<dump.Snap instance at 0x7f23d346f8c0>, <dump.Snap instance at 0x7f23d346fa50>, <dump.Snap instance at 0x7f23d346fb40>, <dump.Snap instance at 0x7f23d346fc30>, <dump.Snap instance at 0x7f23d346fd20>, <dump.Snap instance at 0x7f23d346fe10>, <dump.Snap instance at 0x7f23d346ff00>, <dump.Snap instance at 0x7f23d3475050>]
+3500 20500 12500 17500 14500 27500 24500 15000 21000 18000 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -228,7 +221,7 @@ dump is already unscaled
 
 fileNums:  [31000, 31500, 32000, 32500, 33000, 33500, 34000, 34500] 
 
-31000 21000 35000 18000 15500 28000 25000 21500 18500 16000 31500 28500 35500 19000 22000 25500 32000 19500 22500 29000 26000 36000 23000 32500 29500 26500 23500 36500 30000 33000 27000 37000 30500 33500 37500 34000 38000 34500 
+31000 35000 15500 28000 25000 18500 21500 16000 31500 19000 28500 25500 35500 22000 19500 22500 26000 32000 29000 36000 23000 26500 29500 32500 36500 23500 27000 30000 33000 37000 30500 33500 37500 34000 38000 34500 
 wrote 8 granular snapshots in VTK format
 
 wrote 8 granular snapshots in VTK format
@@ -246,40 +239,41 @@ wrote 8 granular snapshots in VTK format
 wrote 8 granular snapshots in VTK format
 calculating chunks 9 - 13 of 13
 input of this "map":  [{'output': '', 'filelist': ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 8092
+number of subprocess: 8183
 reading dump file...
-1933 13
-xxxcas======= <dump.Snap instance at 0x7f23d3479f00>
-7500 1933 13
-xxxcas======= <dump.Snap instance at 0x7f23d34800f0>
-8000 1933 13
-xxxcas======= <dump.Snap instance at 0x7f23d34801e0>
-8500 1933 13
-xxxcas======= <dump.Snap instance at 0x7f23d34802d0>
-9000 number of subprocess: 8091
+fileIndex 0 fileName particles_7500.liggghts
+7500 snap= 0
+fileIndex 1 fileName particles_8000.liggghts
+8000 snap= 0
+fileIndex 2 fileName particles_8500.liggghts
+8500 number of subprocess: 8179
 reading dump file...
-9667 13
-xxxcas======= <dump.Snap instance at 0x7f23d3479f00>
-49500 644 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f0f0>
-500 number of subprocess: 8090
+fileIndex 0 fileName particles_38500.liggghts
+38500 snap= 0
+fileIndex 3 fileName particles_9000.liggghts
+9000 number of subprocess: 8181
 reading dump file...
-9023 13
-xxxcas======= <dump.Snap instance at 0x7f23d3479f00>
-45500 1933 13
-xxxcas======= <dump.Snap instance at 0x7f23d34803c0>
-9500 1289 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f1e0>
-5000 number of subprocess: 8088
+fileIndex 0 fileName particles_45500.liggghts
+45500 number of subprocess: 8180
 reading dump file...
-7734 13
-xxxcas======= <dump.Snap instance at 0x7f23d3479f00>
-38500 number of subprocess: 8089
+fileIndex 0 fileName particles_42000.liggghts
+42000 number of subprocess: 8182
 reading dump file...
-8379 13
-xxxcas======= <dump.Snap instance at 0x7f23d3479f00>
-42000 
-diagnose1 [<dump.Snap instance at 0x7f23d3479f00>, <dump.Snap instance at 0x7f23d34800f0>, <dump.Snap instance at 0x7f23d34801e0>, <dump.Snap instance at 0x7f23d34802d0>, <dump.Snap instance at 0x7f23d34803c0>]
+fileIndex 0 fileName particles_49500.liggghts
+49500 snap= 0
+fileIndex 4 fileName particles_9500.liggghts
+9500 snap= 0
+fileIndex 1 fileName particles_500.liggghts
+500 snap= 0
+fileIndex 2 fileName particles_5000.liggghts
+5000 snap= 0
+fileIndex 1 fileName particles_39000.liggghts
+39000 snap= 0
+fileIndex 1 fileName particles_46000.liggghts
+46000 snap= 0
+fileIndex 1 fileName particles_42500.liggghts
+42500 snap= 0
+
 5 snapshots selected out of(all) 5
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -288,28 +282,26 @@ dump is already unscaled
 
 fileNums:  [7500, 8000, 8500, 9000, 9500] 
 
-7500 10312 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f2d0>
-50000 9023 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f0f0>
-46000 8379 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f0f0>
-42500 1289 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f3c0>
-5500 8000 7734 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f0f0>
-39000 1289 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f4b0>
-6000 1289 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f5a0>
-6500 1933 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f690>
-7000 8500 9023 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f1e0>
-46500 8379 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f1e0>
-43000 
-diagnose1 [<dump.Snap instance at 0x7f23d3479f00>, <dump.Snap instance at 0x7f23d347f0f0>, <dump.Snap instance at 0x7f23d347f1e0>, <dump.Snap instance at 0x7f23d347f2d0>, <dump.Snap instance at 0x7f23d347f3c0>, <dump.Snap instance at 0x7f23d347f4b0>, <dump.Snap instance at 0x7f23d347f5a0>, <dump.Snap instance at 0x7f23d347f690>]
+7500 snap= 0
+fileIndex 2 fileName particles_39500.liggghts
+39500 snap= 0
+fileIndex 3 fileName particles_50000.liggghts
+50000 snap= 0
+fileIndex 3 fileName particles_4000.liggghts
+4000 snap= 0
+fileIndex 4 fileName particles_5500.liggghts
+5500 snap= 0
+fileIndex 5 fileName particles_6000.liggghts
+6000 snap= 0
+fileIndex 2 fileName particles_46500.liggghts
+46500 snap= 0
+fileIndex 6 fileName particles_6500.liggghts
+6500 8000 snap= 0
+fileIndex 2 fileName particles_43000.liggghts
+43000 snap= 0
+fileIndex 7 fileName particles_7000.liggghts
+7000 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -318,48 +310,32 @@ dump is already unscaled
 
 fileNums:  [500, 5000, 5500, 6000, 6500, 7000, 49500, 50000] 
 
-500 7734 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f1e0>
-39500 1289 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f2d0>
-4000 9000 5000 9023 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f2d0>
-43500 5500 9500 8379 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f3c0>
-40000 9667 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f2d0>
-47000 6000 9023 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f3c0>
-44000 6500 8379 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f4b0>
-40500 9667 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f3c0>
-47500 7000 9023 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f4b0>
-44500 1289 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f5a0>
-4500 9667 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f4b0>
-48000 8379 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f5a0>
-41000 9023 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f690>
-45000 8379 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f690>
-41500 9667 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f5a0>
-48500 
-diagnose1 [<dump.Snap instance at 0x7f23d3479f00>, <dump.Snap instance at 0x7f23d347f0f0>, <dump.Snap instance at 0x7f23d347f1e0>, <dump.Snap instance at 0x7f23d347f2d0>, <dump.Snap instance at 0x7f23d347f3c0>, <dump.Snap instance at 0x7f23d347f4b0>, <dump.Snap instance at 0x7f23d347f5a0>, <dump.Snap instance at 0x7f23d347f690>]
-8 snapshots selected out of(all) 8
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-8 snapshots remaining
+500 snap= 0
+fileIndex 3 fileName particles_47000.liggghts
+47000 snap= 0
+fileIndex 4 fileName particles_40000.liggghts
+40000 8500 5000 snap= 0
+fileIndex 3 fileName particles_43500.liggghts
+43500 5500 6000 snap= 0
+fileIndex 4 fileName particles_47500.liggghts
+47500 snap= 0
+fileIndex 5 fileName particles_40500.liggghts
+40500 9000 6500 snap= 0
+fileIndex 4 fileName particles_44000.liggghts
+44000 7000 snap= 0
+fileIndex 6 fileName particles_41000.liggghts
+41000 snap= 0
+fileIndex 5 fileName particles_48000.liggghts
+48000 9500 snap= 0
+fileIndex 7 fileName particles_41500.liggghts
+41500 snap= 0
+fileIndex 5 fileName particles_44500.liggghts
+44500 snap= 0
+fileIndex 6 fileName particles_4500.liggghts
+4500 snap= 0
+fileIndex 6 fileName particles_48500.liggghts
+48500 snap= 0
 
-fileNums:  [4500, 42000, 42500, 43000, 43500, 44000, 44500, 45000] 
-
-4500 
-diagnose1 [<dump.Snap instance at 0x7f23d3479f00>, <dump.Snap instance at 0x7f23d347f0f0>, <dump.Snap instance at 0x7f23d347f1e0>, <dump.Snap instance at 0x7f23d347f2d0>, <dump.Snap instance at 0x7f23d347f3c0>, <dump.Snap instance at 0x7f23d347f4b0>, <dump.Snap instance at 0x7f23d347f5a0>, <dump.Snap instance at 0x7f23d347f690>]
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -368,10 +344,22 @@ dump is already unscaled
 
 fileNums:  [4000, 38500, 39000, 39500, 40000, 40500, 41000, 41500] 
 
-4000 9667 13
-xxxcas======= <dump.Snap instance at 0x7f23d347f690>
-49000 49500 42000 38500 
-diagnose1 [<dump.Snap instance at 0x7f23d3479f00>, <dump.Snap instance at 0x7f23d347f0f0>, <dump.Snap instance at 0x7f23d347f1e0>, <dump.Snap instance at 0x7f23d347f2d0>, <dump.Snap instance at 0x7f23d347f3c0>, <dump.Snap instance at 0x7f23d347f4b0>, <dump.Snap instance at 0x7f23d347f5a0>, <dump.Snap instance at 0x7f23d347f690>]
+4000 snap= 0
+fileIndex 7 fileName particles_45000.liggghts
+45000 snap= 0
+fileIndex 7 fileName particles_49000.liggghts
+49000 snap= 0
+
+8 snapshots selected out of(all) 8
+assigned columns: id type x y z vx vy vz fx fy fz radius mass 
+dump is already unscaled
+0 snapshots deleted
+8 snapshots remaining
+
+fileNums:  [4500, 42000, 42500, 43000, 43500, 44000, 44500, 45000] 
+
+4500 49500 38500 42000 snap= 0
+
 8 snapshots selected out of(all) 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -380,7 +368,7 @@ dump is already unscaled
 
 fileNums:  [45500, 46000, 46500, 47000, 47500, 48000, 48500, 49000] 
 
-45500 50000 39000 42500 46000 39500 43000 46500 40000 43500 47000 40500 44000 41000 47500 44500 41500 48000 45000 48500 49000 
+45500 50000 39000 42500 46000 39500 43000 46500 40000 43500 40500 47000 44000 41000 47500 44500 41500 48000 45000 48500 49000 
 wrote 5 granular snapshots in VTK format
 
 wrote 8 granular snapshots in VTK format
@@ -391,4 +379,4 @@ wrote 8 granular snapshots in VTK format
 
 wrote 8 granular snapshots in VTK format
 wrote 101 granular snapshots in VTK format
-time needed: 2.93593382835 sec
+time needed: 2.93808817863 sec
