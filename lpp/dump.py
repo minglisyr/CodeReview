@@ -595,6 +595,7 @@ class dump:
     pairs = self.names.items()
     values = self.names.values()
     ncol = max(self.names.values()) #len(self.snaps[0].atoms[0])
+    print(ncol)
     str = ""
     for i in xrange(ncol):
       if i in values: str += pairs[values.index(i)][0] + ' '
