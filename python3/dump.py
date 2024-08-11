@@ -367,9 +367,6 @@ class dump:
       snap.time = int(f.readline().split()[0])    # just grab 1st field
       item = f.readline()
       snap.natoms = int(f.readline())
-      print("snap.natoms=", snap.natoms)
-      print("snap.time=", snap.time)
-      print("words=", words)
 
       snap.aselect = np.zeros(snap.natoms)
 
@@ -380,10 +377,6 @@ class dump:
       snap.ylo,snap.yhi = float(words[0]),float(words[1])
       words = f.readline().split()
       snap.zlo,snap.zhi = float(words[0]),float(words[1])
-
-      print("snap.natoms=", snap.natoms)
-      print("snap.time=", snap.time)
-      print("words=", words)
 
       item = f.readline()
       if len(self.names) == 0:
