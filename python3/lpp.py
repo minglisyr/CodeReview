@@ -202,6 +202,9 @@ def lppWorker(input):
       filename,file_bb,file_walls = vtk.generateFilename(granName,[time],0)
       if not os.path.isfile(filename):
         shortFlist.append(f)
+        
+  for file in shortFlist:
+    print("shortFlist==", file)
 
   # call dump, vtk, manyGran on shortFlist
   try:
@@ -220,12 +223,13 @@ def lppWorker(input):
       d.tselect.test(filterstring)
     elif Nth != 1:
       d.tselect.skip(Nth)
+
     d.delete()
 
     v = vtk.vtk(d)
-    print("v===", v)
-    print("d==", d)
+
     if debugMode: print("\nfileNums: ",d.fileNums,"\n")
+
     v.manyGran(granName,fileNos=d.fileNums,output=debugMode)
   except KeyboardInterrupt:
     raise
