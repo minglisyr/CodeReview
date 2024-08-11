@@ -197,6 +197,8 @@ except:
   import Numeric as np
   oldnumeric = True
 
+print("oldnumeric=", oldnumeric)
+
 try: from DEFAULTS import PIZZA_GUNZIP
 except: PIZZA_GUNZIP = "gunzip"
 
