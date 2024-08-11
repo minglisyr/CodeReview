@@ -15,7 +15,7 @@ import sys, re, glob, types
 from os import popen
 from math import *             # any function could be used by set()
 import os
-import numpy as np
+
 import functools
 
 oneline = "Read, write, manipulate dump files and particle attributes"
@@ -190,12 +190,12 @@ d.extra(obj)                               extract bond/tri/line info from obj
 #     xlo,xhi,ylo,yhi,zlo,zhi = box bounds (float)
 #     atoms[i][j] = 2d array of floats, i = 0 to natoms-1, j = 0 to ncols-1
 
-# try:
-#   import numpy as np
-#   oldnumeric = False
-# except:
-#   import Numeric as np
-#   oldnumeric = True
+try:
+  import numpy as np
+  oldnumeric = False
+except:
+  import Numeric as np
+  oldnumeric = True
 
 try: from DEFAULTS import PIZZA_GUNZIP
 except: PIZZA_GUNZIP = "gunzip"
