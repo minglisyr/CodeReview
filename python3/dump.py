@@ -239,6 +239,7 @@ class dump:
     else: # serial code
       # flist = list of all dump file names
       words = input[0].split()
+      print("words=", words)
       self.flist = []
       for word in words: self.flist += glob.glob(word)
       if len(self.flist) == 0 and len(input) == 1:
