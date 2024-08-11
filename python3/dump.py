@@ -236,6 +236,7 @@ class dump:
       self.multiprocflag = 1
       self.increment = 0
       self.read_all(output=outputfl)
+      print("self=", self)
     else: # serial code
       # flist = list of all dump file names
       words = input[0].split()
