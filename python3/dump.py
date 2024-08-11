@@ -270,7 +270,7 @@ class dump:
     for i,file in enumerate(self.flist):
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
-      else: f = open(file,'r', encoding='ascii')
+      else: f = open(file,'r')
 
       snap = self.read_snapshot(f)
       while snap:
@@ -644,8 +644,8 @@ class dump:
 
   def write(self,file,header=1,append=0):
     if len(self.snaps): namestr = self.names2str()
-    if not append: f = open(file,"w", encoding='ascii')
-    else: f = open(file,"a", encoding='ascii')
+    if not append: f = open(file,"w")
+    else: f = open(file,"a")
     for snap in self.snaps:
       if not snap.tselect: continue
       print(snap.time, end=' ')
@@ -687,7 +687,7 @@ class dump:
       sys.stdout.flush()
 
       file = root + "." + str(snap.time)
-      f = open(file,"w", encoding='ascii')
+      f = open(file,"w")
       print("ITEM: TIMESTEP", file=f)
       print(snap.time, file=f)
       print("ITEM: NUMBER OF ATOMS", file=f)
