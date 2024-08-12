@@ -1,28 +1,28 @@
 numpy version= 2.0.1
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 8 --> 8 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 15767
+number of process: 15843
 Working with 8 processes...
 dumpInput: [{'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
 calculating chunks 1 - 8 of 13
 input of this "map":  [{'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
-number of subprocess: 15775
+number of subprocess: 15851
 reading dump file...
-0 1000 number of subprocess: 15782
+0 1000 number of subprocess: 15852
 reading dump file...
-3500 number of subprocess: 15776
+13000 10000 number of subprocess: 15854
 reading dump file...
-13000 10000 number of subprocess: 15777
+20000 10500 13500 11000 number of subprocess: 15858
 reading dump file...
-16500 number of subprocess: 15778
+3500 number of subprocess: 15855
 reading dump file...
-20000 number of subprocess: 15779
+24000 14000 20500 11500 number of subprocess: 15853
 reading dump file...
-24000 13500 10500 number of subprocess: 15780
+16500 12000 number of subprocess: 15856
 reading dump file...
-27500 number of subprocess: 15781
+27500 21000 12500 number of subprocess: 15857
 reading dump file...
-31000 17000 11000 14000 35000 20500 24500 11500 2500 17500 14500 1500 28000 12000 31500 21000 18000 15000 12500 35500 25000 
+31000 14500 1500 
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -33,7 +33,7 @@ fileNums:  [0, 1000, 10000, 10500, 11000, 11500, 12000, 12500]
 
 scalars= {'id': 0, 'type': 1, 'radius': 11, 'mass': 12}
 vectors= {'x': 2, 'v': 5, 'f': 8}
-0 21500 15500 18500 28500 32000 25500 16000 36000 19000 22000 32500 29000 26000 19500 2000 36500 22500 29500 3000 33000 26500 23000 30000 37000 33500 23500 27000 30500 34000 37500 34500 38000 scalars= {'id': 0, 'type': 1, 'radius': 11, 'mass': 12}
+0 21500 17000 15000 24500 22000 2500 15500 35000 17500 28000 16000 18000 31500 22500 28500 18500 23000 25000 19000 35500 29000 23500 32000 19500 2000 29500 36000 3000 32500 25500 30000 36500 26000 33000 30500 26500 37000 33500 34000 27000 37500 34500 38000 scalars= {'id': 0, 'type': 1, 'radius': 11, 'mass': 12}
 vectors= {'x': 2, 'v': 5, 'f': 8}
 
 8 snapshots selected out of 8
@@ -54,17 +54,6 @@ dump is already unscaled
 8 snapshots remaining
 
 fileNums:  [2000, 16500, 17000, 17500, 18000, 18500, 19000, 19500] 
-
-scalars= {'id': 0, 'type': 1, 'radius': 11, 'mass': 12}
-vectors= {'x': 2, 'v': 5, 'f': 8}
-
-8 snapshots selected out of 8
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-8 snapshots remaining
-
-fileNums:  [2500, 24000, 24500, 25000, 25500, 26000, 26500, 27000] 
 
 scalars= {'id': 0, 'type': 1, 'radius': 11, 'mass': 12}
 vectors= {'x': 2, 'v': 5, 'f': 8}
@@ -98,6 +87,28 @@ dump is already unscaled
 8 snapshots remaining
 
 fileNums:  [3500, 35000, 35500, 36000, 36500, 37000, 37500, 38000] 
+
+scalars= {'id': 0, 'type': 1, 'radius': 11, 'mass': 12}
+vectors= {'x': 2, 'v': 5, 'f': 8}
+
+8 snapshots selected out of 8
+assigned columns: id type x y z vx vy vz fx fy fz radius mass 
+dump is already unscaled
+0 snapshots deleted
+8 snapshots remaining
+
+fileNums:  [2500, 24000, 24500, 25000, 25500, 26000, 26500, 27000] 
+
+scalars= {'id': 0, 'type': 1, 'radius': 11, 'mass': 12}
+vectors= {'x': 2, 'v': 5, 'f': 8}
+
+8 snapshots selected out of 8
+assigned columns: id type x y z vx vy vz fx fy fz radius mass 
+dump is already unscaled
+0 snapshots deleted
+8 snapshots remaining
+
+fileNums:  [31000, 31500, 32000, 32500, 33000, 33500, 34000, 34500] 
 
 scalars= {'id': 0, 'type': 1, 'radius': 11, 'mass': 12}
 vectors= {'x': 2, 'v': 5, 'f': 8}
