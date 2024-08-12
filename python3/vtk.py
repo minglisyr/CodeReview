@@ -126,12 +126,10 @@ class vtk:
       fileNos = kwargs["fileNos"]
     else:
       fileNos = range(len(self.data.snaps))
-    print("fileNos=", fileNos)
+    
     # output name
     if len(args) == 0: root = "tmp"
     else: root = args[0]
-
-    print("root=", root)
 
     surfflag = 0
     n = flag = 0
@@ -159,9 +157,13 @@ class vtk:
 
       boundingBox(file_bb,xlo,xhi,ylo,yhi,zlo,zhi)
       nvalues = 0
-      try: nvalues = len(self.data.snaps[0].atoms[0])
-      except: nvalues = 0
+      try: 
+        nvalues = len(self.data.snaps[0].atoms[0])
+      except: 
+        nvalues = 0
+
       particleGran(file,atoms,names,nvalues)
+      print("output=", outputfl)
 
       if outputfl: print(time, end=' ')
       if outputfl: sys.stdout.flush()
