@@ -418,7 +418,7 @@ class dump:
           stop += ncol
       else: 
         logging.warning("Snapshot has 0 atoms")
-        atoms = np.empty((0,len(self.names)))
+        atoms = np.zeros((0,len(self.names)))
       snap.atoms = atoms
       return snap
     except:
