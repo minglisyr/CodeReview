@@ -333,7 +333,7 @@ def particleGran(file, atoms, names, n_values):
             print(atom[vectors['x']], atom[vectors['x']+1], atom[vectors['x']+2], file=f)  # write x,y,z
         print("VERTICES", len(atoms), 2*len(atoms), file=f)
         for i in range(len(atoms)):
-            print(f"1 {i}", file=f)
+            print(1,i, file=f)
         print("POINT_DATA",len(atoms), file=f)
 
         if len(atoms) == 0:
