@@ -146,12 +146,21 @@ class lpp:
       # create job_server
       job_server = multiprocessing.Pool(processes = self.cpunum)
 
-      # map lppWorker on all inputs via job_server (parallelly)
-      job_server.map_async(lppWorker,dumpInput[i:i+self.cpunum]).get(9999999)
+      # # map lppWorker on all inputs via job_server (parallelly)
+      # job_server.map_async(lppWorker,dumpInput[i:i+self.cpunum]).get(9999999)
 
-      # close jobserver
-      job_server.close()
-      job_server.join()
+      # # close jobserver
+      # job_server.close()
+      # job_server.join()
+      try:
+        job_server.map_async(lppWorker, dumpInput[i:i+self.cpunum]).get(9999999)
+      except Exception as e:
+        job_server.terminate()
+        raise e
+      finally:
+        job_server.close()
+        job_server.join()
+
       i += self.cpunum
 
     endtime = time.time()
