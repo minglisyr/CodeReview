@@ -875,8 +875,8 @@ class dump:
     ncol = len(self.snaps[0].atoms[0])
     self.map(ncol+1,str)
     for snap in self.snaps:
-      atoms = snap.atoms
-      newatoms = np.zeros((snap.natoms,ncol+1))
+      atoms = int(snap.atoms)
+      newatoms = np.zeros(atoms,ncol+1)
       newatoms[:,0:ncol] = snap.atoms
       snap.atoms = newatoms
 
