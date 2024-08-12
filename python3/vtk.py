@@ -160,9 +160,9 @@ class vtk:
         nvalues = len(self.data.snaps[0].atoms[0])
       except: 
         nvalues = 0
-
-      particleGran(file,atoms,names,nvalues)
       print("output=", outputfl)
+      particleGran(file,atoms,names,nvalues)
+      
 
       if outputfl: print(time, end=' ')
       if outputfl: sys.stdout.flush()
