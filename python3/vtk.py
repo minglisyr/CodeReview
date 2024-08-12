@@ -331,10 +331,10 @@ def particleGran(file, atoms, names, n_values):
         print("POINTS %d float" % len(atoms), file=f)
         for atom in atoms:
             print(atom[vectors['x']], atom[vectors['x']+1], atom[vectors['x']+2], file=f)  # write x,y,z
-        print(f"VERTICES {len(atoms)} {2*len(atoms)}", file=f)
+        print("VERTICES", len(atoms), 2*len(atoms), file=f)
         for i in range(len(atoms)):
             print(f"1 {i}", file=f)
-        print(f"POINT_DATA {len(atoms)}", file=f)
+        print("POINT_DATA",len(atoms), file=f)
 
         if len(atoms) == 0:
             return
@@ -349,7 +349,7 @@ def particleGran(file, atoms, names, n_values):
                 vectortype = typestr(atoms[0][vectors[key]])
                 vectortype = 'float' if 'float' in vectortype else 'int'
 
-            print(f"VECTORS {key} {vectortype}", file=f)
+            print("VECTORS",key,vectortype, file=f)
             for atom in atoms:
                 print(atom[vectors[key]], atom[vectors[key]+1], atom[vectors[key]+2], file=f)
 
@@ -360,7 +360,7 @@ def particleGran(file, atoms, names, n_values):
                 scalartype = typestr(atoms[0][scalars[key]])
                 scalartype = 'float' if 'float' in scalartype else 'int'
 
-            print(f"SCALARS {key} {scalartype} 1", file=f)
+            print("SCALARS",key,scalartype,1, file=f)
             print("LOOKUP_TABLE default", file=f)
             for atom in atoms:
                 print(atom[scalars[key]], file=f)
