@@ -117,7 +117,6 @@ class vtk:
     # check whether to output or not
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
-    print("output=", outputfl)
 
     # read startIndex (offset for filename due to parallel processing)
     startIndex = 0
