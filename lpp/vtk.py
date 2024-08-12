@@ -125,7 +125,7 @@ class vtk:
       fileNos = kwargs["fileNos"]
     else:
       fileNos = range(len(self.data.snaps))
-
+    
     # output name
     if len(args) == 0: root = "tmp"
     else: root = args[0]
@@ -310,7 +310,7 @@ def typestr(o):
   sp = string.split('\'')
   return sp[1]
 
-def particleGran(file,atoms,names,n_values):
+def particleGran(file,atoms,names,nvalues):
   f = open(file,"w")
 
   # if no atoms are present

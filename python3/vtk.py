@@ -156,14 +156,10 @@ class vtk:
 
       boundingBox(file_bb,xlo,xhi,ylo,yhi,zlo,zhi)
       nvalues = 0
-      try: 
-        nvalues = len(self.data.snaps[0].atoms[0])
-      except: 
-        nvalues = 0
-      
+      try: nvalues = len(self.data.snaps[0].atoms[0])
+      except: nvalues = 0
       particleGran(file,atoms,names,nvalues)
-      
-
+      print("time===", time)
       if outputfl: print(time, end=' ')
       if outputfl: sys.stdout.flush()
       n += 1
@@ -314,7 +310,7 @@ def typestr(o):
   sp = string.split('\'')
   return sp[1]
 
-def particleGran(file,atoms,names,n_values):
+def particleGran(file,atoms,names,nvalues):
   f = open(file,"w")
 
   # if no atoms are present
