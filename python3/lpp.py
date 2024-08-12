@@ -236,8 +236,6 @@ def lppWorker(input):
 
     if debugMode: print("\nfileNums: ",d.fileNums,"\n")
 
-    print("d.fileNums", d.fileNums)
-
     v.manyGran(granName,fileNos=d.fileNums,output=debugMode)
   except KeyboardInterrupt:
     raise

@@ -117,6 +117,7 @@ class vtk:
     # check whether to output or not
     outputfl = True
     if "output" in kwargs: outputfl = kwargs["output"]
+    print("output=", outputfl)
 
     # read startIndex (offset for filename due to parallel processing)
     startIndex = 0
@@ -125,10 +126,12 @@ class vtk:
       fileNos = kwargs["fileNos"]
     else:
       fileNos = range(len(self.data.snaps))
-
+    print("fileNos=", fileNos)
     # output name
     if len(args) == 0: root = "tmp"
     else: root = args[0]
+
+    print("root=", root)
 
     surfflag = 0
     n = flag = 0
