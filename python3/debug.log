@@ -1,28 +1,28 @@
 numpy version= 2.0.1
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 8 --> 8 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 15478
+number of process: 15525
 Working with 8 processes...
 dumpInput: [{'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_38500.liggghts', 'particles_39000.liggghts', 'particles_39500.liggghts', 'particles_4000.liggghts', 'particles_40000.liggghts', 'particles_40500.liggghts', 'particles_41000.liggghts', 'particles_41500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_42000.liggghts', 'particles_42500.liggghts', 'particles_43000.liggghts', 'particles_43500.liggghts', 'particles_44000.liggghts', 'particles_44500.liggghts', 'particles_4500.liggghts', 'particles_45000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_45500.liggghts', 'particles_46000.liggghts', 'particles_46500.liggghts', 'particles_47000.liggghts', 'particles_47500.liggghts', 'particles_48000.liggghts', 'particles_48500.liggghts', 'particles_49000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_49500.liggghts', 'particles_500.liggghts', 'particles_5000.liggghts', 'particles_50000.liggghts', 'particles_5500.liggghts', 'particles_6000.liggghts', 'particles_6500.liggghts', 'particles_7000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_7500.liggghts', 'particles_8000.liggghts', 'particles_8500.liggghts', 'particles_9000.liggghts', 'particles_9500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
 calculating chunks 1 - 8 of 13
 input of this "map":  [{'filelist': ['particles_0.liggghts', 'particles_1000.liggghts', 'particles_10000.liggghts', 'particles_10500.liggghts', 'particles_11000.liggghts', 'particles_11500.liggghts', 'particles_12000.liggghts', 'particles_12500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_13000.liggghts', 'particles_13500.liggghts', 'particles_14000.liggghts', 'particles_14500.liggghts', 'particles_1500.liggghts', 'particles_15000.liggghts', 'particles_15500.liggghts', 'particles_16000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_16500.liggghts', 'particles_17000.liggghts', 'particles_17500.liggghts', 'particles_18000.liggghts', 'particles_18500.liggghts', 'particles_19000.liggghts', 'particles_19500.liggghts', 'particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_20000.liggghts', 'particles_20500.liggghts', 'particles_21000.liggghts', 'particles_21500.liggghts', 'particles_22000.liggghts', 'particles_22500.liggghts', 'particles_23000.liggghts', 'particles_23500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_24000.liggghts', 'particles_24500.liggghts', 'particles_2500.liggghts', 'particles_25000.liggghts', 'particles_25500.liggghts', 'particles_26000.liggghts', 'particles_26500.liggghts', 'particles_27000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_27500.liggghts', 'particles_28000.liggghts', 'particles_28500.liggghts', 'particles_29000.liggghts', 'particles_29500.liggghts', 'particles_3000.liggghts', 'particles_30000.liggghts', 'particles_30500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_31000.liggghts', 'particles_31500.liggghts', 'particles_32000.liggghts', 'particles_32500.liggghts', 'particles_33000.liggghts', 'particles_33500.liggghts', 'particles_34000.liggghts', 'particles_34500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_3500.liggghts', 'particles_35000.liggghts', 'particles_35500.liggghts', 'particles_36000.liggghts', 'particles_36500.liggghts', 'particles_37000.liggghts', 'particles_37500.liggghts', 'particles_38000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
-number of subprocess: 15486
+number of subprocess: 15533
 reading dump file...
-0 1000 number of subprocess: 15493
+0 1000 number of subprocess: 15540
 reading dump file...
-3500 number of subprocess: 15489
+3500 number of subprocess: 15534
 reading dump file...
-20000 number of subprocess: 15487
+13000 number of subprocess: 15535
 reading dump file...
-13000 number of subprocess: 15490
+16500 10000 number of subprocess: 15536
 reading dump file...
-24000 10000 number of subprocess: 15488
+20000 10500 13500 number of subprocess: 15537
 reading dump file...
-16500 10500 17000 20500 13500 24500 17500 2500 21000 11000 14000 number of subprocess: 15491
+24000 number of subprocess: 15538
 reading dump file...
-27500 number of subprocess: 15492
+27500 17000 number of subprocess: 15539
 reading dump file...
-31000 18000 21500 35000 11500 18500 28000 14500 12000 22000 19000 1500 22500 28500 25000 19500 15000 2000 35500 12500 31500 23000 
+31000 11000 14000 20500 35000 17500 11500 24500 2500 14500 1500 28000 12000 21000 18000 31500 15000 12500 25000 
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -31,77 +31,7 @@ dump is already unscaled
 
 fileNums:  [0, 1000, 10000, 10500, 11000, 11500, 12000, 12500] 
 
-file= liggghts0000.vtk
-atoms= None
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 0
-0 29000 25500 15500 23500 36000 29500 3000 26000 32000 16000 36500 26500 30000 32500 37000 30500 27000 33000 37500 33500 38000 34000 34500 
-8 snapshots selected out of 8
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-8 snapshots remaining
-
-fileNums:  [2000, 16500, 17000, 17500, 18000, 18500, 19000, 19500] 
-
-file= liggghts2000.vtk
-atoms= [[ 4.54000e+02  1.00000e+00  7.35916e-02 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- [ 3.09000e+02  1.00000e+00  1.59759e-01 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- [ 2.30000e+01  1.00000e+00  1.11161e-01 ... -4.43794e-03  3.00000e-03
-   4.52389e-04]
- ...
- [ 3.37000e+02  1.00000e+00  2.13024e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 3.92000e+02  1.00000e+00  2.02188e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 1.90000e+01  1.00000e+00  3.48156e-02 ...  0.00000e+00  3.00000e-03
-   4.52389e-04]]
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 13
-file= liggghts1000.vtk
-atoms= [[ 4.54000e+02  1.00000e+00  7.36601e-02 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- [ 3.09000e+02  1.00000e+00  1.63504e-01 ...  8.90509e-03  2.00000e-03
-   1.34041e-04]
- [ 2.30000e+01  1.00000e+00  1.18326e-01 ... -4.43794e-03  3.00000e-03
-   4.52389e-04]
- ...
- [ 3.37000e+02  1.00000e+00  2.13024e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 3.92000e+02  1.00000e+00  2.02188e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 1.90000e+01  1.00000e+00  3.48156e-02 ...  0.00000e+00  3.00000e-03
-   4.52389e-04]]
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 0
-
-8 snapshots selected out of 8
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-8 snapshots remaining
-
-fileNums:  [20000, 20500, 21000, 21500, 22000, 22500, 23000, 23500] 
-
-file= liggghts20000.vtk
-atoms= [[ 8.16000e+02  1.00000e+00  7.21567e-02 ... -1.01357e-03  2.00000e-03
-   1.34041e-04]
- [ 8.18000e+02  1.00000e+00  8.05853e-02 ...  3.98611e-05  2.00000e-03
-   1.34041e-04]
- [ 2.47100e+03  1.00000e+00  9.14303e-02 ...  9.47222e-04  2.00000e-03
-   1.34041e-04]
- ...
- [ 4.51100e+03  1.00000e+00  8.82509e-02 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 4.51200e+03  1.00000e+00  7.14770e-02 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 4.51300e+03  1.00000e+00  1.28950e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]]
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 13
-
+0 35500 21500 18500 15500 28500 25500 16000 32000 19000 22000 29000 36000 19500 32500 26000 2000 22500 29500 3000 26500 23000 33000 36500 30000 23500 33500 27000 37000 34000 30500 37500 34500 38000 
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
 dump is already unscaled
@@ -110,22 +40,6 @@ dump is already unscaled
 
 fileNums:  [1500, 13000, 13500, 14000, 14500, 15000, 15500, 16000] 
 
-file= liggghts1500.vtk
-atoms= [[ 4.54000e+02  1.00000e+00  7.36146e-02 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- [ 3.09000e+02  1.00000e+00  1.60908e-01 ...  2.01345e-02  2.00000e-03
-   1.34041e-04]
- [ 2.30000e+01  1.00000e+00  1.11467e-01 ... -4.43794e-03  3.00000e-03
-   4.52389e-04]
- ...
- [ 3.37000e+02  1.00000e+00  2.13024e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 3.92000e+02  1.00000e+00  2.02188e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 1.90000e+01  1.00000e+00  3.48156e-02 ...  0.00000e+00  3.00000e-03
-   4.52389e-04]]
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 13
 
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
@@ -133,24 +47,8 @@ dump is already unscaled
 0 snapshots deleted
 8 snapshots remaining
 
-fileNums:  [3000, 27500, 28000, 28500, 29000, 29500, 30000, 30500] 
+fileNums:  [2000, 16500, 17000, 17500, 18000, 18500, 19000, 19500] 
 
-file= liggghts3000.vtk
-atoms= [[ 4.89000e+02  1.00000e+00  1.88251e-01 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- [ 2.08000e+02  1.00000e+00  1.87898e-01 ...  3.87313e-05  2.00000e-03
-   1.34041e-04]
- [ 4.68000e+02  1.00000e+00  1.18407e-01 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- ...
- [ 5.91000e+02  1.00000e+00  2.10776e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 3.92000e+02  1.00000e+00  2.02188e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 1.90000e+01  1.00000e+00  3.48156e-02 ...  0.00000e+00  3.00000e-03
-   4.52389e-04]]
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 13
 
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
@@ -160,22 +58,6 @@ dump is already unscaled
 
 fileNums:  [2500, 24000, 24500, 25000, 25500, 26000, 26500, 27000] 
 
-file= liggghts2500.vtk
-atoms= [[ 4.89000e+02  1.00000e+00  1.84807e-01 ...  3.09413e-05  2.00000e-03
-   1.34041e-04]
- [ 2.08000e+02  1.00000e+00  1.84432e-01 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- [ 4.68000e+02  1.00000e+00  1.18382e-01 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- ...
- [ 5.91000e+02  1.00000e+00  2.10776e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 3.92000e+02  1.00000e+00  2.02188e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 1.90000e+01  1.00000e+00  3.48156e-02 ...  0.00000e+00  3.00000e-03
-   4.52389e-04]]
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 13
 
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
@@ -183,24 +65,17 @@ dump is already unscaled
 0 snapshots deleted
 8 snapshots remaining
 
-fileNums:  [3500, 35000, 35500, 36000, 36500, 37000, 37500, 38000] 
+fileNums:  [20000, 20500, 21000, 21500, 22000, 22500, 23000, 23500] 
 
-file= liggghts3500.vtk
-atoms= [[ 2.24000e+02  1.00000e+00  1.34359e-01 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- [ 3.53000e+02  1.00000e+00  1.87217e-02 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- [ 3.77000e+02  1.00000e+00  5.50891e-02 ... -1.31495e-03  2.00000e-03
-   1.34041e-04]
- ...
- [ 1.28700e+03  1.00000e+00  3.43050e-02 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 1.28800e+03  1.00000e+00  2.10131e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 1.28900e+03  1.00000e+00  1.69386e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]]
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 13
+
+8 snapshots selected out of 8
+assigned columns: id type x y z vx vy vz fx fy fz radius mass 
+dump is already unscaled
+0 snapshots deleted
+8 snapshots remaining
+
+fileNums:  [3000, 27500, 28000, 28500, 29000, 29500, 30000, 30500] 
+
 
 8 snapshots selected out of 8
 assigned columns: id type x y z vx vy vz fx fy fz radius mass 
@@ -210,20 +85,13 @@ dump is already unscaled
 
 fileNums:  [31000, 31500, 32000, 32500, 33000, 33500, 34000, 34500] 
 
-file= liggghts31000.vtk
-atoms= [[ 5.04100e+03  1.00000e+00  3.23683e-02 ... -7.26441e-05  2.00000e-03
-   1.34041e-04]
- [ 2.97900e+03  1.00000e+00  5.73348e-02 ...  1.11476e-03  2.00000e-03
-   1.34041e-04]
- [ 3.10000e+03  1.00000e+00  6.41890e-02 ...  6.11244e-04  2.00000e-03
-   1.34041e-04]
- ...
- [ 6.26200e+03  1.00000e+00  1.19915e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 6.08500e+03  1.00000e+00  7.46730e-02 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]
- [ 6.04600e+03  1.00000e+00  1.90223e-01 ...  0.00000e+00  2.00000e-03
-   1.34041e-04]]
-names= {'id': 0, 'type': 1, 'x': 2, 'y': 3, 'z': 4, 'vx': 5, 'vy': 6, 'vz': 7, 'fx': 8, 'fy': 9, 'fz': 10, 'radius': 11, 'mass': 12}
-nvalues= 13
-aborting due to errors: operands could not be broadcast together with shapes (644,13) (0,) 
+
+8 snapshots selected out of 8
+assigned columns: id type x y z vx vy vz fx fy fz radius mass 
+dump is already unscaled
+0 snapshots deleted
+8 snapshots remaining
+
+fileNums:  [3500, 35000, 35500, 36000, 36500, 37000, 37500, 38000] 
+
+aborting due to errors: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
