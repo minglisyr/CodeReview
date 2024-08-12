@@ -223,7 +223,7 @@ def lppWorker(input):
 
     d.delete()
 
-    v = vtk.vtk(d)
+    v = vtk(d)
 
     if debugMode: print("\nfileNums: ",d.fileNums,"\n")
 
