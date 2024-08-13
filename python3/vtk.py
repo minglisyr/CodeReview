@@ -11,7 +11,7 @@
 from __future__ import print_function, absolute_import
 import sys, re
 
-import pdb
+
 
 oneline = "Convert LAMMPS snapshots to VTK format"
 
@@ -327,8 +327,6 @@ def particleGran(file,atoms,names,nvalues):
 
   # find indices of scalars and vectors
   scalars, vectors = findScalarsAndVectors(names)
-
-  pdb.set_trace()
 
   # print head
   print("# vtk DataFile Version 2.0", file=f)

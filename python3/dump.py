@@ -20,7 +20,6 @@ import functools
 import numpy as np
 import logging
 
-import pdb
 
 print("numpy version=",np.__version__)
 
