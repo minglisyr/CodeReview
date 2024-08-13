@@ -20,6 +20,8 @@ import functools
 import numpy as np
 import logging
 
+import pdb
+
 print("numpy version=",np.__version__)
 
 oneline = "Read, write, manipulate dump files and particle attributes"
@@ -363,6 +365,7 @@ class dump:
       snap.natoms = int(f.readline())
 
       snap.aselect = np.zeros(snap.natoms)
+      pdb.set_trace()
 
       item = f.readline()
       words = f.readline().split()
@@ -400,6 +403,8 @@ class dump:
             else: self.names[words[i]] = i
           if xflag == 0 and yflag == 0 and zflag == 0: self.scale_original = 0
           if xflag == 1 and yflag == 1 and zflag == 1: self.scale_original = 1
+      
+      pdb.set_trace()
 
       if snap.natoms:
         words = f.readline().split()
@@ -618,6 +623,8 @@ class dump:
       id = self.names["id"]
       self.sort_one(self.snaps[i],id)
 
+    pdb.set_trace()
+
   # --------------------------------------------------------------------
   # sort a single snapshot by ID column
 
@@ -627,6 +634,7 @@ class dump:
     ordering = np.argsort(ids)
     for i in range(len(atoms[0])):
       atoms[:,i] = np.take(atoms[:,i],ordering)
+    pdb.set_trace()
 
   # --------------------------------------------------------------------
   # write a single dump file from current selection
