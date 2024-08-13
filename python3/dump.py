@@ -623,7 +623,7 @@ class dump:
       id = self.names["id"]
       self.sort_one(self.snaps[i],id)
 
-    pdb.set_trace()
+    
 
   # --------------------------------------------------------------------
   # sort a single snapshot by ID column

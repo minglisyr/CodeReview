@@ -165,7 +165,7 @@ class vtk:
 
 
       particleGran(file,atoms,names,nvalues)
-      pdb.set_trace()
+      
       if outputfl: print(time, end=' ')
       if outputfl: sys.stdout.flush()
       n += 1
