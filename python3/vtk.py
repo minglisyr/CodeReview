@@ -135,7 +135,7 @@ class vtk:
     surfflag = 0
     n = flag = 0
 
-    pdb.set_trace()
+
 
     # iterate over snaps
     while 1:
@@ -163,7 +163,7 @@ class vtk:
       try: nvalues = len(self.data.snaps[0].atoms[0])
       except: nvalues = 0
 
-      pdb.set_trace()
+
       particleGran(file,atoms,names,nvalues)
       pdb.set_trace()
       if outputfl: print(time, end=' ')
@@ -345,7 +345,7 @@ def particleGran(file,atoms,names,nvalues):
     print(1,i, file=f)
   print("POINT_DATA",len(atoms), file=f)
 
-  pdb.set_trace()
+  
 
   if len(atoms) == 0:
     print('', file=f)
