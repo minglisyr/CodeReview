@@ -261,9 +261,7 @@ class dump:
       if file[-3:] == ".gz":
         f = popen("%s -c %s" % (PIZZA_GUNZIP,file),'r')
       else: f = open(file,'r')
-
       snap = self.read_snapshot(f)
-
       while snap:
         self.snaps.append(snap)
         if outputfl: print(snap.time,end=' ')
@@ -418,7 +416,7 @@ class dump:
           stop += ncol
       else: 
         logging.warning("Snapshot has 0 atoms")
-        atoms = np.zeros((0,len(self.names)))
+        atoms = None
       snap.atoms = atoms
       return snap
     except:

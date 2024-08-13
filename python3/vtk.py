@@ -316,6 +316,7 @@ def particleGran(file,atoms,names,nvalues):
   # if no atoms are present
   if atoms is None:
     atoms = []
+    print("No atoms present")
 
   # find indices of scalars and vectors
   scalars, vectors = findScalarsAndVectors(names)
@@ -326,6 +327,8 @@ def particleGran(file,atoms,names,nvalues):
   print("ASCII", file=f)
   print("DATASET POLYDATA", file=f)
   print("POINTS %d float" % len(atoms), file=f)
+
+  print("So far so good")
   for atom in atoms:
     print(atom[vectors['x']], atom[vectors['x']+1], atom[vectors['x']+2] , file=f) #atom[3],atom[4],atom[5]  #write x,y,z  [atom[0]=id, atom[1]=type]
   print("VERTICES", len(atoms), 2*len(atoms), file=f)
