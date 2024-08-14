@@ -368,11 +368,11 @@ def particleGran(file,atoms,names,nvalues):
       else: vectortype = 'float'
     else: # if no atoms are present
       pass
-
+    print("So far so good")
     print("VECTORS",key,vectortype, file=f)
     for atom in atoms:
       print(atom[vectors[key]], atom[vectors[key]+1], atom[vectors[key]+2], file=f)
-    print("So far so good")
+    
 
   # print SCALARS
   for key in scalars.keys():
