@@ -18,7 +18,6 @@ import os
 
 import functools
 import numpy as np
-import logging
 
 
 print("numpy version=",np.__version__)
@@ -418,9 +417,7 @@ class dump:
           atoms[i] = floats[start:stop]
           start = stop
           stop += ncol
-      else: 
-        logging.warning("Snapshot has 0 atoms")
-        atoms = None
+      else: atoms = None
       snap.atoms = atoms
       return snap
     except:
