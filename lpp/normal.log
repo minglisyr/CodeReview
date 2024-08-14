@@ -1,12 +1,12 @@
 numpy version= 1.16.6
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 1 --> 1 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 17125
+number of process: 17757
 Working with 1 processes...
-dumpInput: [{'output': '', 'filelist': ['particles_0.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_1000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_10000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_10500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_11000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_11500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_12000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_12500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_13000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_13500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_14000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_14500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_1500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_15000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_15500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_16000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_16500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_17000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_17500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_18000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_18500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_19000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_19500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_2000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_20000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_20500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_21000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_21500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_22000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_22500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_23000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_23500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_24000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_24500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_2500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_25000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_25500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_26000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_26500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_27000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_27500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_28000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_28500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_29000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_29500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_3000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_30000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_30500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_31000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_31500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_32000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_32500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_33000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_33500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_34000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_34500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_3500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_35000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_35500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_36000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_36500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_37000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_37500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_38000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_38500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_39000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_39500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_4000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_40000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_40500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_41000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_41500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_42000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_42500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_43000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_43500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_44000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_44500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_4500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_45000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_45500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_46000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_46500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_47000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_47500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_48000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_48500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_49000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_49500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_5000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_50000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_5500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_6000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_6500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_7000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_7500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_8000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_8500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_9000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_9500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-calculating chunks 1 - 1 of 101
+dumpInput: [{'output': '', 'filelist': ['particles_0.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_1000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_10000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_1500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_2000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_2500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_3000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_3500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_4000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_4500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_5000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_5500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_6000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_6500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_7000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_7500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_8000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_8500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_9000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_9500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
+calculating chunks 1 - 1 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_0.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17133
+number of subprocess: 17765
 reading dump file...
 0 
 1 snapshots selected out of 1
@@ -21,9 +21,9 @@ No atoms present
 So far so good
 0 
 wrote 1 granular snapshots in VTK format
-calculating chunks 2 - 2 of 101
+calculating chunks 2 - 2 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_1000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17137
+number of subprocess: 17769
 reading dump file...
 1000 
 1 snapshots selected out of 1
@@ -37,9 +37,9 @@ fileNums:  [1000]
 So far so good
 1000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 3 - 3 of 101
+calculating chunks 3 - 3 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_10000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17141
+number of subprocess: 17773
 reading dump file...
 10000 
 1 snapshots selected out of 1
@@ -53,153 +53,9 @@ fileNums:  [10000]
 So far so good
 10000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 4 - 4 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_10500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17145
-reading dump file...
-10500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [10500] 
-
-So far so good
-10500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 5 - 5 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_11000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17149
-reading dump file...
-11000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [11000] 
-
-So far so good
-11000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 6 - 6 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_11500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17153
-reading dump file...
-11500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [11500] 
-
-So far so good
-11500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 7 - 7 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_12000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17157
-reading dump file...
-12000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [12000] 
-
-So far so good
-12000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 8 - 8 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_12500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17161
-reading dump file...
-12500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [12500] 
-
-So far so good
-12500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 9 - 9 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_13000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17165
-reading dump file...
-13000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [13000] 
-
-So far so good
-13000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 10 - 10 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_13500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17169
-reading dump file...
-13500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [13500] 
-
-So far so good
-13500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 11 - 11 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_14000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17173
-reading dump file...
-14000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [14000] 
-
-So far so good
-14000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 12 - 12 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_14500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17177
-reading dump file...
-14500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [14500] 
-
-So far so good
-14500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 13 - 13 of 101
+calculating chunks 4 - 4 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_1500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17181
+number of subprocess: 17777
 reading dump file...
 1500 
 1 snapshots selected out of 1
@@ -213,169 +69,9 @@ fileNums:  [1500]
 So far so good
 1500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 14 - 14 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_15000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17185
-reading dump file...
-15000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [15000] 
-
-So far so good
-15000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 15 - 15 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_15500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17189
-reading dump file...
-15500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [15500] 
-
-So far so good
-15500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 16 - 16 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_16000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17193
-reading dump file...
-16000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [16000] 
-
-So far so good
-16000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 17 - 17 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_16500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17197
-reading dump file...
-16500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [16500] 
-
-So far so good
-16500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 18 - 18 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_17000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17201
-reading dump file...
-17000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [17000] 
-
-So far so good
-17000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 19 - 19 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_17500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17205
-reading dump file...
-17500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [17500] 
-
-So far so good
-17500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 20 - 20 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_18000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17217
-reading dump file...
-18000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [18000] 
-
-So far so good
-18000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 21 - 21 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_18500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17229
-reading dump file...
-18500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [18500] 
-
-So far so good
-18500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 22 - 22 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_19000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17233
-reading dump file...
-19000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [19000] 
-
-So far so good
-19000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 23 - 23 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_19500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17237
-reading dump file...
-19500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [19500] 
-
-So far so good
-19500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 24 - 24 of 101
+calculating chunks 5 - 5 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_2000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17241
+number of subprocess: 17781
 reading dump file...
 2000 
 1 snapshots selected out of 1
@@ -389,169 +85,9 @@ fileNums:  [2000]
 So far so good
 2000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 25 - 25 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_20000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17245
-reading dump file...
-20000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [20000] 
-
-So far so good
-20000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 26 - 26 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_20500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17249
-reading dump file...
-20500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [20500] 
-
-So far so good
-20500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 27 - 27 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_21000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17253
-reading dump file...
-21000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [21000] 
-
-So far so good
-21000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 28 - 28 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_21500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17257
-reading dump file...
-21500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [21500] 
-
-So far so good
-21500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 29 - 29 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_22000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17261
-reading dump file...
-22000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [22000] 
-
-So far so good
-22000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 30 - 30 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_22500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17265
-reading dump file...
-22500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [22500] 
-
-So far so good
-22500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 31 - 31 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_23000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17269
-reading dump file...
-23000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [23000] 
-
-So far so good
-23000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 32 - 32 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_23500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17273
-reading dump file...
-23500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [23500] 
-
-So far so good
-23500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 33 - 33 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_24000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17277
-reading dump file...
-24000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [24000] 
-
-So far so good
-24000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 34 - 34 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_24500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17281
-reading dump file...
-24500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [24500] 
-
-So far so good
-24500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 35 - 35 of 101
+calculating chunks 6 - 6 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_2500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17285
+number of subprocess: 17785
 reading dump file...
 2500 
 1 snapshots selected out of 1
@@ -565,169 +101,9 @@ fileNums:  [2500]
 So far so good
 2500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 36 - 36 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_25000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17289
-reading dump file...
-25000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [25000] 
-
-So far so good
-25000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 37 - 37 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_25500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17293
-reading dump file...
-25500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [25500] 
-
-So far so good
-25500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 38 - 38 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_26000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17297
-reading dump file...
-26000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [26000] 
-
-So far so good
-26000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 39 - 39 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_26500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17301
-reading dump file...
-26500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [26500] 
-
-So far so good
-26500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 40 - 40 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_27000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17305
-reading dump file...
-27000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [27000] 
-
-So far so good
-27000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 41 - 41 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_27500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17309
-reading dump file...
-27500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [27500] 
-
-So far so good
-27500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 42 - 42 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_28000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17313
-reading dump file...
-28000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [28000] 
-
-So far so good
-28000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 43 - 43 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_28500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17317
-reading dump file...
-28500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [28500] 
-
-So far so good
-28500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 44 - 44 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_29000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17321
-reading dump file...
-29000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [29000] 
-
-So far so good
-29000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 45 - 45 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_29500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17325
-reading dump file...
-29500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [29500] 
-
-So far so good
-29500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 46 - 46 of 101
+calculating chunks 7 - 7 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_3000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17329
+number of subprocess: 17789
 reading dump file...
 3000 
 1 snapshots selected out of 1
@@ -741,169 +117,9 @@ fileNums:  [3000]
 So far so good
 3000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 47 - 47 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_30000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17333
-reading dump file...
-30000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [30000] 
-
-So far so good
-30000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 48 - 48 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_30500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17337
-reading dump file...
-30500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [30500] 
-
-So far so good
-30500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 49 - 49 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_31000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17341
-reading dump file...
-31000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [31000] 
-
-So far so good
-31000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 50 - 50 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_31500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17345
-reading dump file...
-31500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [31500] 
-
-So far so good
-31500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 51 - 51 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_32000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17349
-reading dump file...
-32000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [32000] 
-
-So far so good
-32000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 52 - 52 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_32500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17353
-reading dump file...
-32500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [32500] 
-
-So far so good
-32500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 53 - 53 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_33000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17357
-reading dump file...
-33000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [33000] 
-
-So far so good
-33000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 54 - 54 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_33500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17361
-reading dump file...
-33500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [33500] 
-
-So far so good
-33500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 55 - 55 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_34000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17365
-reading dump file...
-34000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [34000] 
-
-So far so good
-34000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 56 - 56 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_34500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17369
-reading dump file...
-34500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [34500] 
-
-So far so good
-34500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 57 - 57 of 101
+calculating chunks 8 - 8 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_3500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17373
+number of subprocess: 17793
 reading dump file...
 3500 
 1 snapshots selected out of 1
@@ -917,169 +133,9 @@ fileNums:  [3500]
 So far so good
 3500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 58 - 58 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_35000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17377
-reading dump file...
-35000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [35000] 
-
-So far so good
-35000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 59 - 59 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_35500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17381
-reading dump file...
-35500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [35500] 
-
-So far so good
-35500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 60 - 60 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_36000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17385
-reading dump file...
-36000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [36000] 
-
-So far so good
-36000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 61 - 61 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_36500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17389
-reading dump file...
-36500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [36500] 
-
-So far so good
-36500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 62 - 62 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_37000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17393
-reading dump file...
-37000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [37000] 
-
-So far so good
-37000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 63 - 63 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_37500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17397
-reading dump file...
-37500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [37500] 
-
-So far so good
-37500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 64 - 64 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_38000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17401
-reading dump file...
-38000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [38000] 
-
-So far so good
-38000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 65 - 65 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_38500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17405
-reading dump file...
-38500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [38500] 
-
-So far so good
-38500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 66 - 66 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_39000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17409
-reading dump file...
-39000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [39000] 
-
-So far so good
-39000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 67 - 67 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_39500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17413
-reading dump file...
-39500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [39500] 
-
-So far so good
-39500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 68 - 68 of 101
+calculating chunks 9 - 9 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_4000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17417
+number of subprocess: 17797
 reading dump file...
 4000 
 1 snapshots selected out of 1
@@ -1093,169 +149,9 @@ fileNums:  [4000]
 So far so good
 4000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 69 - 69 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_40000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17421
-reading dump file...
-40000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [40000] 
-
-So far so good
-40000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 70 - 70 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_40500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17425
-reading dump file...
-40500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [40500] 
-
-So far so good
-40500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 71 - 71 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_41000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17429
-reading dump file...
-41000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [41000] 
-
-So far so good
-41000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 72 - 72 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_41500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17433
-reading dump file...
-41500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [41500] 
-
-So far so good
-41500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 73 - 73 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_42000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17437
-reading dump file...
-42000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [42000] 
-
-So far so good
-42000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 74 - 74 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_42500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17441
-reading dump file...
-42500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [42500] 
-
-So far so good
-42500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 75 - 75 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_43000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17445
-reading dump file...
-43000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [43000] 
-
-So far so good
-43000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 76 - 76 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_43500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17449
-reading dump file...
-43500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [43500] 
-
-So far so good
-43500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 77 - 77 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_44000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17453
-reading dump file...
-44000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [44000] 
-
-So far so good
-44000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 78 - 78 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_44500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17457
-reading dump file...
-44500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [44500] 
-
-So far so good
-44500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 79 - 79 of 101
+calculating chunks 10 - 10 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_4500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17461
+number of subprocess: 17801
 reading dump file...
 4500 
 1 snapshots selected out of 1
@@ -1269,169 +165,9 @@ fileNums:  [4500]
 So far so good
 4500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 80 - 80 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_45000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17465
-reading dump file...
-45000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [45000] 
-
-So far so good
-45000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 81 - 81 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_45500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17469
-reading dump file...
-45500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [45500] 
-
-So far so good
-45500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 82 - 82 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_46000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17473
-reading dump file...
-46000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [46000] 
-
-So far so good
-46000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 83 - 83 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_46500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17477
-reading dump file...
-46500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [46500] 
-
-So far so good
-46500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 84 - 84 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_47000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17481
-reading dump file...
-47000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [47000] 
-
-So far so good
-47000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 85 - 85 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_47500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17485
-reading dump file...
-47500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [47500] 
-
-So far so good
-47500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 86 - 86 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_48000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17489
-reading dump file...
-48000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [48000] 
-
-So far so good
-48000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 87 - 87 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_48500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17493
-reading dump file...
-48500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [48500] 
-
-So far so good
-48500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 88 - 88 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_49000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17497
-reading dump file...
-49000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [49000] 
-
-So far so good
-49000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 89 - 89 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_49500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17501
-reading dump file...
-49500 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [49500] 
-
-So far so good
-49500 
-wrote 1 granular snapshots in VTK format
-calculating chunks 90 - 90 of 101
+calculating chunks 11 - 11 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17505
+number of subprocess: 17805
 reading dump file...
 500 
 1 snapshots selected out of 1
@@ -1445,9 +181,9 @@ fileNums:  [500]
 So far so good
 500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 91 - 91 of 101
+calculating chunks 12 - 12 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_5000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17509
+number of subprocess: 17809
 reading dump file...
 5000 
 1 snapshots selected out of 1
@@ -1461,25 +197,9 @@ fileNums:  [5000]
 So far so good
 5000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 92 - 92 of 101
-input of this "map":  [{'output': '', 'filelist': ['particles_50000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17513
-reading dump file...
-50000 
-1 snapshots selected out of 1
-assigned columns: id type x y z vx vy vz fx fy fz radius mass 
-dump is already unscaled
-0 snapshots deleted
-1 snapshots remaining
-
-fileNums:  [50000] 
-
-So far so good
-50000 
-wrote 1 granular snapshots in VTK format
-calculating chunks 93 - 93 of 101
+calculating chunks 13 - 13 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_5500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17517
+number of subprocess: 17813
 reading dump file...
 5500 
 1 snapshots selected out of 1
@@ -1493,9 +213,9 @@ fileNums:  [5500]
 So far so good
 5500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 94 - 94 of 101
+calculating chunks 14 - 14 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_6000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17521
+number of subprocess: 17817
 reading dump file...
 6000 
 1 snapshots selected out of 1
@@ -1509,9 +229,9 @@ fileNums:  [6000]
 So far so good
 6000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 95 - 95 of 101
+calculating chunks 15 - 15 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_6500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17525
+number of subprocess: 17821
 reading dump file...
 6500 
 1 snapshots selected out of 1
@@ -1525,9 +245,9 @@ fileNums:  [6500]
 So far so good
 6500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 96 - 96 of 101
+calculating chunks 16 - 16 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_7000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17529
+number of subprocess: 17825
 reading dump file...
 7000 
 1 snapshots selected out of 1
@@ -1541,9 +261,9 @@ fileNums:  [7000]
 So far so good
 7000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 97 - 97 of 101
+calculating chunks 17 - 17 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_7500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17533
+number of subprocess: 17829
 reading dump file...
 7500 
 1 snapshots selected out of 1
@@ -1557,9 +277,9 @@ fileNums:  [7500]
 So far so good
 7500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 98 - 98 of 101
+calculating chunks 18 - 18 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_8000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17537
+number of subprocess: 17833
 reading dump file...
 8000 
 1 snapshots selected out of 1
@@ -1573,9 +293,9 @@ fileNums:  [8000]
 So far so good
 8000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 99 - 99 of 101
+calculating chunks 19 - 19 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_8500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17541
+number of subprocess: 17837
 reading dump file...
 8500 
 1 snapshots selected out of 1
@@ -1589,9 +309,9 @@ fileNums:  [8500]
 So far so good
 8500 
 wrote 1 granular snapshots in VTK format
-calculating chunks 100 - 100 of 101
+calculating chunks 20 - 20 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_9000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17545
+number of subprocess: 17841
 reading dump file...
 9000 
 1 snapshots selected out of 1
@@ -1605,9 +325,9 @@ fileNums:  [9000]
 So far so good
 9000 
 wrote 1 granular snapshots in VTK format
-calculating chunks 101 - 101 of 101
+calculating chunks 21 - 21 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_9500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 17549
+number of subprocess: 17845
 reading dump file...
 9500 
 1 snapshots selected out of 1
@@ -1621,5 +341,5 @@ fileNums:  [9500]
 So far so good
 9500 
 wrote 1 granular snapshots in VTK format
-wrote 101 granular snapshots in VTK format
-time needed: 18.6957571507 sec
+wrote 21 granular snapshots in VTK format
+time needed: 2.55075907707 sec
