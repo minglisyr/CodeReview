@@ -351,7 +351,7 @@ def particleGran(file,atoms,names,nvalues):
     print('', file=f)
     f.close()
     return
-  print("So far so good")
+  
 
   # print VECTORS
   for key in vectors.keys():
@@ -372,6 +372,7 @@ def particleGran(file,atoms,names,nvalues):
     print("VECTORS",key,vectortype, file=f)
     for atom in atoms:
       print(atom[vectors[key]], atom[vectors[key]+1], atom[vectors[key]+2], file=f)
+    print("So far so good")
 
   # print SCALARS
   for key in scalars.keys():
