@@ -1,12 +1,12 @@
 numpy version= 1.16.6
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 1 --> 1 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 18972
+number of process: 19109
 Working with 1 processes...
 dumpInput: [{'output': '', 'filelist': ['particles_0.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_1000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_10000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_1500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_2000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_2500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_3000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_3500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_4000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_4500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_5000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_5500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_6000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_6500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_7000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_7500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_8000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_8500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_9000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}, {'output': '', 'filelist': ['particles_9500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
 calculating chunks 1 - 1 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_0.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 18980
+number of subprocess: 19117
 reading dump file...
 0 
 1 snapshots selected out of 1
@@ -22,7 +22,7 @@ No atoms present
 wrote 1 granular snapshots in VTK format
 calculating chunks 2 - 2 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_1000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 18984
+number of subprocess: 19121
 reading dump file...
 1000 
 1 snapshots selected out of 1
@@ -39,7 +39,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 3 - 3 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_10000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 18988
+number of subprocess: 19125
 reading dump file...
 10000 
 1 snapshots selected out of 1
@@ -56,7 +56,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 4 - 4 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_1500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 18992
+number of subprocess: 19129
 reading dump file...
 1500 
 1 snapshots selected out of 1
@@ -73,7 +73,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 5 - 5 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_2000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 18996
+number of subprocess: 19133
 reading dump file...
 2000 
 1 snapshots selected out of 1
@@ -90,7 +90,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 6 - 6 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_2500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19000
+number of subprocess: 19137
 reading dump file...
 2500 
 1 snapshots selected out of 1
@@ -107,7 +107,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 7 - 7 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_3000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19004
+number of subprocess: 19141
 reading dump file...
 3000 
 1 snapshots selected out of 1
@@ -124,7 +124,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 8 - 8 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_3500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19008
+number of subprocess: 19145
 reading dump file...
 3500 
 1 snapshots selected out of 1
@@ -141,7 +141,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 9 - 9 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_4000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19012
+number of subprocess: 19149
 reading dump file...
 4000 
 1 snapshots selected out of 1
@@ -158,7 +158,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 10 - 10 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_4500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19016
+number of subprocess: 19153
 reading dump file...
 4500 
 1 snapshots selected out of 1
@@ -175,7 +175,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 11 - 11 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19020
+number of subprocess: 19157
 reading dump file...
 500 
 1 snapshots selected out of 1
@@ -192,7 +192,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 12 - 12 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_5000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19024
+number of subprocess: 19161
 reading dump file...
 5000 
 1 snapshots selected out of 1
@@ -209,7 +209,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 13 - 13 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_5500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19028
+number of subprocess: 19165
 reading dump file...
 5500 
 1 snapshots selected out of 1
@@ -226,7 +226,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 14 - 14 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_6000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19032
+number of subprocess: 19169
 reading dump file...
 6000 
 1 snapshots selected out of 1
@@ -243,7 +243,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 15 - 15 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_6500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19036
+number of subprocess: 19173
 reading dump file...
 6500 
 1 snapshots selected out of 1
@@ -260,7 +260,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 16 - 16 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_7000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19040
+number of subprocess: 19177
 reading dump file...
 7000 
 1 snapshots selected out of 1
@@ -277,7 +277,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 17 - 17 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_7500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19045
+number of subprocess: 19181
 reading dump file...
 7500 
 1 snapshots selected out of 1
@@ -294,7 +294,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 18 - 18 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_8000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19056
+number of subprocess: 19185
 reading dump file...
 8000 
 1 snapshots selected out of 1
@@ -311,7 +311,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 19 - 19 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_8500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19068
+number of subprocess: 19189
 reading dump file...
 8500 
 1 snapshots selected out of 1
@@ -328,7 +328,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 20 - 20 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_9000.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19072
+number of subprocess: 19193
 reading dump file...
 9000 
 1 snapshots selected out of 1
@@ -345,7 +345,7 @@ So far so good
 wrote 1 granular snapshots in VTK format
 calculating chunks 21 - 21 of 21
 input of this "map":  [{'output': '', 'filelist': ['particles_9500.liggghts'], 'Nth': 1, 'debugMode': True, 'timesteps': 'all', 'overwrite': True}]
-number of subprocess: 19076
+number of subprocess: 19197
 reading dump file...
 9500 
 1 snapshots selected out of 1
@@ -361,4 +361,4 @@ So far so good
 9500 
 wrote 1 granular snapshots in VTK format
 wrote 21 granular snapshots in VTK format
-time needed: 2.40877890587 sec
+time needed: 2.20034098625 sec
