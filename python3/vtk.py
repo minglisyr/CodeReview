@@ -344,13 +344,14 @@ def particleGran(file,atoms,names,nvalues):
   for i in range(len(atoms)):
     print(1,i, file=f)
   print("POINT_DATA",len(atoms), file=f)
-  print("So far so good")
+  
   
 
   if len(atoms) == 0:
     print('', file=f)
     f.close()
     return
+  print("So far so good")
 
   # print VECTORS
   for key in vectors.keys():
