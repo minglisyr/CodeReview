@@ -361,9 +361,8 @@ def particleGran(file,atoms,names,nvalues):
       continue
     
     vectortype = 'float'
-    
+    print(atoms.shape)
     if atoms != []:
-      print("So far so good")
       vectortype = typestr(atoms[0][vectors[key]])      
       if 'float' in vectortype: vectortype = 'float'
       elif 'int' in vectortype: vectortype = 'int'
