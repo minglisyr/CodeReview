@@ -422,7 +422,6 @@ class dump:
         logging.warning("Snapshot has 0 atoms")
         atoms = None
       snap.atoms = atoms
-      print(snap.atoms)
       return snap
     except:
       return 0
