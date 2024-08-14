@@ -1,12 +1,12 @@
 numpy version= 2.0.1
 starting LIGGGHTS memory optimized parallel post processing
 chunksize: 1 --> 1 files are processed per chunk. If you run out of memory reduce chunksize.
-number of process: 18091
+number of process: 18234
 Working with 1 processes...
 dumpInput: [{'filelist': ['particles_0.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_1000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_10000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_1500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_2000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_2500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_3000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_3500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_4000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_4500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_5000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_5500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_6000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_6500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_7000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_7500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_8000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_8500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_9000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}, {'filelist': ['particles_9500.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
 calculating chunks 1 - 1 of 21
 input of this "map":  [{'filelist': ['particles_0.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
-number of subprocess: 18103
+number of subprocess: 18246
 reading dump file...
 0 
 1 snapshots selected out of 1
@@ -18,12 +18,11 @@ dump is already unscaled
 fileNums:  [0] 
 
 No atoms present
-So far so good
 0 
 wrote 1 granular snapshots in VTK format
 calculating chunks 2 - 2 of 21
 input of this "map":  [{'filelist': ['particles_1000.liggghts'], 'debugMode': True, 'output': '', 'overwrite': True, 'timesteps': 'all', 'Nth': 1}]
-number of subprocess: 18107
+number of subprocess: 18250
 reading dump file...
 1000 
 1 snapshots selected out of 1
