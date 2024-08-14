@@ -33,8 +33,8 @@ class lpp:
     # do argument parsing, raise errors if non-integers were given
     # this can be changed if one wants less overhead but use more memory:
     # make this figure higher but if possible a multiple of 8
-    self.cpunum      = multiprocessing.cpu_count()
-    self.chunksize   = 8
+    self.cpunum      = 1 #multiprocessing.cpu_count()
+    self.chunksize   = 1 #8
     self.overwrite   = True
     self.Nth         = 1
     self.timesteps   = "all"
