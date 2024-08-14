@@ -359,7 +359,7 @@ def particleGran(file,atoms,names,nvalues):
     # don't print coodinates again
     if key == 'x':
       continue
-
+    print("So far so good")
     vectortype = 'float'
     if atoms != []:
       vectortype = typestr(atoms[0][vectors[key]])
@@ -368,7 +368,7 @@ def particleGran(file,atoms,names,nvalues):
       else: vectortype = 'float'
     else: # if no atoms are present
       pass
-    print("So far so good")
+    
     print("VECTORS",key,vectortype, file=f)
     for atom in atoms:
       print(atom[vectors[key]], atom[vectors[key]+1], atom[vectors[key]+2], file=f)
